@@ -1,0 +1,22 @@
+.html"
+           description=
+           "Support contextually relevant actions through the Assist API."
+          >Optimizing Content for the Assistant</a>
+      </li>
+       <li class="nav-section">
+        <div class="nav-section">
+          <a href="../../../training/app-links/index.html"
+             description=
+             "How to enable the system to handle web requests by taking the user directly
+             to your app instead of your website."
+            >Handling App Links</a>
+        </div>
+      </li>
+  <!-- End Interaction and Engagement -->
+
+</ul>
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/best-ui.html">
+      <span class="small">Best Practi

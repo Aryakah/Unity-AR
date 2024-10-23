@@ -1,0 +1,350 @@
+/googleplay/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary distribute">
+            <li class="dac-nav-item googleplay">
+              <a class="dac-nav-link" href="../../distribute/googleplay/index.html">Google Play</a></li>
+            <li class="dac-nav-item essentials">
+              <a class="dac-nav-link" href="../../distribute/essentials/index.html">Essentials</a></li>
+            <li class="dac-nav-item users">
+              <a class="dac-nav-link" href="../../distribute/users/index.html">Get Users</a></li>
+            <li class="dac-nav-item engage">
+              <a class="dac-nav-link" href="../../distribute/engage/index.html">Engage &amp; Retain</a></li>
+            <li class="dac-nav-item monetize">
+              <a class="dac-nav-link" href="../../distribute/monetize/index.html">Earn</a>
+            </li>
+            <li class="dac-nav-item analyze">
+              <a class="dac-nav-link" href="../../distribute/analyze/index.html">Analyze</a>
+            </li>
+            <li class="dac-nav-item stories">
+              <a class="dac-nav-link" href="../../distribute/stories/index.html">Stories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item preview">
+          <a class="dac-nav-link" href="../../preview/index.html">Preview</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation-->
+  
+
+<!-- Nav Setup -->
+<script>$('[data-dac-nav]').dacNav();</script>
+
+
+
+  
+    
+  <div class="wrap clearfix" id="body-content">
+
+  
+
+  
+  <div id="search-results" class="dac-search-results">
+    <div id="dac-search-results-history" class="dac-search-results-history">
+      <div class="wrap dac-search-results-history-wrap">
+        <div class="cols">
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Most visited</h2>
+            <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Recently visited</h2>
+            <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dac-search-results-content" class="dac-search-results-content">
+      <div class="dac-search-results-metadata wrap">
+        <div class="dac-search-results-for">
+          <h2>Results for <span id="search-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  <div class="content-header ">
+      
+        <ul class="dac-header-crumbs">
+          
+        </ul>
+
+        <!-- Breadcrumb Setup -->
+        <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
+
+        <h1 itemprop="name">Animating Views Using Scenes and Transitions
+      </h1>
+      
+    
+      <div class="training-nav-top" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <a href="#" class="prev-page-link hide"
+            zh-tw-lang="上一堂課"
+            zh-cn-lang="上一课"
+            ru-lang="Предыдущий"
+            ko-lang="이전"
+            ja-lang="前へ"
+            es-lang="Anterior"
+            >Previous</a>
+        <a href="#" class="next-page-link hide"
+            zh-tw-lang="下一堂課"
+            zh-cn-lang="下一课"
+            ru-lang="Следующий"
+            ko-lang="다음"
+            ja-lang="次へ"
+            es-lang="Siguiente"
+            >Next</a>
+        <a href="#" class="start-class-link hide"
+            zh-tw-lang="開始上課"
+            zh-cn-lang="开始"
+            ru-lang="Начало работы"
+            ko-lang="시작하기"
+            ja-lang="開始する"
+            es-lang="Empezar"
+            >Get started</a>
+      </div>
+    
+  </div>
+  
+
+
+
+  
+
+  
+  <div id="jd-content">
+    <div class="jd-descr" itemprop="articleBody">
+    
+
+    <!-- Sidebox -->
+<div id="tb-wrapper">
+<div id="tb">
+  <h2>Dependencies and Prerequisites</h2>
+  <ul>
+    <li>Android 4.4.2 (API level 19) or higher</li>
+  </ul>
+  <h2>You should also read</h2>
+  <ul>
+    <li><a href="../../guide/topics/ui/how-android-draws.html">
+        How Android Draws Views</a></li>
+  </ul>
+  <h2>Try it out</h2>
+  <ul>
+    <li><a href="../../samples/BasicTransition/index.html">BasicTransition</a> sample</li>
+    <li><a href="../../samples/CustomTransition/index.html">CustomTransition</a> sample</li>
+  </ul>
+</div>
+</div>
+
+<!-- Video box -->
+<a class="notice-developers-video wide" href="http://www.youtube.com/watch?v=S3H7nJ4QaD8">
+<div>
+  <h3>Video</h3>
+  <p>DevBytes: Android 4.4 Transitions</p>
+</div>
+</a>
+
+<p>The user interface of an activity often changes in response to user input and other events.
+For example, an activity that contains a form where users can type search queries can hide
+the form when the user submits it and show a list of search results in its place.</p>
+
+<p>To provide visual continuity in these situations, you can animate changes between
+different view hierarchies in your user interface. These animations give users feedback on
+their actions and help them learn how your app works.</p>
+
+<p>Android includes the <em>transitions framework</em>, which enables you to easily
+animate changes between two view hierarchies. The framework animates the views at runtime by
+changing some of their property values over time. The framework includes built-in animations
+for common effects and lets you create custom animations and transition lifecycle callbacks.</p>
+
+<p>This class teaches you to use the built-in animations in the transitions framework to
+animate changes between view hierarchies. This class also covers how to create custom
+animations.</p>
+
+<p class="note"><strong>Note:</strong> For Android versions earlier than 4.4.2 (API level 19)
+but greater than or equal to Android 4.0 (API level 14), use the Android Support
+Library's <a href="/reference/android/support/transitions/package-summary.html"
+><code>android.support.transition</code></a> package.</p>
+
+<h2>Lessons</h2>
+
+<dl>
+<dt><a href="../../training/transitions/overview.html">
+The Transitions Framework</a></dt>
+<dd>
+  Learn the main features and components of the transitions framework.
+</dd>
+<dt><a href="../../training/transitions/scenes.html">
+Creating a Scene</a></dt>
+<dd>
+  Learn how to create a scene to store the state of a view hierarchy.
+</dd>
+<dt><a href="../../training/transitions/transitions.html">
+Applying a Transition</a></dt>
+<dd>
+  Learn how to apply a transition between two scenes of a view hierarchy.
+</dd>
+<dt><a href="../../training/transitions/custom-transitions.html">
+Creating Custom Transitions</a></dt>
+<dd>
+  Learn how to create other animation effects not included in the transitions framework.
+</dd>
+</dl>
+
+    </div>
+
+    
+      <div class="content-footer "
+                    itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="paging-links">
+            <a href="#" class="prev-page-link hide"
+              zh-tw-lang="上一堂課"
+              zh-cn-lang="上一课"
+              ru-lang="Предыдущий"
+              ko-lang="이전"
+              ja-lang="前へ"
+              es-lang="Anterior"
+              ><span class="page-link-caption">Previous</span>
+            </a>
+            <a href="#" class="next-page-link hide"
+                zh-tw-lang="下一堂課"
+                zh-cn-lang="下一课"
+                ru-lang="Следующий"
+                ko-lang="다음"
+                ja-lang="次へ"
+                es-lang="Siguiente"
+                ><span class="page-link-caption">Next</span>
+            </a>
+            <a href="#" class="start-class-link hide"
+                zh-tw-lang="開始上課"
+                zh-cn-lang="开始"
+                ru-lang="Начало работы"
+                ko-lang="시작하기"
+                ja-lang="開始する"
+                es-lang="Empezar"
+                >Get started</a>
+            <a href="#" class="next-class-link hide">
+              <span class="page-link-caption">Next class</span>
+            </a>
+          </div>
+      </div>
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJID

@@ -1,0 +1,99 @@
+nts/filters.html"
+             ja-lang="他のアプリからのアクティビティの開始を許可する"
+             ko-lang="다른 앱이 자신의 액티비티를 시작하도록 허용하기"
+             pt-br-lang="Permitindo que outros aplicativos iniciem sua atividade"
+             ru-lang="Разрешение другим приложениям на запуск вашей операции"
+             zh-cn-lang="允许其他应用开始您的活动"
+             zh-tw-lang="允許其他應用程式啟動您的應用行為顯示">
+            Allowing Other Apps to Start Your Activity
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/permissions/index.html"
+             description=
+             "How to declare that your app needs access to features and
+             resources outside of its 'sandbox', and how to request those
+             privileges at runtime."
+            >Working with System Permissions</a>
+        </div>
+        <ul>
+          <li><a href="../../training/permissions/declaring.html">
+            Declaring Permissions
+          </a>
+          </li>
+          <li><a href="../../training/permissions/requesting.html">
+            Requesting Permissions at Run Time
+          </a>
+          </li>
+          <li><a href="../../training/permissions/best-practices.html">
+            Best Practices for Runtime Permissions
+          </a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+  </li><!-- end getting started -->
+    <li class="nav-section">
+        <div class="nav-section-header">
+            <a href="../../training/building-content-sharing.html">
+            <span class="small">Building Apps with</span><br/>Content Sharing
+            </a>
+        </div>
+        <ul>
+            <li class="nav-section">
+                <div class="nav-section-header">
+                    <a href="../../training/sharing/index.html"
+                    description=
+                    "How to take your app interaction to the next level by sharing
+                    information with other apps, receive information back, and provide a simple and
+                    scalable way to perform Share actions with user content."
+                    >Sharing Simple Data</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../../training/sharing/send.html">
+                        Sending Simple Data to Other Apps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../training/sharing/receive.html">
+                        Receiving Simple Data from Other Apps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../training/sharing/shareaction.html">
+                        Adding an Easy Share Action
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-section">
+                <div class="nav-section-header">
+                    <a href="../../training/secure-file-sharing/index.html"
+                    description=
+                    "How to provide secure access to a file associated with your app using a content
+                    URI and temporary access permissions."
+                    >Sharing Files</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../../training/secure-file-sharing/setup-sharing.html">
+                        Setting Up File Sharing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../training/secure-file-sharing/share-file.html">
+                        Sharing a File
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../training/secure-file-sharing/request-file.html">
+                        Requesting a Shared File
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../t

@@ -1,0 +1,21 @@
+ing in the background"
+            >Running in a Background Service</a>
+        </div>
+        <ul>
+          <li><a href="../../training/run-background-service/create-service.html">
+            Creating a Background Service
+          </a>
+          </li>
+          <li><a href="../../training/run-background-service/send-request.html">
+            Sending Work Requests to the Background Service
+          </a>
+          </li>
+          <li><a href="../../training/run-background-service/report-status.html">
+            Reporting Work Status
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-

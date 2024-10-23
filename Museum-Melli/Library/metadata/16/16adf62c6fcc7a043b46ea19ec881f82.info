@@ -1,0 +1,15 @@
+/tr>
+    <tr>
+      <td>RSA</td>
+      <td>23+</td>
+      <td>Supported key specs: <code><a href="../../reference/android/security/keystore/KeyInfo.html">KeyInfo</a></code> (private key only),
+        <code><a href="../../reference/java/security/spec/RSAPublicKeySpec.html">RSAPublicKeySpec</a></code> (public key only),
+        <code><a href="../../reference/java/security/spec/X509EncodedKeySpec.html">X509EncodedKeySpec</a></code> (public key only)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="SupportedKeyStoreKeys">KeyStore</h3>
+KeyStore supports the same key types as
+<a href="#Supporte

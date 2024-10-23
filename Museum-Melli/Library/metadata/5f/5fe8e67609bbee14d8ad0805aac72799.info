@@ -1,0 +1,25 @@
+            Animating Layout Changes
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End graphics and animation -->
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/building-connectivity.html">
+      <span class="small">Building Apps with</span><br/>
+              Connectivity &amp; the Cloud
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/connect-devices-wirelessly/index.html"
+             description=
+             "How to find and connect to local devices using Network Service
+             Discove

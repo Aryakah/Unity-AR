@@ -1,0 +1,130 @@
+scription=
+           "How to use the speaker on Android Wear devices."
+          >Using the Speaker</a>
+      </li>
+
+    </ul>
+  </li>
+  <!-- End Building for wearables -->
+
+
+  <!-- Start: Building for TV -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/tv/index.html">
+      <span class="small">Building Apps for</span><br/>
+              TV
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+
+          <a href="../../../training/tv/start/index.html"
+             ja-lang="TV アプリのビルド"
+             description="How to start building TV apps or extend your existing app to run on TV
+             devices.">
+             Building TV Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/start/start.html"
+               ja-lang="TV アプリのビルドを開始する">
+              Getting Started with TV Apps</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/hardware.html"
+               ja-lang="TV ハードウェアを処理する">
+              Handling TV Hardware</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/layouts.html"
+               ja-lang="TV 向けレイアウトをビルドする">
+              Building TV Layouts</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/navigation.html"
+               ja-lang="TV 用のナビゲーションを作成する">
+              Creating TV Navigation</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/playback/index.html"
+             ja-lang="TV 再生アプリのビルド"
+             description="How to build apps that provide media catalogs and play content.">
+             Building TV Playback Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/playback/browse.html"
+               ja-lang="カタログ ブラウザを作成する">
+              Creating a Catalog Browser</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/card.html">
+              Providing a Card View</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/details.html"
+               ja-lang="詳細ビューをビルドする">
+              Building a Details View</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/now-playing.html"
+               ja-lang="再生中カードを表示する">
+              Displaying a Now Playing Card</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/guided-step.html">
+              Adding a Guided Step</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/options.html">
+              Enabling Background Playback</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/discovery/index.html"
+             description="How to help users discover content from your app.">
+             Helping Users Find Content on TV</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/discovery/recommendations.html">
+              Recommending TV Content</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/discovery/searchable.html">
+              Making TV Apps Searchable</a>
+          <li>
+            <a href="../../../training/tv/discovery/in-app-search.html">
+              Searching within TV Apps</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../../training/tv/games/index.html"
+           description="How to build games for TV.">
+           Building TV Games</a>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/tif/index.html"
+           description="How to build channels for TV.">
+           Building TV Channels</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/tif/tvinput.html">
+              Developing a TV Input Service</a>
+          <li>
+            <a href="

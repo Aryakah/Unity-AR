@@ -1,0 +1,17 @@
+./../training/wearables/ui/lists.html">Creating Lists</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/2d-picker.html">Creating a 2D Picker</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/confirm.html">Showing Confirmations</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/exit.html">Exiting Full-Screen Activities</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/data-layer/index.

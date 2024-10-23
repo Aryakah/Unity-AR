@@ -1,0 +1,262 @@
+k-caption">Next class</span>
+            </a>
+          </div>
+      </div>
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Espa√±ol</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">Êó•Êú¨Ë™û</option>
+          <option value="ko">ÌïúÍµ≠Ïñ¥</option>
+          <option value="pt-br">Portugu√™s Brasileiro</option>
+          <option value="ru">–†—É—Å—Å–∫–∏–π</option>
+          <option value="vi">ti·∫øng Vi·ªát</option>
+          <option value="zh-cn">‰∏≠ÊñáÔºàÁÆÄ‰Ωì)</option>
+          <option value="zh-tw">‰∏≠ÊñáÔºàÁπÅÈ´î)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="entry.47013838" id="newsletter-play-store" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <legend class="dac-form-legend"><span data-t="newsletter.business.label">Which best describes your business:</span><span class="dac-form-required">*</span>
+                    </legend>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-app" required>
+                      <label for="newsletter-business-type-app" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-app" class="dac-form-label" data-t="newsletter.business.apps">Apps</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-games" required>
+                      <label for="newsletter-business-type-games" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-games" class="dac-form-label" data-t="newsletter.business.games">Games</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps and Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-appsgames" required>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-label" data-t="newsletter.business.both">Apps &amp; Games</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.732309842" id="newsletter-add" required value="Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside"><span data-t="newsletter.confirmMailingList"></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.2045036090" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end newsletter modal -->
+
+<!-- start reset language header modal -->
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title"></h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText"></p>
+                  <p id="resetLangCta"></p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle></button>
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle></button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- end langreset modal -->
+
+
+</div> <!-- end body-content --> 
+
+
+
+
+<script src="https://developer.android.com/ytblogger_lists_unified.js" defer></script>
+<script src="/jd_lists_unified_en.js?v=17" defer></script>
+<script src="/reference/lists.js?v=17" defer></script>
+<script src="/reference/gcm_lists.js?v=17" defer></script>
+<script src="/reference/gms_lists.js?v=17" defer></script>
+<script>
+  // Load localized metadata.
+  (function(lang) {
+    if (lang === 'en') { return; }
+
+    // Write it to the document so it gets evaluated before DOMContentReady.
+    document.write('<script src="/jd_lists_unified_' + lang + '.js?v=14" defer></' + 'script>');
+  })(getLangPref())
+</script>
+
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 INDX( 	 bNi            (   ¿  Ë                             	    x h     ˚ 	    YC‚B÷6^|π>‘°◊ø∂èº‘YC‚B÷ ‡     Ê—             c r e a t e - s e r v i c e . h t m l  	    p Z     ˚ 	    YC‚B÷6^|π>‘°◊ø∂èº‘YC‚B÷ ‡     Ê—             C R E A T E ~ 1 . H T M       	    h V     ˚ 	     ßQ‚B÷ﬁn|π>‘°◊ø∂èº‘)	T‚B÷ –     é√             
+i n d e x . h t m l   	    h X     ˚ 	     ßQ‚B÷ﬁn|π>‘°◊ø∂èº‘)	T‚B÷ –     é√             I N D E X ~ 1 . H T M 	    x f     ˚ 	    ±Ù_‚B÷hx|π>‘°◊ø∂èº‘±Ù_‚B÷      è‡             r e p o r t - s t a t u s . h t m l   	    p Z     ˚ 	    ±Ù_‚B÷hx|π>‘°◊ø∂èº‘±Ù_‚B÷      è‡             R E P O R T ~ 1 . H T M       	    x d     ˚ 	    UÅ‚B÷±∏e|π>‘°◊ø∂èº‘UÅ‚B÷ –     V»             s e n d - r e q u e s t . h t m l     	    p Z     ˚ 	    UÅ‚B÷±∏e|π>‘°◊ø∂èº‘UÅ‚B÷ –     V»             S E N D - R ~ 1 . H T M                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -± äú     -–    5.6.0f3 ˛ˇˇˇ      ˇˇ»0≈Ú√ÙL.`?^Ÿ0   D         7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä           –  Ä               ¶ Ä               ¶ Ä               ¶ Ä#               ¶ Ä+               H Ä3   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä   	        Q  Äj  Ä   
+        ô Ä<               ¶ ÄH               H ÄZ   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä           Q  Äj  Ä           –  Äg               ¶ Ä               ¶ Ä               ¶ Ä#               ¶ Ä+               v   ~               † Äç               † Äñ               † Äü               † Ä®               † Ä±               † Ä∫               † Ä√               † ÄÃ               † Ä’               † Äﬁ                † ÄÁ      !         † ÄÒ      "         † Ä˚      #         † Ä     $         † Ä     %         † Ä     &         ’ Ä#  ˇˇˇˇ'    Ä   1  Ä1  Äˇˇˇˇ(    Ä    ﬁ  Ä Ä   )         H Äj  Äˇˇˇˇ*    Ä   1  Ä1  Äˇˇˇˇ+   @    ﬁ  Ä Ä   ,        Q  Äj  Ä   -        ô Ä*     .         ﬁ  Ä8     /       AssetMetaData guid data[0] data[1] data[2] data[3] pathName timeCreated originalChangeset originalName originalParent Hash128 originalDigest bytes[0] bytes[1] bytes[2] bytes[3] bytes[4] bytes[5] bytes[6] bytes[7] bytes[8] bytes[9] bytes[10] bytes[11] bytes[12] bytes[13] bytes[14] bytes[15] labels assetStoreRef licenseType Ó   ˇˇëÊr$K!òôìºæ°   ~         7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä              ’ Ä           ﬁ  Ä&              . Ä/              Ü Äƒ Ä           ﬁ  Ä&              . Ä/              H Ä´ Äˇˇˇˇ   Ä   1  Ä1  Äˇˇˇˇ	   @    ﬁ  Ä Ä   
+        Q  Äj  Ä           Ò  Ä8   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ    Ä    ﬁ  Ä Ä             Äj  Äˇˇˇˇ    Ä    . Äõ  Ä            H Ä
+ Äˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä           Q  Äj  Ä           ﬁ  ÄN               ﬁ  Ä[               ﬁ  Äj               ﬁ  Äx               ﬁ  Äà               ﬁ  Äí               ﬁ  Ä°               ﬁ  Äª               ﬁ  Ä”               ﬁ  ÄË               °  Ä¸               ﬁ  Ä
+               ﬁ  Ä     !         ﬁ  Ä)     "         ﬁ  Ä<     #         ﬁ  ÄN     $         ﬁ  Äc     %         ﬁ  Äu     &         ﬁ  ÄÖ     '         ñ  ®     (         ﬁ  Ä∫     )         ﬁ  Ä«     *         °  Äœ     +         ﬁ  ÄŸ     ,         ﬁ  Ä‰     -         ﬁ  Ä     .         ﬁ  Ä˚     /         ﬁ  Ä     0         ¶ Ä     1         ﬁ  Ä-     2         ﬁ  Ä>     3         ‹ ÄJ     4         °  ÄX     5         °  ÄZ     6         Ó Ä\     7         °  ÄX     8         °  ÄZ     9         °  Äk     :         °  Äm     ;         °  Äo     <         ﬁ  ÄÖ     =         ﬁ  Äí     >         °  Ä®     ?         ﬁ  Ä√     @         ﬁ  Ä—     A         ﬁ  Ä‡     B         ﬁ  ÄÙ     C         ﬁ  Ä     D    @    ’ Ä  ˇˇˇˇE    Ä   1  Ä1  ÄˇˇˇˇF    Ä    ﬁ  Ä Ä   G         2  j  ÄˇˇˇˇH    Ä    

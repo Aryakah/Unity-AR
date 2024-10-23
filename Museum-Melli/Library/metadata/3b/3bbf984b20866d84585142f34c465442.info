@@ -1,0 +1,307 @@
+dade"
+            ko-lang="호환성 유지"
+            ru-lang="Обеспечение совместимости"
+            in-lang="Mempertahankan Kompatibilitas"
+            vi-lang="Duy trì Tính tương thích"
+            >
+            Maintaining Compatibility
+          </a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+  </li>
+  <!-- End User Interface -->
+
+
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-user-input.html">
+      <span class="small">Best Practices for</span><br/>
+              User Input
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/gestures/index.html"
+             description=
+             "How to write apps that allow users to interact with the touch screen via touch gestures."
+            >Using Touch Gestures</a>
+        </div>
+        <ul>
+          <li><a href="../../training/gestures/detector.html">
+            Detecting Common Gestures
+          </a>
+          </li>
+          <li><a href="../../training/gestures/movement.html">
+            Tracking Movement
+          </a>
+          </li>
+          <li><a href="../../training/gestures/scroll.html">
+            Animating a Scroll Gesture
+          </a>
+          </li>
+          <li><a href="../../training/gestures/multi.html">
+            Handling Multi-Touch Gestures
+          </a>
+          </li>
+          <li><a href="../../training/gestures/scale.html">
+            Dragging and Scaling
+          </a>
+          </li>
+          <li><a href="../../training/gestures/viewgroup.html">
+            Managing Touch Events in a ViewGroup
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/keyboard-input/index.html"
+             description=
+             "How to specify the appearance and behaviors of soft input methods (such
+             as on-screen keyboards) and how to optimize the experience with
+             hardware keyboards."
+            >Handling Keyboard Input</a>
+        </div>
+        <ul>
+          <li><a href="../../training/keyboard-input/style.html">
+            Specifying the Input Method Type
+          </a>
+          </li>
+          <li><a href="../../training/keyboard-input/visibility.html">
+            Handling Input Method Visibility
+          </a>
+          </li>
+          <li><a href="../../training/keyboard-input/navigation.html">
+            Supporting Keyboard Navigation
+          </a>
+          </li>
+          <li><a href="../../training/keyboard-input/commands.html">
+            Handling Keyboard Actions
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/game-controllers/index.html"
+             description=
+             "How to write apps that support game controllers."
+            >Supporting Game Controllers</a>
+        </div>
+        <ul>
+          <li><a href="../../training/game-controllers/controller-input.html">
+            Handling Controller Actions
+          </a>
+          </li>
+          <li><a href="../../training/game-controllers/compatibility.html">
+            Supporting Controllers Across Android Versions
+          </a>
+          </li>
+          <li><a href="../../training/game-controllers/multiple-controllers.html">
+            Supporting Multiple Game Controllers
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li> <!-- end of User Input -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-background.html">
+      <span class="small">Best Practices for</span><br/>
+              Background Jobs
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/run-background-service/index.html"
+             description=
+             "How to improve UI performance and responsiveness by sending work to a
+             Service running in the background"
+            >Running in a Background Service</a>
+        </div>
+        <ul>
+          <li><a href="../../training/run-background-service/create-service.html">
+            Creating a Background Service
+          </a>
+          </li>
+          <li><a href="../../training/run-background-service/send-request.html">
+            Sending Work Requests to the Background Service
+          </a>
+          </li>
+          <li><a href="../../training/run-background-service/report-status.html">
+            Reporting Work Status
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/load-data-background/index.html"
+             description="How to use CursorLoader to query data without
+             affecting UI responsiveness."
+            >Loading Data in the Background</a>
+        </div>
+        <ul>
+          <li><a href="../../training/load-data-background/setup-loader.html">
+            Running a Query with a CursorLoader</a>
+          </li>
+          <li><a href="../../training/load-data-background/handle-results.html">
+            Handling the Results</a>
+          </li>
+        </ul>
+      </li>
+
+       <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/scheduling/index.html"
+             description="How to use repeating alarms and wake locks
+             to run background jobs."
+            >Managing Device Awake State</a>
+        </div>
+        <ul>
+          <li><a href="../../training/scheduling/wakelock.html">
+            Keeping the Device Awake</a>
+          </li>
+          <li><a href="../../training/scheduling/alarms.html">
+            Scheduling Repeating Alarms</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li> <!-- end of Background Jobs -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-performance.html">
+      <span class="small">Best Practices for</span><br/>
+              Performance
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="../../training/articles/memory.html"
+          description=
+          "How to keep your app's memory footprint small in order to improve performance
+          on a variety of mobile devices."
+          >Managing Your App's Memory</a>
+      </li>
+      <li>
+        <a href="../../training/articles/perf-tips.html"
+           description=
+           "How to optimize your app's performance in various ways to improve its
+           responsiveness and battery efficiency."
+          >Performance Tips</a>
+      </li>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/improving-layouts/index.html"
+             description=
+             "How to identify problems in your app's layout performance and improve the UI
+             responsiveness."
+            >Improving Layout Performance</a>
+        </div>
+        <ul>
+          <li><a href="../../training/improving-layouts/optimizing-layout.html">
+            Optimizing Layout Hierarchies
+          </a>
+          </li>
+          <li><a href="../../training/improving-layouts/reusing-layouts.html">
+            Re-using Layouts with &lt;include/&gt;
+          </a>
+          </li>
+          <li><a href="../../training/improving-layouts/loading-ondemand.html">
+            Loading Views On Demand
+          </a>
+          </li>
+          <li><a href="../../training/improving-layouts/smooth-scrolling.html">
+            Making ListView Scrolling Smooth
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/monitoring-device-state/index.html"
+             zh-cn-lang="优化电池使用时间"
+             ja-lang="電池消費量の最適化"
+             es-lang="Cómo optimizar la duración de la batería"
+             description=
+             "How to minimize the amount of power your app requires by adapting to current
+             power conditions and performing power-hungry tasks at proper intervals."
+            >Optimizing Battery Life
+            </a>
+        </div>
+        <ul>
+
+          <li class="nav-section">
+            <div class="nav-section-header">
+              <a href="../../training/performance/battery/network/index.html">
+                Reducing Network Battery Drain
+              </a>
+            </div>
+            <ul>
+              <li><a href="../../training/performance/battery/network/gather-data.html">
+                Collecting Network Traffic Data
+              </a>
+              </li>
+              <li><a href="../../training/performance/battery/network/analyze-data.html">
+                Analyzing Network Traffic Data
+              </a>
+              </li>
+              <li><a href="../../training/performance/battery/network/action-user-traffic.html">
+                Optimizing User-Initiated Network Use
+              </a>
+              </li>
+              <li><a href="../../training/performance/battery/network/action-app-traffic.html">
+                Optimizing App-Initiated Network Use
+              </a>
+              </li>
+              <li><a href="../../training/performance/battery/network/action-server-traffic.html">
+                Optimizing Server-Initiated Network Use
+              </a>
+              </li>
+              <li><a href="../../training/performance/battery/network/action-any-traffic.html">
+                Optimizing General Network Use
+              </a>
+              </li>
+            </ul>
+          </li> <!-- End of Reducing Network Battery Drain -->
+
+          <li><a href="../../training/monitoring-device-state/doze-standby.html"
+            >Optimizing for Doze and App Standby</a>
+          </li>
+          <li><a href="../../training/monitoring-device-state/battery-monitoring.html"
+            zh-cn-lang="监控电池电量和充电状态"
+            ja-lang="電池残量と充電状態の監視"
+            es-lang="Cómo controlar el nivel de batería y el estado de carga"
+            >Monitoring the Battery Level and Charging State</a>
+          </li>
+          <li><a href="../../training/monitoring-device-state/docking-monitoring.html"
+            zh-cn-lang="确定和监控基座对接状态和类型"
+            ja-lang="ホルダーの装着状態とタイプの特定と監視"
+            es-lang="Cómo determinar y controlar el tipo de conector y el estado de la conexión"
+            >Determining and Monitoring the Docking State and Type</a>
+          </li>
+          <li><a href="../../training/monitoring-device-state/connectivity-monitoring.html"
+            zh-cn-lang="确定和监控网络连接状态"
+            ja-lang="接続状態の特定と監視"
+            es-lang="Cómo determinar y controlar el estado de la conectividad"
+            >Determining and Monitoring the Connectivity Status</a>
+          </li>
+          <li><a href="../../training/monitoring-device-state/manifest-receivers.html"
+            zh-cn-lang="根据需要操�

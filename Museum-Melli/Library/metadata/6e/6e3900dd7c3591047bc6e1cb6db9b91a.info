@@ -1,0 +1,628 @@
+
+        <div class="nav-section-header">
+          <a href="../../training/contacts-provider/index.html"
+             description=
+             "How to use Android's central address book, the Contacts Provider, to
+             display contacts and their details and modify contact information.">
+          Accessing Contacts Data</a>
+        </div>
+        <ul>
+          <li>
+                <a href="../../training/contacts-provider/retrieve-names.html">
+                Retrieving a List of Contacts
+                </a>
+          </li>
+          <li>
+                <a href="../../training/contacts-provider/retrieve-details.html">
+                Retrieving Details for a Contact
+                </a>
+          </li>
+          <li>
+                <a href="../../training/contacts-provider/modify-data.html">
+                Modifying Contacts Using Intents
+                </a>
+          </li>
+          <li>
+                <a href="../../training/contacts-provider/display-contact-badge.html">
+                Displaying the Quick Contact Badge
+                </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+        <a href="../../training/sign-in/index.html"
+           description="How to add user sign-in functionality to your app.">
+           Adding Sign-In
+        </a>
+      </li>
+    </ul>
+  </li>
+  <!-- End user info and sign-in -->
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/building-wearables.html">
+      <span class="small">Building Apps for</span><br/>
+              Wearables
+      </a>
+    </div>
+    <ul>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/notifications/index.html"
+             description="How to build handheld notifications that are synced to
+             and look great on wearables."
+            >Adding Wearable Features to Notifications</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/wearables/notifications/creating.html">Creating a Notification</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/notifications/voice-input.html">Receiving Voice Input in a Notification</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/notifications/pages.html">Adding Pages to a Notification</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/notifications/stacks.html">Stacking Notifications</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/apps/index.html"
+             description="How to build apps that run directly on wearables."
+            >Creating Wearable Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/wearables/apps/creating.html">Creating and Running a Wearable App</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/apps/layouts.html">Creating Custom Layouts</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/apps/always-on.html">Keeping Your App Visible</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/apps/voice.html">Adding Voice Capabilities</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/apps/packaging.html">Packaging Wearable Apps</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/apps/bt-debugging.html">Debugging over Bluetooth</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/ui/index.html"
+             description="How to create custom user interfaces for wearable apps."
+            >Creating Custom UIs</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/wearables/ui/layouts.html">Defining Layouts</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/cards.html">Creating Cards</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/lists.html">Creating Lists</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/2d-picker.html">Creating a 2D Picker</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/confirm.html">Showing Confirmations</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/ui/exit.html">Exiting Full-Screen Activities</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/data-layer/index.html"
+             description="How to sync data between handhelds and wearables."
+            >Sending and Syncing Data</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/wearables/data-layer/accessing.html">Accessing the Wearable Data Layer</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/data-layer/data-items.html">Syncing Data Items</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/data-layer/assets.html">Transferring Assets</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/data-layer/messages.html">Sending and Receiving Messages</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/data-layer/events.html">Handling Data Layer Events</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/wearables/watch-faces/index.html"
+             description="How to create watch faces for wearables."
+            >Creating Watch Faces</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/wearables/watch-faces/designing.html">Designing Watch Faces</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/service.html">Building a Watch Face Service</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/drawing.html">Drawing Watch Faces</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/information.html">Showing Information in Watch Faces</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/interacting.html">Creating Interactive Watch Faces</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/configuration.html">Providing Configuration Activities</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/issues.html">Addressing Common Issues</a>
+          </li>
+          <li>
+            <a href="../../training/wearables/watch-faces/performance.html">Optimizing Performance and Battery Life</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../training/articles/wear-location-detection.html"
+           description=
+           "How to detect location data on Android Wear devices."
+          >Detecting Location</a>
+      </li>
+
+      <li>
+        <a href="../../training/articles/wear-permissions.html"
+           description=
+           "How to request permissions on Android Wear devices."
+          >Requesting Permissions</a>
+      </li>
+
+      <li>
+        <a href="../../training/wearables/wearable-sounds.html"
+           description=
+           "How to use the speaker on Android Wear devices."
+          >Using the Speaker</a>
+      </li>
+
+    </ul>
+  </li>
+  <!-- End Building for wearables -->
+
+
+  <!-- Start: Building for TV -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/tv/index.html">
+      <span class="small">Building Apps for</span><br/>
+              TV
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+
+          <a href="../../training/tv/start/index.html"
+             ja-lang="TV アプリのビルド"
+             description="How to start building TV apps or extend your existing app to run on TV
+             devices.">
+             Building TV Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/tv/start/start.html"
+               ja-lang="TV アプリのビルドを開始する">
+              Getting Started with TV Apps</a>
+          </li>
+          <li>
+            <a href="../../training/tv/start/hardware.html"
+               ja-lang="TV ハードウェアを処理する">
+              Handling TV Hardware</a>
+          </li>
+          <li>
+            <a href="../../training/tv/start/layouts.html"
+               ja-lang="TV 向けレイアウトをビルドする">
+              Building TV Layouts</a>
+          </li>
+          <li>
+            <a href="../../training/tv/start/navigation.html"
+               ja-lang="TV 用のナビゲーションを作成する">
+              Creating TV Navigation</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/tv/playback/index.html"
+             ja-lang="TV 再生アプリのビルド"
+             description="How to build apps that provide media catalogs and play content.">
+             Building TV Playback Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/tv/playback/browse.html"
+               ja-lang="カタログ ブラウザを作成する">
+              Creating a Catalog Browser</a>
+          </li>
+          <li>
+            <a href="../../training/tv/playback/card.html">
+              Providing a Card View</a>
+          </li>
+          <li>
+            <a href="../../training/tv/playback/details.html"
+               ja-lang="詳細ビューをビルドする">
+              Building a Details View</a>
+          </li>
+          <li>
+            <a href="../../training/tv/playback/now-playing.html"
+               ja-lang="再生中カードを表示する">
+              Displaying a Now Playing Card</a>
+          </li>
+          <li>
+            <a href="../../training/tv/playback/guided-step.html">
+              Adding a Guided Step</a>
+          </li>
+          <li>
+            <a href="../../training/tv/playback/options.html">
+              Enabling Background Playback</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/tv/discovery/index.html"
+             description="How to help users discover content from your app.">
+             Helping Users Find Content on TV</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/tv/discovery/recommendations.html">
+              Recommending TV Content</a>
+          </li>
+          <li>
+            <a href="../../training/tv/discovery/searchable.html">
+              Making TV Apps Searchable</a>
+          <li>
+            <a href="../../training/tv/discovery/in-app-search.html">
+              Searching within TV Apps</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../training/tv/games/index.html"
+           description="How to build games for TV.">
+           Building TV Games</a>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/tv/tif/index.html"
+           description="How to build channels for TV.">
+           Building TV Channels</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../training/tv/tif/tvinput.html">
+              Developing a TV Input Service</a>
+          <li>
+            <a href="../../training/tv/tif/channel.html">
+              Working with Channel Data</a>
+          </li>
+          <li>
+            <a href="../../training/tv/tif/ui.html">
+              Managing User Interaction</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../training/tv/publishing/checklist.html"
+           description="An itemized list of requirements for TV apps.">
+           TV Apps Checklist</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for TV -->
+
+
+  <!-- Start: Building for Auto -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/auto/index.html">
+      <span class="small">Building Apps for</span><br/>
+              Auto
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="../../training/auto/start/index.html"
+             description="How to start building or extending apps that work
+             with Auto devices.">
+             Getting Started with Auto</a>
+      </li>
+      <li>
+        <a href="../../training/auto/audio/index.html"
+             description="How to extend audio apps to play content on Auto devices.">
+             Playing Audio for Auto</a>
+      </li>
+      <li>
+        <a href="../../training/auto/messaging/index.html"
+             description="How to extend text messaging apps to work with Auto devices.">
+             Messaging for Auto</a>
+      </li>
+      <li>
+       <a href="../../training/auto/testing/index.html" description=
+       "How to run and test Auto apps.">
+             Testing Auto Apps</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for Auto -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-ux.html">
+      <span class="small">Best Practices for</span><br/>
+              Interaction &amp; Engagement
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/design-navigation/index.html"
+             description=
+             "How to plan your app's screen hierarchy and forms of navigation so users can
+             effectively and intuitively traverse your app content using various navigation
+             patterns."
+            >Designing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../training/design-navigation/screen-planning.html">
+            Planning Screens and Their Relationships
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/multiple-sizes.html">
+            Planning for Multiple Touchscreen Sizes
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/descendant-lateral.html">
+            Providing Descendant and Lateral Navigation
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/ancestral-temporal.html">
+            Providing Ancestral and Temporal Navigation
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/wireframing.html">
+            Putting it All Together: Wireframing the Example App
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/implementing-navigation/index.html"
+             description=
+             "How to implement various navigation patterns such as swipe views,
+             a navigation drawer, and up navigation."
+            >Implementing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../training/implementing-navigation/lateral.html">
+            Creating Swipe Views with Tabs
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/nav-drawer.html">
+            Creating a Navigation Drawer
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/ancestral.html">
+            Providing Up Navigation
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/temporal.html">
+            Providing Proper Back Navigation
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/descendant.html">
+            Implementing Descendant Navigation
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+          <div class="nav-section-header">
+              <a href="../../training/notify-user/index.html"
+                 description=
+                 "How to display messages called notifications outside of
+                 your application's UI."
+               >Notifying the User</a>
+          </div>
+          <ul>
+              <li>
+                  <a href="../../training/notify-user/build-notification.html">
+                  Building a Notification
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/navigation.html">
+                  Preserving Navigation when Starting an Activity
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/managing.html">
+                  Updating Notifications
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/expanded.html">
+                  Using Big View Styles
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/display-progress.html">
+                  Displaying Progress in a Notification
+                  </a>
+              </li>
+          </ul>
+      </li>
+
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+            <a href="../../training/swipe/index.html"
+            description=
+            "How to modify your app's layout to support manual content updates triggered by the
+             swipe-to-refresh gesture."
+            >Supporting Swipe-to-Refresh</a>
+        </div>
+        <ul>
+            <li>
+                <a href="../../training/swipe/add-swipe-interface.html"
+                >Adding Swipe-to-Refresh To Your App</a></li>
+            <li>
+                <a href="../../training/swipe/respond-refresh-request.html"
+                >Responding to a Refresh Gesture</a>
+            </li>
+        </ul>
+      </li>
+
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/search/index.html"
+             description=
+             "How to properly add a search interface to your app and create a searchable database."
+            >Adding Search Functionality</a>
+        </div>
+        <ul>
+          <li><a href="../../training/search/setup.html">
+            Setting up the Search Interface
+          </a>
+          </li>
+          <li><a href="../../training/search/search.html">
+            Storing and Searching for Data
+          </a>
+          </li>
+          <li><a href="../../training/search/backward-compat.html">
+            Remaining Backward Compatible
+          </a>
+          </li>
+        </ul>
+      </li>
+
+     <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/app-indexing/index.html"
+             description=
+             "How to enable deep linking and indexing of your application
+content so that users can open this content directly from their mobile search
+results."
+            >Making Your App Content Searchable by Google</a>
+        </div>
+        <ul>
+          <li><a href="../../training/app-indexing/deep-linking.html">
+            Enabling Deep Links for App Content
+          </a>
+          </li>
+          <li><a href="../../training/app-indexing/enabling-app-indexing.html">
+            Specifying App Content for Indexing
+          </a>
+          </li>
+        </ul>
+  </li>
+
+      <li>
+        <a href="../../training/articles/assistant.html"
+           description=
+           "Support contextually relevant actions through the Assist API."
+          >Optimizing Content for the Assistant</a>
+      </li>
+       <li class="nav-section">
+        <div class="nav-section">
+          <a href="../../training/app-links/index.html"
+             description=
+             "How to enable the system to handle web requests by taking the user directly
+             to your app instead of your website."
+            >Handling App Links</a>
+        </div>
+      </li>
+  <!-- End Interaction and Engagement -->
+
+</ul>
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-ui.html">
+      <span class="small">Best Practices for</span><br/>
+              User Interface
+      </a>
+    </div>
+    <ul>
+
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/multiscreen/index.html"
+             zh-cn-lang="针对多种屏幕进行设计"
+             ja-lang="複数画面のデザイン"
+             es-lang="Cómo diseñar aplicaciones para varias pantallas"
+             description=
+             "How to build a user interface that's flexible enough to
+             fit perfectly on any screen and how to create different interaction
+             patterns that are optimized for different screen sizes."
+            >Designing for Multiple Screens</a>
+        </div>
+        <ul>
+          <li><a href="../../training/multiscreen/screensizes.html"
+            zh-cn-lang="支持各种屏幕尺寸"
+            ko-lang="다양한 화면 크기 지원"
+            ja-lang="さまざまな画面サイズのサポート"
+            es-lang="Cómo admitir varios tamaños de pantalla"
+            >Supporting Different Screen Sizes</a>
+          </li>
+          <li><a href="../../training/multiscreen/screendensities.html"
+            zh-cn-lang="支持各种屏幕密度"
+            ja-lang="さまざまな画面密度のサポート"
+            es-lang="Cómo admitir varias densidades de pantalla"
+            >Supporting Different Screen Densities</a>
+          </li>
+          <li><a href="../../training/multiscreen/adaptui.html"
+            zh-cn-lang="实施自适应用户界面流程"
+            ja-lang="順応性のある UI フローの実装"
+            es-lang="Cómo implementar interfaces de usuario adaptables"
+            >Implementing Adaptive UI Flows</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-s

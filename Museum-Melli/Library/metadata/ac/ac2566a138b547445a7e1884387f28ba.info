@@ -1,0 +1,144 @@
+o
+              developer-reported issues, so test and give feedback as soon as
+              possible.
+            </p>
+          </div>
+        </div>
+
+        <div class="cols">
+          <div class="col-4of12">
+            <h5>
+              New behaviors and capabilities
+            </h5>
+
+            <p>
+              Start work early to support new platform behaviors such as
+              complications and Material Design for Wear.
+            </p>
+          </div>
+
+          <div class="col-4of12">
+            <h5>
+              Feedback and support
+            </h5>
+
+            <p>
+              Report issues and give us feedback using our
+              <a href="https://g.co/wearpreviewbug">issue tracker</a>.
+              Connect with other developers in
+              the <a href="https://g.co/androidweardev">Wear Developer Community</a>.
+            </p>
+          </div>
+
+          <div class="col-4of12">
+            <h5>
+            </h5>
+
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="timeline_and_updates">
+      Timeline and Updates
+    </h2>
+
+    <p>
+      The Android Wear 2.0 Developer Preview runs from 18 May 2016 until the
+      final Android Wear public release to OEMs.
+    </p>
+
+    <p>
+      At key development milestones, we'll deliver updates for your development
+      and testing environment. In general you can expect updates in
+      approximately 6-week intervals. The release milestones are:
+    </p>
+
+    <ul>
+      <li>Milestone 1 (initial release, alpha)
+      </li>
+
+      <li>Milestone 2 (incremental update, beta)
+      </li>
+
+      <li>Milestone 3 (incremental update, beta)
+      </li>
+
+      <li>Milestone 4 (final APIs and official SDK, Play publishing)
+      </li>
+
+      <li>Near-final system image
+      </li>
+
+      <li>Final release to OEMs
+      </li>
+    </ul>
+
+    <p>
+      Each update includes an updated support library, preview system images,
+      emulator, reference documentation, and API diffs.
+    </p>
+
+    <p>
+      The first three milestones provide an early test and development
+      environment to help you identify compatibility issues in your current
+      apps and plan migration or feature work needed to target the new
+      platform. This is the priority period in which to give us your feedback
+      on features and APIs and file compatibility issues — for all of these,
+      please use the <a href="https://g.co/wearpreviewbug">issue tracker</a>.
+      You can expect some API changes across
+      these updates.
+    </p>
+
+    <p>
+      At milestone 4, you'll have access to the final Android Wear 2.0
+      APIs and SDK to develop with, as well as near-final system images to test
+      system behaviors and features. Android Wear 2.0 will use the Android N
+      API level at this time. You can begin final compatibility testing of your
+      legacy apps and refine any new code that is using the Android Wear 2.0
+      APIs or features.
+    </p>
+
+    <p>
+      As you test and develop on Android Wear 2.0, we strongly recommend
+      keeping your development environment up-to-date as updates are released.
+    </p>
+
+    <p>
+      We'll notify you when updates are available via the Android Developers
+      Blog, as well as via this site and the <a href=
+      "http://g.co/androidweardev">Android Wear Developer Community on G+</a>.
+    </p>
+
+    <h2 id="what's_in_the_android_wear_2_0_developer_preview">
+      What's in the Android Wear 2.0 Developer Preview
+    </h2>
+
+    <p>
+      The preview includes everything you need to test your existing apps on a
+      variety of hardware configurations.
+    </p>
+
+    <h3 id="developer_resources">
+      Developer resources
+    </h3>
+
+    <p>
+      You can download these components through the SDK Manager in <a href=
+      "../../sdk/installing/adding-packages.html">Android Studio</a>. For
+      more information, see <a href=
+      "../../wear/preview/downloads.html">Download and Test with a
+      Device</a>.
+    </p>
+
+    <ul>
+      <li>Android Wear 2.0 Developer Preview <strong>SDK/support
+      library</strong>
+      </li>
+
+      <li>Android Wear 2.0 Developer Preview <strong>emulator system
+      image</strong>
+      </li>
+    

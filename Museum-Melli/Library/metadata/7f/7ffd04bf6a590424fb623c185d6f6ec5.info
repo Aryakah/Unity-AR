@@ -1,0 +1,21 @@
+ a Navigation Drawer
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/ancestral.html">
+            Providing Up Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/temporal.html">
+            Providing Proper Back Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/descendant.html">
+            Implementing Descendant Navigation
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+          <div class="nav-section-header">
+              <a href="../..

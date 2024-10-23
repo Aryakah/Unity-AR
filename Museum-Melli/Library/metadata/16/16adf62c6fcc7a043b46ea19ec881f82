@@ -1,0 +1,71 @@
+ ks.getEntry(alias, null);
+if (!(entry instanceof PrivateKeyEntry)) {
+    Log.w(TAG, "Not an instance of a PrivateKeyEntry");
+    return null;
+}
+Signature s = Signature.getInstance("SHA256withECDSA");
+s.initSign(((PrivateKeyEntry) entry).getPrivateKey());
+s.update(data);
+byte[] signature = s.sign();</pre>
+
+<p>Similarly, verify data with the <code><a href="../../reference/java/security/Signature.html#verify(byte[])">verify(byte[])</a></code> method:</p>
+
+<pre>/*
+ * Verify a signature previously made by a PrivateKey in our
+ * KeyStore. This uses the X.509 certificate attached to our
+ * private key in the KeyStore to validate a previously
+ * generated signature.
+ */
+KeyStore ks = KeyStore.getInstance("AndroidKeyStore");
+ks.load(null);
+KeyStore.Entry entry = ks.getEntry(alias, null);
+if (!(entry instanceof PrivateKeyEntry)) {
+    Log.w(TAG, "Not an instance of a PrivateKeyEntry");
+    return false;
+}
+Signature s = Signature.getInstance("SHA256withECDSA");
+s.initVerify(((PrivateKeyEntry) entry).getCertificate());
+s.update(data);
+boolean valid = s.verify(signature);</pre>
+
+<h3 id="UserAuthentication">Requiring User Authentication For Key Use</h3>
+
+<p>When generating or importing a key into the <code>AndroidKeyStore</code> you can specify that the key
+is only authorized to be used if the user has been authenticated. The user is authenticated using a
+subset of their secure lock screen credentials (pattern/PIN/password, fingerprint).
+
+<p>This is an advanced security feature which is generally useful only if your requirements are that
+a compromise of your application process after key generation/import (but not before or during)
+cannot bypass the requirement for the user to be authenticated to use the key.
+
+<p>When a key is authorized to be used only if the user has been authenticated, it is configured to
+operate in one of the two modes:
+<ul>
+<li>User authentication authorizes the use of keys for a duration of time. All keys in this mode are
+  authorized for use as soon as the user unlocks the secure lock screen or confirms their secure
+  lock screen credential using the
+  <code><a href="../../reference/android/app/KeyguardManager.html#createConfirmDeviceCredentialIntent(java.lang.CharSequence, java.lang.CharSequence)">KeyguardManager.createConfirmDeviceCredentialIntent</a></code>
+  flow. The duration for which the authorization remains valid is specific to each key, as specified
+  using <code>setUserAuthenticationValidityDurationSeconds</code> during key generation or import. Such
+  keys can only be generated or imported if the secure lock screen is enabled (see
+  <code><a href="../../reference/android/app/KeyguardManager.html#isDeviceSecure()">KeyguardManager.isDeviceSecure()</a></code>). These keys
+  become permanently invalidated once the secure lock screen is disabled (reconfigured to None,
+  Swipe or other mode which does not authenticate the user) or forcibly reset (e.g. by a Device
+  Administrator).</li>
+<li>User authentication authorizes a specific cryptographic operation associated with one key. In
+  this mode, each operation involving such a key must be individually authorized by the user.
+  Currently, the only means of such authorization is fingerprint authentication:
+  <code><a href="../../reference/android/hardware/fingerprint/FingerprintManager.html#authenticate(android.hardware.fingerprint.FingerprintManager.CryptoObject, android.os.CancellationSignal, int, android.hardware.fingerprint.FingerprintManager.AuthenticationCallback, android.os.Handler)">FingerprintManager.authenticate</a></code>.
+  Such keys can only be generated or imported if at least one fingerprint is enrolled (see
+  <code><a href="../../reference/android/hardware/fingerprint/FingerprintManager.html#hasEnrolledFingerprints()">FingerprintManager.hasEnrolledFingerprints</a></code>).
+  These keys become permanently invalidated once a new fingerprint is enrolled or all fingerprints
+  are unenrolled.</li>
+</ul>
+
+<h2 id="SupportedAlgorithms">Supported Algorithms</h2>
+
+<ul>
+  <li><a href="#SupportedCiphers"><code>Cipher</code></a></li>
+  <li><a href="#SupportedKeyGenerators"><code>KeyGenerator</code></a></li>
+  <li><a href="#SupportedKeyFactories"><code>KeyFactory</code></a></li>
+  <li><a href="#SupportedKeyPairGenerators"><code>KeyPairGenerator</code><

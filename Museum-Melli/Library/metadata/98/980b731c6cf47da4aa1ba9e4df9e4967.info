@@ -1,0 +1,237 @@
+s="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="entry.47013838" id="newsletter-play-store" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <legend class="dac-form-legend"><span data-t="newsletter.business.label">Which best describes your business:</span><span class="dac-form-required">*</span>
+                    </legend>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-app" required>
+                      <label for="newsletter-business-type-app" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-app" class="dac-form-label" data-t="newsletter.business.apps">Apps</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-games" required>
+                      <label for="newsletter-business-type-games" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-games" class="dac-form-label" data-t="newsletter.business.games">Games</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps and Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-appsgames" required>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-label" data-t="newsletter.business.both">Apps &amp; Games</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.732309842" id="newsletter-add" required value="Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside"><span data-t="newsletter.confirmMailingList"></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.2045036090" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end newsletter modal -->
+
+<!-- start reset language header modal -->
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title"></h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText"></p>
+                  <p id="resetLangCta"></p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle></button>
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle></button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- end langreset modal -->
+
+
+</div> <!-- end body-content --> 
+
+
+
+
+<script src="https://developer.android.com/ytblogger_lists_unified.js" defer></script>
+<script src="/jd_lists_unified_en.js?v=17" defer></script>
+<script src="/reference/lists.js?v=17" defer></script>
+<script src="/reference/gcm_lists.js?v=17" defer></script>
+<script src="/reference/gms_lists.js?v=17" defer></script>
+<script>
+  // Load localized metadata.
+  (function(lang) {
+    if (lang === 'en') { return; }
+
+    // Write it to the document so it gets evaluated before DOMContentReady.
+    document.write('<script src="/jd_lists_unified_' + lang + '.js?v=14" defer></' + 'script>');
+  })(getLangPref())
+</script>
+
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ‰PNG
+
+   IHDR   €   €   L\öœ   IDATxíİ1Â@DQ°,ŸÇ÷¿ï =@Ex¤-õßgE6¾\¦ılÛ¶ïû²,Ó>ÁëàŸşz½Şï÷©õç0;ıÿù'şàÃÏçóv»}ø?şçÇÏÀx| @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @à»ºw/Ï~·óyíÜÅ ëºÎşz‹ã8ÚÖ^á¡?ôö·7úñ†v /phwû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ ÔĞû@í± má°_€ Ô/Ó×\´oº¨ê¼çğÅ Çã=ÏPÊğúúôï*ŞZ @€  @€ ¾H`\Í>ûåà£Æ°0Ş-¸…­    IEND®B`‚‰PNG
+
+   IHDR   €   €   Ã>aË  \IDATxíÔÁÀ ÀPuö_Œ¤ŒQÉ—|¶R|sÎç^°@Utú½÷İş=€îNï?{ cHXkäüñÙ}€ø	  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€  @€ ø­À?
+|(©“    IEND®B`‚€¹*             9       E            •  9  PreviewAssetData   BaseName:
+  mainRepresentation:
+    serializedVersion: 3
+    name: 12-3_00000
+    thumbnail:
+      m_Format: 5
+      m_Width: 16
+      m_Height: 16
+      m_RowBytes: 64
+      image data: 1024
+      _typelessdata: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ff000000ff000000ff000000ff010101ff030303ff040404ff040404ff040404ff040404ff040404ff040404ff020202ff010101ff000000ff000000ff000000ff000000ff000000ff000000ff030303ff060606ff070707ff080808ff080808ff080808ff080808ff080808ff050505ff030303ff000000ff000000ff000000ff000000ff000000ff000000ff030303ff060606ff080808ff090909ff090909ff090909ff090909ff090909ff050505ff030303ff000000ff000000ff000000ff000000ff000000ff010101ff040404ff070707ff090909ff0a0a0aff0a0a0aff0a0a0aff0a0a0aff0a0a0aff060606ff030303ff000000ff000000ff000000ff000000ff000000ff010101ff040404ff070707ff090909ff0a0a0aff0a0a0aff0a0a0aff0a0a0aff0a0a0aff060606ff030303ff000000ff000000ff000000ff000000ff000000ff000000ff030303ff060606ff070707ff080808ff080808ff080808ff080808ff080808ff050505ff030303ff000000ff000000ff000000ff000000ff000000ff000000ff020202ff040404ff050505ff060606ff060606ff060606ff060606ff060606ff040404ff020202ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff010101ff010101ff010101ff010101ff010101ff010101ff010101ff010101ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff010101ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000
+    guid: bb6e51af2f120564f8ec6ede742685a1
+    path: Assets/Anims 5/12/12-3/12-3_00000.png
+    localIdentifier: 2800000
+    thumbnailClassID: 28
+    flags: 1
+    scriptClassName: 
+  representations:
+  - serializedVersion: 3
+    name: 12-3_00000
+    thumbnail:
+      m_Format: 0
+      m_Width: 0
+      m_Height: 0
+      m_RowBytes: 0
+      image data: 0
+      _typelessdata: 
+    guid: bb6e51af2f120564f8ec6ede742685a1
+    path: 
+    localIdentifier: 21300000
+    thumbnailClassID: 213
+    flags: 1
+    scriptClassName: 
+  labels:
+    m_Labels: []
+  assetImporterClassID: 1006
+  assetBundleFullName:
+    m_AssetBundleName: 
+    m_AssetBundleVariant: 
+  externalReferencesForValidation: []
+AssetInfo_______†                                                                                        -± ¨     -Ğ    5.6.0f3 şÿÿÿ      ÿÿÈ0ÅòÃôL.`?^Ù0   D         7  €ÿÿÿÿ     €    ¦ €² €           Ğ  €               ¦ €               ¦ €               ¦ €#               ¦ €+               H €3   ÿÿÿÿ    €   1  €1  €ÿÿÿÿ   @    Ş  € €   	        Q  €j  €   
+        ™ €<               ¦ €H               H €Z   ÿÿÿÿ    €   1  €1  €ÿÿÿÿ   @    Ş  € €           Q  €j  €           Ğ  €g               ¦ €               ¦ €               ¦ €#               ¦ €+               v   ~                 €                 €–                 €Ÿ                 €¨                 €±                 €º                 €Ã                 €Ì                 €Õ                 €Ş                  €ç      !           €ñ      "           €û      #           €     $           €     %           €     &         Õ €#  ÿÿÿÿ'    €   1  €1  €ÿÿÿÿ(    €    Ş  € €   )         H €j  €ÿÿÿÿ*    €   1  €1  €ÿÿÿÿ+   @    Ş  € €   ,        Q  €j  €   -        ™ €*     .         Ş  €8     /       AssetMetaData guid data[0] data[1] data[2] data[3] pathName timeCreated originalChangeset originalName originalParent Hash128 originalDigest bytes[0] bytes[1] bytes[2] bytes[3] bytes[4] bytes[5] bytes[6] bytes[7] bytes[8] bytes[9] bytes[10] bytes[11] bytes[12] bytes[13] bytes[14] bytes[15] labels assetStoreRef licenseType î   ÿÿ‘ær$K!˜™“¼¾¡   ~         7  €ÿÿÿÿ     €    ¦ €² €              Õ €           Ş  €&              . €/              † €Ä €           Ş  €&              . €/              H €« €ÿÿÿÿ   €   1  €1  €ÿÿÿÿ	   @    Ş  € €   
+        Q  €j  €           ñ  €8   ÿÿÿÿ    €   1  €1  €ÿÿÿÿ    €    Ş  € €             €j  €ÿÿÿÿ    €    . €›  €            H €
+ €ÿÿÿÿ    €   1  €1  €ÿÿÿÿ   @    Ş  € €           Q  €j  €           Ş  €N               Ş  €[               Ş  €j               Ş  €x               Ş  €ˆ               Ş  €’               Ş  €¡               Ş  €»               Ş  €Ó               Ş  €è               ¡  €ü               Ş  €
+               Ş  €     !         Ş  €)     "         Ş  €<     #         Ş  €N     $         Ş  €c     %         Ş  €u     &         Ş  €…     '         –  ¨     (         Ş  €º     )         Ş  €Ç     *         ¡  €Ï     +         Ş  €Ù     ,         Ş  €ä     -         Ş  €ğ     .         Ş  €û     /         Ş  €     0         ¦ €     1         Ş  €-     2         Ş  €>     3         Ü €J     4         ¡  €X     5         ¡  €Z     6         î €\     7         ¡  €X     8         ¡  €Z     9         ¡  €k     :         ¡  €m     ;         ¡  €o     <         Ş  €…     =         Ş  €’     >         ¡  €¨     ?         Ş  €Ã     @         Ş  €Ñ     A         Ş  €à     B         Ş  €ô     C         Ş  €     D    @    Õ €  ÿÿÿÿE    €   1  €1  €ÿÿÿÿF    €    Ş  € €   G         2  j  €ÿÿÿÿH    €    H €C  ÿÿÿÿI    €   1  €1  €ÿÿÿÿJ   @    Ş  € €   K        Q  €j  €   L        Ş  €…     M         Ş  €u     N         Ş  €Q     O         Ş  €û     P         L  €f     Q         L  €|     R         L  €“     S    @       ´  ÿÿÿÿT    €    Õ €Â  ÿÿÿÿU    €   1  €1  €ÿÿÿÿV    €    Ş  € €   W         Ì  j  €ÿÿÿÿX    €    H €« €ÿÿÿÿY    €   1  €1  €ÿÿÿÿZ   @    Ş  € €   [        Q  €j  €   \        ñ €Û     ]         ¡  €X     ^         ¡  €Z     _         ¡  €â     `         ¡  €è     a         Ş  €>     b         Ü €ï     c         ¡  €X     d         ¡  €Z     e         î €÷     f         ¡  €X     g         ¡  €Z     h         ¡  €k     i         ¡  €m     j         Õ €   ÿÿÿÿk        1  €1  €ÿÿÿÿl         Ş  € €   m         Õ €j  €ÿÿÿÿn        1  €1  €ÿÿÿÿo        	 Ş  € €   p        	 Ü €j  €   q        
+ ¡  €X     r        
+ ¡  €Z     s         ¡  €
+     t         Õ €   ÿÿÿÿu        1  €1  €ÿÿÿÿv         Ş  € €   w         Õ €j  €ÿÿÿÿx        1  €1  €ÿÿÿÿy         Ş  € €   z         Ü €j  €   {         ¡  €X     |         ¡  €Z     }         H €  ÿÿÿÿ~    €   1  €1  €ÿÿÿÿ   @    Ş  € €   €        Q  €j  €           2  F  ÿÿÿÿ‚    À    O  i      ƒ         Ş  €ƒ     „         Ş  €”     …         Ş  €§     †         Ş  €µ     ‡         Ş  €¿     ˆ         Ş  €â     ‰         Ş  €è     Š         Ş  €Ê     ‹         İ  ö  
+   Œ    €    Ş  €â              Ş  €è              L  €              L  €'         @    H €4  ÿÿÿÿ‘    €   1  €1  €ÿÿÿÿ’   @    Ş  € €   “        Q  €j  €   ”        H €L  ÿÿÿÿ•    €   1  €1  €ÿÿÿÿ–   @    Ş  € €   —        Q  €j  €   ˜        H €W  ÿÿÿÿ™    €   1  €1  €ÿÿÿÿš   @    Ş  € €   ›        Q  €j  €   œ        H €i  ÿÿÿÿ    €   1  €1  €ÿÿÿÿ   @    Ş  € €   Ÿ        Q  €j  €          TextureImporter PPtr<EditorExtension> m_FileID m_PathID m_FileIDToRecycleName m_MipMapMode m_EnableMipMap m_sRGBTexture m_LinearTexture m_FadeOut m_BorderMipMap m_MipMapFadeDistanceStart m_MipMapFadeDistanceEnd m_ConvertToNormalMap m_ExternalNormalMap m_HeightScale m_NormalMapFilter m_IsReadable m_GrayScaleToAlpha m_GenerateCubemap m_CubemapConvolution m_SeamlessCubemap m_TextureFormat m_MaxTextureSize GLTextureSettings m_TextureSettings m_FilterMode m_Aniso m_MipBias m_WrapMode m_NPOTScale m_Lightmap m_CompressionQuality m_SpriteMode m_SpriteExtrude m_SpriteMeshType m_Alignment m_SpritePivot x y m_SpriteBorder z w m_SpritePixelsToUnits m_AlphaUsage m_AlphaIsTransparency m_SpriteTessellationDetail m_TextureType m_TextureShape m_MaxTextureSizeSet m_CompressionQualitySet m_TextureFormatSet m_PlatformSettings PlatformSettings m_BuildTarget m_TextureCompression m_CrunchedCompression m_AllowsAlphaSplitting m_Overridden SpriteSheetMetaData m_SpriteSheet m_Sprites SpriteMetaData m_Rect width height m_Pivot m_Border m_Outline m_TessellationDetail m_SpritePackingTag TextureImportOutput m_Output TextureImportInstructions textureImportInstructions compressedFormat uncompressedFormat desiredFormat usageMode colorSpace compressionQuality SourceTextureInformation sourceTextureInformation doesTextureContainAlpha sourceWasHDR importInspectorWarnings m_UserData m_AssetBundleName m_AssetBundleVariant     ÿÿ ĞÜU¢qûJIº'şv¹è$7   û     j €7  €ÿÿÿÿ     €    ¦ €² €               Õ €           Ş  €              . €              † €Ä €           Ş  €              . €              H €« €ÿÿÿÿ   €   1  €1  €ÿÿÿÿ	   @    Ş  € €   
+        Q  €j  €           (   0           €     €D           €     €M           €     €V           €     €_           €     €h           €     €q           €     €z           €     €ƒ           €     €Œ           €     €•           €     €           €     €¨           €     €²           €     €¼           €     €Æ           €     €Ğ           €   Ş  €Ú              Ş  €â              Ş  €ë              Ş  €ÿ               Ş  €     !        L  €     "         L  €'     #   @€   Ş  €=     $        Ş  €J     %        ]  o     &         Ş  €     '         Ş  €     (         ¡  €–     )         Ş  €      *         Ş  €«     +         Ş  €¼     ,        ~ €É  ÿÿÿÿ-   @    Ş  € €   .          €j  €   /        Ô  â  ÿÿÿÿ0    €    ¦ €ï     1         ¦ € €   2         H €ö  ÿÿÿÿ3    €   1  €1  €ÿÿÿÿ4   @    Ş  € €   5        Q  €j  €   6      PPtr<EditorExtension> m_FileID m_PathID Hash128 m_ImageContentsHash bytes[0] bytes[1] bytes[2] bytes[3] bytes[4] bytes[5] bytes[6] bytes[7] bytes[8] bytes[9] bytes[10] bytes[11] bytes[12] bytes[13] bytes[14] bytes[15] m_Width m_Height m_CompleteImageSize m_TextureFormat m_MipCount m_IsReadable m_AlphaIsTransparency m_ImageCount m_TextureDimension GLTextureSettings m_TextureSettings m_FilterMode m_Aniso m_MipBias m_WrapMode m_LightmapFormat m_ColorSpace image data StreamingInfo m_StreamData offset path Õ    ÿÿE/ j3Ñ¥yùê‡>äWZc            7  €ÿÿÿÿ     €    ¦ €² €              Õ €           Ş  €              . €&              † €Ä €           Ş  €              . €&              H €« €ÿÿÿÿ   €   1  €1  €ÿÿÿÿ	   @    Ş  € €   
+        Q  €j  €           ñ €/               ¡  €6               ¡  €8               ¡  €:               ¡  €@               Ü €G               ¡  €6               ¡  €8               î €P               ¡  €6               ¡  €8               ¡  €Y               ¡  €[               ¡  €]               Ü €m               ¡  €6               ¡  €8               ¦ €u               L  €          @    H €‹   ÿÿÿÿ   €€  1  €1  €ÿÿÿÿ    @€   Ş  € €   !    €   Q  €j  €   "    €   H €—   ÿÿÿÿ#   €€  1  €1  €ÿÿÿÿ$   @€   Ş  € €   %    €   Q  €j  €   &    €   ¤   µ   ÿÿÿÿ'    À    ¾ €º      (         Ş  €      )        . €&      *        ¾ €Â      +         Ş  €      ,        . €&      -        Õ €Ï   ÿÿÿÿ.       1  €1  €ÿÿÿÿ/        Ş  € €   0        Û   j  €,   1        ¦ €ã      2        ¦ €í      3        Ş  €ø      4        ¦ €     5        ¦ €     6           €     7        å €#     8        ¡  €6      9        ¡  €8      :        ¡  €Y      ;        å €,     <        ¡  €6      =        ¡  €8      >        ¡  €Y      ?        Õ €5  ÿÿÿÿ@   €   1  €1  €ÿÿÿÿA   @    Ş  € €   B          €j  €   C        C  N  ÿÿÿÿD   À    Ş  €[     E        ¦ €m     F        Õ €{  ÿÿÿÿG       1  €1  €ÿÿÿÿH        Ş  € €   I        †  j  €   J          €’     K          €™     L          €      M          €§     N       ~ €±  ÿÿÿÿO   @    Ş  € €   P          €j  €   Q        ñ €¼     R         ¡  €6      S         ¡  €8      T         ¡  €:      U         ¡  €@      V         Ü €È     W         ¡  €6      X         ¡  €8      Y         Ü €Ú     Z         ¡  €6      [         ¡  €8      \         ¦ €ê     ]         î €ö     ^         ¡  €6      _         ¡  €8      `         ¡  €Y      a         ¡  €[      b       Sprite PPtr<EditorExtension> m_FileID m_PathID m_Rect x y width height m_Offset m_Border z w m_PixelsToUnits m_Pivot m_Extrude m_IsPolygon m_AtlasName m_PackingTag SpriteRenderData m_RD texture alphaTexture m_SubMeshes SubMesh firstByte indexCount topology firstVertex vertexCount localAABB m_Center m_Extent m_IndexBuffer VertexData m_VertexData m_CurrentChannels m_VertexCount m_Channels ChannelInfo stream offset format dimension m_DataSize textureRect textureRectOffset atlasRectOffset settingsRaw uvTransform               „              ˆ   Ä     €¹*     P  øU     E    HX                              »×ö‡%ÉêA‡£ƒ¸b–İ,   Assets/Anims/[compName]/[compName]_00017.png³‡˜\                                                                                                                                         €>                             ÿÿÿÿ     €¿ÿÿÿÿ        2                   ?   ?                  ÈB         €¿                        DefaultTexturePlatform     ÿÿÿÿ   2       
+   Standalone     ÿÿÿÿ   2          Android    /      2         Windows Store Apps     ÿÿÿÿ   2                   /      /               2   ô  ô                                                       [compName]_00017'élÀ#–yÈŒZZ:i      pU /   	                                 pU            ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ           ÿÿÿÿ   

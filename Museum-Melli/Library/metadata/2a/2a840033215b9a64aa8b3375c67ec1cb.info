@@ -1,0 +1,537 @@
+li>
+          <li><a href="../../../training/in-app-billing/list-iab-products.html">
+            <span class="en">Establishing Products for Sale</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/purchase-iab-products.html">
+            <span class="en">Purchasing Products</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/test-iab-app.html">
+            <span class="en">Testing Your App</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/multiple-apks/index.html"
+             description=
+             "How to publish your app on Google Play with separate APKs that target
+             different devices, while using a single app listing."
+            >Maintaining Multiple APKs</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/multiple-apks/api.html">
+            Creating Multiple APKs for Different API Levels
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/screensize.html">
+            Creating Multiple APKs for Different Screen Sizes
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/texture.html">
+            Creating Multiple APKs for Different GL Textures
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/multiple.html">
+            Creating Multiple APKs with 2+ Dimensions
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Publishing -->
+
+</ul><!-- nav -->
+<script type="text/javascript">
+<!--
+    buildToggleLists();
+    changeNavLang(getLangPref());
+//-->
+</script>
+
+      
+    </div>
+  
+
+        <ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim">
+        <li class="dac-nav-item home">
+          <a class="dac-nav-link" href="../../../index.html">Home</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary about">
+            <li class="dac-nav-item versions">
+              <a class="dac-nav-link" href="../../../about/versions/marshmallow/index.html">Android</a>
+            </li>
+            <li class="dac-nav-item wear">
+              <a class="dac-nav-link" href="../../../wear/index.html">Wear</a>
+            </li>
+            <li class="dac-nav-item tv">
+              <a class="dac-nav-link" href="../../../tv/index.html">TV</a>
+            </li>
+            <li class="dac-nav-item auto">
+              <a class="dac-nav-link" href="../../../auto/index.html">Auto</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item design">
+          <a class="dac-nav-link" href="../../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+        </li>
+        <li class="dac-nav-item develop">
+          <a class="dac-nav-link" href="../../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary develop">
+            <li class="dac-nav-item training">
+              <a class="dac-nav-link" href="../../../training/index.html"
+                 zh-tw-lang="訓練課程"
+                 zh-cn-lang="培训"
+                 ru-lang="Курсы"
+                 ko-lang="교육"
+                 ja-lang="トレーニング"
+                 es-lang="Capacitación">Training</a>
+            </li>
+            <li class="dac-nav-item guide">
+              <a class="dac-nav-link" href="../../../guide/index.html"
+                 zh-tw-lang="API 指南"
+                 zh-cn-lang="API 指南"
+                 ru-lang="Руководства по API"
+                 ko-lang="API 가이드"
+                 ja-lang="API ガイド"
+                 es-lang="Guías de la API">API Guides</a>
+            </li>
+            <li class="dac-nav-item reference">
+              <a class="dac-nav-link" href="../../../reference/packages.html"
+                 zh-tw-lang="參考資源"
+                 zh-cn-lang="参考"
+                 ru-lang="Справочник"
+                 ko-lang="참조문서"
+                 ja-lang="リファレンス"
+                 es-lang="Referencia">Reference</a>
+            </li>
+            <li class="dac-nav-item tools">
+              <a class="dac-nav-link" href="../../../sdk/index.html"
+                 zh-tw-lang="相關工具"
+                 zh-cn-lang="工具"
+                 ru-lang="Инструменты"
+                 ko-lang="도구"
+                 ja-lang="ツール"
+                 es-lang="Herramientas">Tools</a></li>
+            <li class="dac-nav-item google">
+              <a class="dac-nav-link" href="../../../google/index.html">Google Services</a>
+            </li>
+            
+          </ul>
+        </li>
+        <li class="dac-nav-item distribute">
+          <a class="dac-nav-link" href="../../../distribute/googleplay/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary distribute">
+            <li class="dac-nav-item googleplay">
+              <a class="dac-nav-link" href="../../../distribute/googleplay/index.html">Google Play</a></li>
+            <li class="dac-nav-item essentials">
+              <a class="dac-nav-link" href="../../../distribute/essentials/index.html">Essentials</a></li>
+            <li class="dac-nav-item users">
+              <a class="dac-nav-link" href="../../../distribute/users/index.html">Get Users</a></li>
+            <li class="dac-nav-item engage">
+              <a class="dac-nav-link" href="../../../distribute/engage/index.html">Engage &amp; Retain</a></li>
+            <li class="dac-nav-item monetize">
+              <a class="dac-nav-link" href="../../../distribute/monetize/index.html">Earn</a>
+            </li>
+            <li class="dac-nav-item analyze">
+              <a class="dac-nav-link" href="../../../distribute/analyze/index.html">Analyze</a>
+            </li>
+            <li class="dac-nav-item stories">
+              <a class="dac-nav-link" href="../../../distribute/stories/index.html">Stories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item preview">
+          <a class="dac-nav-link" href="../../../preview/index.html">Preview</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation-->
+  
+
+<!-- Nav Setup -->
+<script>$('[data-dac-nav]').dacNav();</script>
+
+
+
+  
+    
+  <div class="wrap clearfix" id="body-content">
+
+  
+
+  
+  <div id="search-results" class="dac-search-results">
+    <div id="dac-search-results-history" class="dac-search-results-history">
+      <div class="wrap dac-search-results-history-wrap">
+        <div class="cols">
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Most visited</h2>
+            <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Recently visited</h2>
+            <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dac-search-results-content" class="dac-search-results-content">
+      <div class="dac-search-results-metadata wrap">
+        <div class="dac-search-results-for">
+          <h2>Results for <span id="search-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  <div class="content-header ">
+      
+        <ul class="dac-header-crumbs">
+          
+        </ul>
+
+        <!-- Breadcrumb Setup -->
+        <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
+
+        <h1 itemprop="name">Saving Key-Value Sets
+      </h1>
+      
+    
+      <div class="training-nav-top" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <a href="#" class="prev-page-link hide"
+            zh-tw-lang="上一堂課"
+            zh-cn-lang="上一课"
+            ru-lang="Предыдущий"
+            ko-lang="이전"
+            ja-lang="前へ"
+            es-lang="Anterior"
+            >Previous</a>
+        <a href="#" class="next-page-link hide"
+            zh-tw-lang="下一堂課"
+            zh-cn-lang="下一课"
+            ru-lang="Следующий"
+            ko-lang="다음"
+            ja-lang="次へ"
+            es-lang="Siguiente"
+            >Next</a>
+        <a href="#" class="start-class-link hide"
+            zh-tw-lang="開始上課"
+            zh-cn-lang="开始"
+            ru-lang="Начало работы"
+            ko-lang="시작하기"
+            ja-lang="開始する"
+            es-lang="Empezar"
+            >Get started</a>
+      </div>
+    
+  </div>
+  
+
+
+
+  
+
+  
+  <div id="jd-content">
+    <div class="jd-descr" itemprop="articleBody">
+    
+
+    <div id="tb-wrapper">
+<div id="tb">
+
+<h2>This lesson teaches you to</h2>
+<ol>
+  <li><a href="#GetSharedPreferences">Get a Handle to a SharedPreferences</a></li>
+  <li><a href="#WriteSharedPreference">Write to Shared Preferences</a></li>
+  <li><a href="#ReadSharedPreference">Read from Shared Preferences</a></li>
+</ol>
+
+<h2>You should also read</h2>
+<ul>
+  <li><a href="../../../guide/topics/data/data-storage.html#pref">Using Shared Preferences</a></li>
+</ul>
+
+</div>
+</div>
+
+
+<p>If you have a relatively small collection of key-values that you'd like to save,
+you should use the <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> APIs.
+A <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> object points to a file containing
+key-value pairs and provides simple methods to read and write them. Each
+<code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> file is
+managed by the framework and can be private or shared.</p>
+
+<p>This class shows you how to use the <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> APIs to store and
+retrieve simple values.</p>
+
+<p class="note"><strong>Note:</strong> The <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> APIs are
+only for reading and writing key-value pairs and you should not confuse them with the
+<code><a href="../../../reference/android/preference/Preference.html">Preference</a></code> APIs, which help you build a user interface
+for your app settings (although they use <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code> as their
+implementation to save the app settings). For information about using the <code><a href="../../../reference/android/preference/Preference.html">Preference</a></code> APIs, see the <a href="../../../guide/topics/ui/settings.html"
+>Settings</a> guide.</p>
+
+<h2 id="GetSharedPreferences">Get a Handle to a SharedPreferences</h2>
+
+<p>You can create a new shared preference file or access an existing
+one by calling one of two methods:</p>
+<ul>
+  <li><code><a href="../../../reference/android/content/Context.html#getSharedPreferences(java.lang.String, int)">getSharedPreferences()</a></code> &mdash; Use this if you need multiple shared preference files identified
+by name, which you specify with the first parameter. You can call this from any
+<code><a href="../../../reference/android/content/Context.html">Context</a></code> in your app.</li>
+  <li><code><a href="../../../reference/android/app/Activity.html#getPreferences(int)">getPreferences()</a></code> &mdash; Use this from an
+<code><a href="../../../reference/android/app/Activity.html">Activity</a></code> if you need
+to use only one shared preference file for the activity. Because this retrieves a default shared
+preference file that belongs to the activity, you don't need to supply a name.</li>
+</ul>
+
+<p>For example, the following code is executed inside a <code><a href="../../../reference/android/app/Fragment.html">Fragment</a></code>.
+It accesses the shared preferences file that's
+identified by the resource string <code>R.string.preference_file_key</code> and opens it using
+the private mode so the file is accessible by only your app.</p>
+
+<pre>
+Context context = getActivity();
+SharedPreferences sharedPref = context.getSharedPreferences(
+        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+</pre>
+
+<p>When naming your shared preference files, you should use a name that's uniquely identifiable
+to your app, such as <code>"com.example.myapp.PREFERENCE_FILE_KEY"</code></p>
+
+<p>Alternatively, if you need just one shared preference file for your activity, you can use the
+<code><a href="../../../reference/android/app/Activity.html#getPreferences(int)">getPreferences()</a></code> method:</p>
+
+<pre>
+SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+</pre>
+
+<p class="caution"><strong>Caution:</strong> If you create a shared preferences file
+with <code><a href="../../../reference/android/content/Context.html#MODE_WORLD_READABLE">MODE_WORLD_READABLE</a></code> or <code><a href="../../../reference/android/content/Context.html#MODE_WORLD_WRITEABLE">MODE_WORLD_WRITEABLE</a></code>, then any other apps that know the file identifier
+can access your data.</p>
+
+
+<h2 id="WriteSharedPreference">Write to Shared Preferences</h2>
+
+<p>To write to a shared preferences file, create a <code><a href="../../../reference/android/content/SharedPreferences.Editor.html">SharedPreferences.Editor</a></code> by calling <code><a href="../../../reference/android/content/SharedPreferences.html#edit()">edit()</a></code> on your <code><a href="../../../reference/android/content/SharedPreferences.html">SharedPreferences</a></code>.</p>
+
+<p>Pass the keys and values you want to write with methods such as <code><a href="../../../reference/android/content/SharedPreferences.Editor.html#putInt(java.lang.String, int)">putInt()</a></code> and <code><a href="../../../reference/android/content/SharedPreferences.Editor.html#putString(java.lang.String, java.lang.String)">putString()</a></code>. Then call <code><a href="../../../reference/android/content/SharedPreferences.Editor.html#commit()">commit()</a></code> to save the changes. For example:</p>
+
+<pre>
+SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+SharedPreferences.Editor editor = sharedPref.edit();
+editor.putInt(getString(R.string.saved_high_score), newHighScore);
+editor.commit();
+</pre>
+
+
+<h2 id="ReadSharedPreference">Read from Shared Preferences</h2>
+
+<p>To retrieve values from a shared preferences file, call methods such as <code><a href="../../../reference/android/content/SharedPreferences.html#getInt(java.lang.String, int)">getInt()</a></code> and <code><a href="../../../reference/android/content/SharedPreferences.html#getString(java.lang.String, java.lang.String)">getString()</a></code>, providing the key for the value
+you want, and optionally a default value to return if the key isn't
+present. For example:</p>
+
+<pre>
+SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+int defaultValue = getResources().getInteger(R.string.saved_high_score_default);
+long highScore = sharedPref.getInt(getString(R.string.saved_high_score), defaultValue);
+</pre>
+
+
+    </div>
+
+    
+      <div class="content-footer "
+                    itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="paging-links">
+            <a href="#" class="prev-page-link hide"
+              zh-tw-lang="上一堂課"
+              zh-cn-lang="上一课"
+              ru-lang="Предыдущий"
+              ko-lang="이전"
+              ja-lang="前へ"
+              es-lang="Anterior"
+              ><span class="page-link-caption">Previous</span>
+            </a>
+            <a href="#" class="next-page-link hide"
+                zh-tw-lang="下一堂課"
+                zh-cn-lang="下一课"
+                ru-lang="Следующий"
+                ko-lang="다음"
+                ja-lang="次へ"
+                es-lang="Siguiente"
+                ><span class="page-link-caption">Next</span>
+            </a>
+            <a href="#" class="start-class-link hide"
+                zh-tw-lang="開始上課"
+                zh-cn-lang="开始"
+                ru-lang="Начало работы"
+                ko-lang="시작하기"
+                ja-lang="開始する"
+                es-lang="Empezar"
+                >Get started</a>
+            <a href="#" class="next-class-link hide">
+              <span class="page-link-caption">Next class</span>
+            </a>
+          </div>
+      </div>
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter

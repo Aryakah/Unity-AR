@@ -1,0 +1,106 @@
+/../training/testing/unit-testing/index.html"
+         description="How to build effective unit tests for Android apps.">
+            Building Effective Unit Tests
+          </a></div>
+        <ul>
+          <li><a href="../../training/testing/unit-testing/local-unit-tests.html">
+            <span class="en">Building Local Unit Tests</span>
+            </a>
+          </li>
+          <li><a href="../../training/testing/unit-testing/instrumented-unit-tests.html">
+            <span class="en">Building Instrumented Unit Tests</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../training/testing/ui-testing/index.html"
+         description="How to automate your user interface tests for Android apps.">
+            Automating UI Tests
+          </a></div>
+        <ul>
+          <li><a href="../../training/testing/ui-testing/espresso-testing.html">
+            <span class="en">Testing UI for a Single App</span>
+          </a>
+          </li>
+          <li><a href="../../training/testing/ui-testing/uiautomator-testing.html">
+            <span class="en">Testing UI for Multiple Apps</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../training/testing/integration-testing/index.html"
+         description="How to build effective integration tests for Android apps.">
+            Testing App Component Integrations
+          </a></div>
+        <ul>
+         <li><a href="../../training/testing/integration-testing/service-testing.html">
+           <span class="en">Testing Your Service</span></a></li>
+         <li><a href="../../training/testing/integration-testing/content-provider-testing.html">
+           <span class="en">Testing Your Content Provider</span></a></li>
+        </ul>
+      </li>
+      <li><a href="../../training/testing/performance.html"
+          description="How to automate UI performance testing.">Testing Display Performance</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Testing -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/distribute.html">
+      <span class="small">Using Google Play to</span><br/>
+              Distribute &amp; Monetize
+      </a>
+    </div>
+    <ul>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../training/in-app-billing/index.html"
+         description="How to sell in-app products from your application using In-app Billing.">
+            Selling In-app Products
+          </a></div>
+        <ul>
+          <li><a href="../../training/in-app-billing/preparing-iab-app.html">
+            <span class="en">Preparing Your App</span>
+          </a>
+          </li>
+          <li><a href="../../training/in-app-billing/list-iab-products.html">
+            <span class="en">Establishing Products for Sale</span>
+          </a>
+          </li>
+          <li><a href="../../training/in-app-billing/purchase-iab-products.html">
+            <span class="en">Purchasing Products</span>
+          </a>
+          </li>
+          <li><a href="../../training/in-app-billing/test-iab-app.html">
+            <span class="en">Testing Your App</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/multiple-apks/index.html"
+             description=
+             "How to publish your app on Google Play with separate APKs that target
+             different devices, while using a single app listing."
+            >Maintaining Multiple APKs</a>
+        </div>
+        <ul>
+          <li><a href="../../training/multiple-apks/api.html">
+            Creating Multiple APKs for Different API Levels
+          </a>
+          </li>
+          <li><a href="../../training/multiple-apks/screensize.html">
+            Creating Multiple APKs for Different Screen Sizes
+          </a>
+          </li>
+          <li><a href="../../training/multiple-apks/texture.html">
+            Creating Multiple APKs for Different GL Textures
+          </a>
+          </li>
+          <li><a href="../../training/multiple-apks/multiple.html">
+            Creating Multip

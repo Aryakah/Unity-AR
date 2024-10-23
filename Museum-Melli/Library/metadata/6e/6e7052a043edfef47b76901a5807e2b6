@@ -1,0 +1,115 @@
+       </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/backward-compatible-ui/index.html"
+             description=
+             "How to use UI components and other APIs from the more recent versions of Android
+             while remaining compatible with older versions of the platform."
+            >Creating Backward-Compatible UIs</a>
+        </div>
+        <ul>
+          <li><a href="../../training/backward-compatible-ui/abstracting.html">
+            Abstracting the New APIs
+          </a>
+          </li>
+          <li><a href="../../training/backward-compatible-ui/new-implementation.html">
+            Proxying to the New APIs
+          </a>
+          </li>
+          <li><a href="../../training/backward-compatible-ui/older-implementation.html">
+            Creating an Implementation with Older APIs
+          </a>
+          </li>
+          <li><a href="../../training/backward-compatible-ui/using-component.html">
+            Using the Version-Aware Component
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/accessibility/index.html"
+             description=
+             "How to make your app accessible to users with vision
+             impairment or other physical disabilities."
+            >Implementing Accessibility</a>
+        </div>
+        <ul>
+          <li><a href="../../training/accessibility/accessible-app.html">
+            Developing Accessible Applications
+          </a>
+          </li>
+          <li><a href="../../training/accessibility/service.html">
+            Developing Accessibility Services
+          </a>
+          </li>
+          <li><a href="../../training/accessibility/testing.html">
+            Accessibility Testing Checklist
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/system-ui/index.html"
+             description=
+             "How to hide and show status and navigation bars across different versions of Android,
+              while managing the display of other screen components."
+            >Managing the System UI</a>
+        </div>
+        <ul>
+          <li><a href="../../training/system-ui/dim.html">
+            Dimming the System Bars
+          </a>
+          </li>
+          <li><a href="../../training/system-ui/status.html">
+            Hiding the Status Bar
+          </a>
+          </li>
+          <li><a href="../../training/system-ui/navigation.html">
+            Hiding the Navigation Bar
+          </a>
+          </li>
+          <li><a href="../../training/system-ui/immersive.html">
+            Using Immersive Full-Screen Mode
+          </a>
+          </li>
+          <li><a href="../../training/system-ui/visibility.html">
+            Responding to UI Visibility Changes
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/material/index.html"
+             description=
+             "How to implement material design on Android."
+            zh-cn-lang="面向开发者的材料设计"
+            zh-tw-lang="開發人員材料設計"
+            ja-lang="マテリアル デザインでのアプリ作成"
+            es-lang="Crear aplicaciones con Material Design"
+            pt-br-lang="Material Design para desenvolvedores"
+            ko-lang="개발자를 위한 머티리얼 디자인"
+            ru-lang="Создание приложений с помощью Material Design"
+            in-lang="Desain Bahan untuk Pengembang"
+            vi-lang="Material Design cho Nhà phát triển"
+            >Creating Apps with Material Design</a>
+        </div>
+        <ul>
+          <li><a href="../../training/material/get-started.html"
+            zh-cn-lang="入门指南"
+            zh-tw-lang="開始使用"
+            ja-lang="スタート ガイド"
+            es-lang="Comencemos"
+            pt-br-lang="Como iniciar"
+            ko-lang="시작하기"
+            ru-lang="Начало работы"
+            in-lang="Memulai"
+            

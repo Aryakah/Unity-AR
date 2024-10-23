@@ -1,0 +1,579 @@
+ng Multiple APKs for Different Screen Sizes
+          </a>
+          </li>
+          <li><a href="../../training/multiple-apks/texture.html">
+            Creating Multiple APKs for Different GL Textures
+          </a>
+          </li>
+          <li><a href="../../training/multiple-apks/multiple.html">
+            Creating Multiple APKs with 2+ Dimensions
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Publishing -->
+
+</ul><!-- nav -->
+<script type="text/javascript">
+<!--
+    buildToggleLists();
+    changeNavLang(getLangPref());
+//-->
+</script>
+
+      
+    </div>
+  
+
+        <ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim">
+        <li class="dac-nav-item home">
+          <a class="dac-nav-link" href="../../index.html">Home</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary about">
+            <li class="dac-nav-item versions">
+              <a class="dac-nav-link" href="../../about/versions/marshmallow/index.html">Android</a>
+            </li>
+            <li class="dac-nav-item wear">
+              <a class="dac-nav-link" href="../../wear/index.html">Wear</a>
+            </li>
+            <li class="dac-nav-item tv">
+              <a class="dac-nav-link" href="../../tv/index.html">TV</a>
+            </li>
+            <li class="dac-nav-item auto">
+              <a class="dac-nav-link" href="../../auto/index.html">Auto</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item design">
+          <a class="dac-nav-link" href="../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+        </li>
+        <li class="dac-nav-item develop">
+          <a class="dac-nav-link" href="../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary develop">
+            <li class="dac-nav-item training">
+              <a class="dac-nav-link" href="../../training/index.html"
+                 zh-tw-lang="訓練課程"
+                 zh-cn-lang="培训"
+                 ru-lang="Курсы"
+                 ko-lang="교육"
+                 ja-lang="トレーニング"
+                 es-lang="Capacitación">Training</a>
+            </li>
+            <li class="dac-nav-item guide">
+              <a class="dac-nav-link" href="../../guide/index.html"
+                 zh-tw-lang="API 指南"
+                 zh-cn-lang="API 指南"
+                 ru-lang="Руководства по API"
+                 ko-lang="API 가이드"
+                 ja-lang="API ガイド"
+                 es-lang="Guías de la API">API Guides</a>
+            </li>
+            <li class="dac-nav-item reference">
+              <a class="dac-nav-link" href="../../reference/packages.html"
+                 zh-tw-lang="參考資源"
+                 zh-cn-lang="参考"
+                 ru-lang="Справочник"
+                 ko-lang="참조문서"
+                 ja-lang="リファレンス"
+                 es-lang="Referencia">Reference</a>
+            </li>
+            <li class="dac-nav-item tools">
+              <a class="dac-nav-link" href="../../sdk/index.html"
+                 zh-tw-lang="相關工具"
+                 zh-cn-lang="工具"
+                 ru-lang="Инструменты"
+                 ko-lang="도구"
+                 ja-lang="ツール"
+                 es-lang="Herramientas">Tools</a></li>
+            <li class="dac-nav-item google">
+              <a class="dac-nav-link" href="../../google/index.html">Google Services</a>
+            </li>
+            
+          </ul>
+        </li>
+        <li class="dac-nav-item distribute">
+          <a class="dac-nav-link" href="../../distribute/googleplay/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary distribute">
+            <li class="dac-nav-item googleplay">
+              <a class="dac-nav-link" href="../../distribute/googleplay/index.html">Google Play</a></li>
+            <li class="dac-nav-item essentials">
+              <a class="dac-nav-link" href="../../distribute/essentials/index.html">Essentials</a></li>
+            <li class="dac-nav-item users">
+              <a class="dac-nav-link" href="../../distribute/users/index.html">Get Users</a></li>
+            <li class="dac-nav-item engage">
+              <a class="dac-nav-link" href="../../distribute/engage/index.html">Engage &amp; Retain</a></li>
+            <li class="dac-nav-item monetize">
+              <a class="dac-nav-link" href="../../distribute/monetize/index.html">Earn</a>
+            </li>
+            <li class="dac-nav-item analyze">
+              <a class="dac-nav-link" href="../../distribute/analyze/index.html">Analyze</a>
+            </li>
+            <li class="dac-nav-item stories">
+              <a class="dac-nav-link" href="../../distribute/stories/index.html">Stories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item preview">
+          <a class="dac-nav-link" href="../../preview/index.html">Preview</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation-->
+  
+
+<!-- Nav Setup -->
+<script>$('[data-dac-nav]').dacNav();</script>
+
+
+
+  
+    
+  <div class="wrap clearfix" id="body-content">
+
+  
+
+  
+  <div id="search-results" class="dac-search-results">
+    <div id="dac-search-results-history" class="dac-search-results-history">
+      <div class="wrap dac-search-results-history-wrap">
+        <div class="cols">
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Most visited</h2>
+            <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Recently visited</h2>
+            <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dac-search-results-content" class="dac-search-results-content">
+      <div class="dac-search-results-metadata wrap">
+        <div class="dac-search-results-for">
+          <h2>Results for <span id="search-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  <div class="content-header ">
+      
+        <ul class="dac-header-crumbs">
+          
+        </ul>
+
+        <!-- Breadcrumb Setup -->
+        <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
+
+        <h1 itemprop="name">Creating Custom Transitions
+      </h1>
+      
+    
+      <div class="training-nav-top" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <a href="#" class="prev-page-link hide"
+            zh-tw-lang="上一堂課"
+            zh-cn-lang="上一课"
+            ru-lang="Предыдущий"
+            ko-lang="이전"
+            ja-lang="前へ"
+            es-lang="Anterior"
+            >Previous</a>
+        <a href="#" class="next-page-link hide"
+            zh-tw-lang="下一堂課"
+            zh-cn-lang="下一课"
+            ru-lang="Следующий"
+            ko-lang="다음"
+            ja-lang="次へ"
+            es-lang="Siguiente"
+            >Next</a>
+        <a href="#" class="start-class-link hide"
+            zh-tw-lang="開始上課"
+            zh-cn-lang="开始"
+            ru-lang="Начало работы"
+            ko-lang="시작하기"
+            ja-lang="開始する"
+            es-lang="Empezar"
+            >Get started</a>
+      </div>
+    
+  </div>
+  
+
+
+
+  
+
+  
+  <div id="jd-content">
+    <div class="jd-descr" itemprop="articleBody">
+    
+
+    <div id="tb-wrapper">
+<div id="tb">
+<h2>This lesson teaches you to</h2>
+<ol>
+  <li><a href="#Extend">Extend the Transition Class</a></li>
+  <li><a href="#CaptureProperties">Capture View Property Values</a></li>
+  <li><a href="#CreateAnimator">Create a Custom Animator</a></li>
+  <li><a href="#Apply">Apply a Custom Transition</a></li>
+</ol>
+</div>
+</div>
+
+<p>A custom transition enables you to create an animation that is not available from any of
+the built-in transition classes. For example, you can define a custom transition that turns
+the foreground color of text and input fields to gray to indicate that the fields are disabled
+in the new screen. This type of change helps users see the fields you disabled.</p>
+
+<p>A custom transition, like one of the built-in transition types, applies animations to
+child views of both the starting and ending scenes. Unlike built-in transition types,
+however, you have to provide the code that captures property values and generates animations.
+You may also want to define a subset of target views for your animation.</p>
+
+<p>This lesson teaches you to capture property values and generate animations to create
+custom transitions.</p>
+
+
+
+<h2 id="Extend">Extend the Transition Class</h2>
+
+<p>To create a custom transition, add a class to your project that extends the <code><a href="../../reference/android/transition/Transition.html">Transition</a></code> class and override the methods shown in the following snippet:</p>
+
+<pre>
+public class CustomTransition extends Transition {
+
+    &#64;Override
+    public void captureStartValues(TransitionValues values) {}
+
+    &#64;Override
+    public void captureEndValues(TransitionValues values) {}
+
+    &#64;Override
+    public Animator createAnimator(ViewGroup sceneRoot,
+                                   TransitionValues startValues,
+                                   TransitionValues endValues) {}
+}
+</pre>
+
+<p>The following sections explain how to override these methods.</p>
+
+
+
+<h2 id="CaptureProperties">Capture View Property Values</h2>
+
+<p>Transition animations use the property animation system described in
+<a href="../../guide/topics/graphics/prop-animation.html">Property Animation</a>. Property
+animations change a view property between a starting and ending value over a specified
+period of time, so the framework needs to have both the starting and ending value of
+the property to construct the animation.</p>
+
+<p>However, a property animation usually needs only a small subset of all the view's property
+values. For example, a color animation needs color property values, while a movement
+animation needs position property values. Since the property values needed for an animation
+are specific to a transition, the transitions framework does not provide every property value
+to a transition. Instead, the framework invokes callback methods that allow a transition to
+capture only the property values it needs and store them in the framework.</p>
+
+
+<h3 id="StartingValues">Capturing Starting Values</h3>
+
+<p>To pass the starting view values to the framework, implement the
+<code><a href="../../reference/android/transition/Transition.html#captureStartValues(android.transition.TransitionValues)">captureStartValues(transitionValues)</a></code>
+method. The framework calls this method for every view in the starting scene. The method
+argument is a <code><a href="../../reference/android/transition/TransitionValues.html">TransitionValues</a></code> object that contains a reference
+to the view and a <code><a href="../../reference/java/util/Map.html">Map</a></code> instance in which you can store the view values you
+want. In your implementation, retrieve these property values and pass them back to the
+framework by storing them in the map.</p>
+
+<p>To ensure that the key for a property value does not conflict with other <code><a href="../../reference/android/transition/TransitionValues.html">TransitionValues</a></code> keys, use the following naming scheme:</p>
+
+<pre>
+package_name:transition_name:property_name
+</pre>
+
+<p>The following snippet shows an implementation of the <code><a href="../../reference/android/transition/Transition.html#captureStartValues(android.transition.TransitionValues)">captureStartValues()</a></code> method:</p>
+
+<pre>
+public class CustomTransition extends Transition {
+
+    // Define a key for storing a property value in
+    // TransitionValues.values with the syntax
+    // package_name:transition_class:property_name to avoid collisions
+    private static final String PROPNAME_BACKGROUND =
+            "com.example.android.customtransition:CustomTransition:background";
+
+    &#64;Override
+    public void captureStartValues(TransitionValues transitionValues) {
+        // Call the convenience method captureValues
+        captureValues(transitionValues);
+    }
+
+
+    // For the view in transitionValues.view, get the values you
+    // want and put them in transitionValues.values
+    private void captureValues(TransitionValues transitionValues) {
+        // Get a reference to the view
+        View view = transitionValues.view;
+        // Store its background property in the values map
+        transitionValues.values.put(PROPNAME_BACKGROUND, view.getBackground());
+    }
+    ...
+}
+</pre>
+
+
+<h3 id="EndingValues">Capture Ending Values</h3>
+
+<p>The framework calls the <code><a href="../../reference/android/transition/Transition.html#captureEndValues(android.transition.TransitionValues)">captureEndValues(TransitionValues)</a></code> method
+once for every target view in the ending scene. In all other respects, <code><a href="../../reference/android/transition/Transition.html#captureEndValues(android.transition.TransitionValues)">captureEndValues()</a></code> works the same as <code><a href="../../reference/android/transition/Transition.html#captureStartValues(android.transition.TransitionValues)">captureStartValues()</a></code>.</p>
+
+<p>The following code snippet shows an implementation of the <code><a href="../../reference/android/transition/Transition.html#captureEndValues(android.transition.TransitionValues)">captureEndValues()</a></code> method:</p>
+
+<pre>
+&#64;Override
+public void captureEndValues(TransitionValues transitionValues) {
+    captureValues(transitionValues);
+}
+</pre>
+
+<p>In this example, both the <code><a href="../../reference/android/transition/Transition.html#captureStartValues(android.transition.TransitionValues)">captureStartValues()</a></code> and <code><a href="../../reference/android/transition/Transition.html#captureEndValues(android.transition.TransitionValues)">captureEndValues()</a></code>
+methods invoke <code>captureValues()</code> to retrieve and store values. The view property
+that <code>captureValues()</code> retrieves is the same, but it has different values in the
+starting and ending scenes. The framework maintains separate maps for the starting and ending
+states of a view.</p>
+
+
+
+<h2 id="CreateAnimator">Create a Custom Animator</h2>
+
+<p>To animate the changes to a view between its state in the starting scene and its state in
+the ending scene, you provide an animator by overriding the <code><a href="../../reference/android/transition/Transition.html#createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues)">createAnimator()</a></code> method. When the
+framework calls this method, it passes in the scene root view and the <code><a href="../../reference/android/transition/TransitionValues.html">TransitionValues</a></code> objects that contain the starting and ending values
+you captured.</p>
+
+<p>The number of times the framework calls the <code><a href="../../reference/android/transition/Transition.html#createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues)">createAnimator()</a></code> method depends on the changes that
+occur between the starting and ending scenes. For example, consider a fade out/fade in animation
+implemented as a custom transition. If the starting scene has five targets of which two are
+removed from the ending scene, and the ending scene has the three targets from the starting
+scene plus a new target, then the framework calls <code><a href="../../reference/android/transition/Transition.html#createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues)">createAnimator()</a></code> six times: three of the calls
+animate the fading out and fading in of the targets that stay in both scene objects; two more calls
+animate the fading out of the targets removed from the ending scene; and one call
+animates the fading in of the new target in the ending scene.</p>
+
+<p>For target views that exist on both the starting and ending scenes, the framework provides
+a <code><a href="../../reference/android/transition/TransitionValues.html">TransitionValues</a></code> object for both the <code>startValues</code> and
+<code>endValues</code> arguments. For target views that only exist in the starting or the
+ending scene, the framework provides a <code><a href="../../reference/android/transition/TransitionValues.html">TransitionValues</a></code> object
+for the corresponding argument and <code>null</code> for the other.</p>
+
+<p>To implement the <code><a href="../../reference/android/transition/Transition.html#createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues)">createAnimator(ViewGroup, TransitionValues, TransitionValues)</a></code> method when you create
+a custom transition, use the view property values you captured to create an <code><a href="../../reference/android/animation/Animator.html">Animator</a></code> object and return it to the framework. For an example implementation,
+see the <a
+href="../../samples/CustomTransition/src/com.example.android.customtransition/ChangeColor.html">
+<code>ChangeColor</code></a> class in the <a href="../../samples/CustomTransition/index.html">
+CustomTransition</a> sample. For more information about property animators, see
+<a href="../../guide/topics/graphics/prop-animation.html">Property Animation</a>.</p>
+
+
+
+<h2 id="Apply">Apply a Custom Transition</h2>
+
+<p>Custom transitions work the same as built-in transitions. You can apply a custom transition
+using a transition manager, as described in <a
+href="../../training/transitions/transitions.html#Apply">Applying a Transition</a>.</p>
+
+    </div>
+
+    
+      <div class="content-footer "
+                    itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="paging-links">
+            <a href="#" class="prev-page-link hide"
+              zh-tw-lang="上一堂課"
+              zh-cn-lang="上一课"
+              ru-lang="Предыдущий"
+              ko-lang="이전"
+              ja-lang="前へ"
+              es-lang="Anterior"
+              ><span class="page-link-caption">Previous</span>
+            </a>
+            <a href="#" class="next-page-link hide"
+                zh-tw-lang="下一堂課"
+                zh-cn-lang="下一课"
+                ru-lang="Следующий"
+                ko-lang="다음"
+                ja-lang="次へ"
+                es-lang="Siguiente"
+                ><span class="page-link-caption">Next</span>
+            </a>
+            <a href="#" class="start-class-link hide"
+                zh-tw-lang="開始上課"
+                zh-cn-lang="开始"
+                ru-lang="Начало работы"
+                ko-lang="시작하기"
+                ja-lang="開始する"
+                es-lang="Empezar"
+                >Get started</a>
+            <a href="#" class="next-class-link hide">
+              <span class="page-link-caption">Next class</span>
+            </a>
+          </div>
+      </div>
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+              

@@ -1,0 +1,353 @@
+     data-cardSizes="6x2"
+           data-maxResults="6"></div>
+    </div>
+  </div>
+</section>
+
+<div id="useUpdatedTemplates" style="display:none" class="dac-section dac-slim dac-gray dac-expand">
+  <div class="wrap dac-offset-parent">
+    <a class="dac-fab dac-scroll-button" data-scroll-button href="#build-apps">
+      <i class="dac-sprite dac-arrow-down-gray"></i>
+    </a>
+    <ul class="dac-actions">
+      <li class="dac-action">
+        <a class="dac-action-link" href="http://g.co/wearpreviewbug">
+          <i class="dac-action-sprite dac-sprite dac-auto-chevron-large"></i>
+          Report an issue
+        </a>
+      </li>
+      <li class="dac-action">
+        <a class="dac-action-link" href="http://g.co/androidweardev">
+          <i class="dac-action-sprite dac-sprite dac-auto-chevron-large"></i>
+          Join developer community
+        </a>
+      </li>
+    </ul>
+  </div><!-- end .wrap -->
+</div><!-- end .dac-actions -->
+
+<div id="useOldTemplates" style="display:none;color:black" class="actions-bar dac-expand dac-invert">
+  <div class="wrap dac-offset-parent">
+
+    <div class="actions">
+      <div><a href="../../wear/preview/bug">
+        <span class="dac-sprite dac-auto-chevron-large"></span>
+        Report an issue
+      </a></div>
+      <div><a href="http://g.co/androidweardev">
+        <span class="dac-sprite dac-auto-chevron-large"></span>
+        Join developer community
+      </a></div>
+    </div><!-- end .actions -->
+  </div><!-- end .wrap -->
+</div>
+
+<section class="dac-section dac-light"><div class="wrap">
+  <h1 class="dac-section-title">Resources</h1>
+  <div class="dac-section-subtitle">
+    Essential information to help you get your apps ready for the next version of Android Wear.
+  </div>
+
+  <div class="resource-widget resource-flow-layout col-16"
+       data-query="collection:wear/preview/landing/resources"
+       data-cardSizes="6x6"
+       data-items-per-page="6"
+       data-maxResults="15"
+       data-initial-results="6"></div>
+
+  </div>
+</section>
+
+
+    </div>
+
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer dac-landing">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Espa√±ol</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">Êó•Êú¨Ë™û</option>
+          <option value="ko">ÌïúÍµ≠Ïñ¥</option>
+          <option value="pt-br">Portugu√™s Brasileiro</option>
+          <option value="ru">–†—É—Å—Å–∫–∏–π</option>
+          <option value="vi">ti·∫øng Vi·ªát</option>
+          <option value="zh-cn">‰∏≠ÊñáÔºàÁÆÄ‰Ωì)</option>
+          <option value="zh-tw">‰∏≠ÊñáÔºàÁπÅÈ´î)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="entry.47013838" id="newsletter-play-store" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <legend class="dac-form-legend"><span data-t="newsletter.business.label">Which best describes your business:</span><span class="dac-form-required">*</span>
+                    </legend>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-app" required>
+                      <label for="newsletter-business-type-app" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-app" class="dac-form-label" data-t="newsletter.business.apps">Apps</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-games" required>
+                      <label for="newsletter-business-type-games" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-games" class="dac-form-label" data-t="newsletter.business.games">Games</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps and Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-appsgames" required>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-label" data-t="newsletter.business.both">Apps &amp; Games</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.732309842" id="newsletter-add" required value="Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside"><span data-t="newsletter.confirmMailingList"></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.2045036090" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end newsletter modal -->
+
+<!-- start reset language header modal -->
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title"></h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText"></p>
+                  <p id="resetLangCta"></p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle></button>
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle></button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- end langreset modal -->
+
+
+</div> <!-- end body-content --> 
+
+
+
+
+<script src="https://developer.android.com/ytblogger_lists_unified.js" defer></script>
+<script src="/jd_lists_unified_en.js?v=17" defer></script>
+<script src="/reference/lists.js?v=17" defer></script>
+<script src="/reference/gcm_lists.js?v=17" defer></script>
+<script src="/reference/gms_lists.js?v=17" defer></script>
+<script>
+  // Load localized metadata.
+  (function(lang) {
+    if (lang === 'en') { return; }
+
+    // Write it to the document so it gets evaluated before DOMContentReady.
+    document.write('<script src="/jd_lists_unified_' + lang + '.js?v=14" defer></' + 'script>');
+  })(getLangPref())
+</script>
+
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           PreviewAssetData    BaseName:
+  mainRepresentation:
+    serializedVersion: 3
+    name: selfAnimationPlay
+    thumbnail:
+      m_Format: 0
+      m_Width: 0
+      m_Height: 0
+      m_RowBytes: 0
+      image data: 0
+      _typelessdata: 
+    guid: c63cf11a4b67d724eac2b605177e77be
+    path: Assets/Scripts/selfAnimationPlay.cs
+    localIdentifier: 11500000
+    thumbnailClassID: 115
+    flags: 0
+    scriptClassName: selfAnimationPlay
+  representations: []
+  labels:
+    m_Labels: []
+  assetImporterClassID: 1035
+  assetBundleFullName:
+    m_AssetBundleName: 
+    m_AssetBundleVariant: 
+  externalReferencesForValidation: []
+AssetInfo_______Z                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -± äÏ     -–    5.6.0f3 ˛ˇˇˇ      ˇˇ»0≈Ú√ÙL.`?^Ÿ0   D         7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä           –  Ä               ¶ Ä               ¶ Ä               ¶ Ä#               ¶ Ä+               H Ä3   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä   	        Q  Äj  Ä   
+        ô Ä<               ¶ ÄH               H ÄZ   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä           Q  Äj  Ä           –  Äg               ¶ Ä               ¶ Ä               ¶ Ä#               ¶ Ä+               v   ~               † Äç               † Äñ               † Äü               † Ä®               † Ä±               † Ä∫               † Ä√               † ÄÃ               † Ä’               † Äﬁ                † ÄÁ      !         † ÄÒ      "         † Ä˚      #         † Ä     $         † Ä     %         † Ä     &         ’ Ä#  ˇˇˇˇ'    Ä   1  Ä1  Äˇˇˇˇ(    Ä    ﬁ  Ä Ä   )         H Äj  Äˇˇˇˇ*    Ä   1  Ä1  Äˇˇˇˇ+   @    ﬁ  Ä Ä   ,        Q  Äj  Ä   -        ô Ä*     .         ﬁ  Ä8     /       AssetMetaData guid data[0] data[1] data[2] data[3] pathName timeCreated originalChangeset originalName originalParent Hash128 originalDigest bytes[0] bytes[1] bytes[2] bytes[3] bytes[4] bytes[5] bytes[6] bytes[7] bytes[8] bytes[9] bytes[10] bytes[11] bytes[12] bytes[13] bytes[14] bytes[15] labels assetStoreRef licenseType Ó   ˇˇëÊr$K!òôìºæ°   ~         7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä              ’ Ä           ﬁ  Ä&              . Ä/              Ü Äƒ Ä           ﬁ  Ä&              . Ä/              H Ä´ Äˇˇˇˇ   Ä   1  Ä1  Äˇˇˇˇ	   @    ﬁ  Ä Ä   
+        Q  Äj  Ä           Ò  Ä8   ˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ    Ä    ﬁ  Ä Ä             Äj  Äˇˇˇˇ    Ä    . Äõ  Ä            H Ä
+ Äˇˇˇˇ    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä           Q  Äj  Ä           ﬁ  ÄN               ﬁ  Ä[               ﬁ  Äj               ﬁ  Äx               ﬁ  Äà               ﬁ  Äí               ﬁ  Ä°               ﬁ  Äª               ﬁ  Ä”               ﬁ  ÄË               °  Ä¸               ﬁ  Ä
+               ﬁ  Ä     !         ﬁ  Ä)     "         ﬁ  Ä<     #         ﬁ  ÄN     $         ﬁ  Äc     %         ﬁ  Äu     &         ﬁ  ÄÖ     '         ñ  ®     (         ﬁ  Ä∫     )         ﬁ  Ä«     *         °  Äœ     +         ﬁ  ÄŸ     ,         ﬁ  Ä‰     -         ﬁ  Ä     .         ﬁ  Ä˚     /         ﬁ  Ä     0         ¶ Ä     1         ﬁ  Ä-     2         ﬁ  Ä>     3         ‹ ÄJ     4         °  ÄX     5         °  ÄZ     6         Ó Ä\     7         °  ÄX     8         °  ÄZ     9         °  Äk     :         °  Äm     ;         °  Äo     <         ﬁ  ÄÖ     =         ﬁ  Äí     >         °  Ä®     ?         ﬁ  Ä√     @         ﬁ  Ä—     A         ﬁ  Ä‡     B         ﬁ  ÄÙ     C         ﬁ  Ä     D    @    ’ Ä  ˇˇˇˇE    Ä   1  Ä1  ÄˇˇˇˇF    Ä    ﬁ  Ä Ä   G         2  j  ÄˇˇˇˇH    Ä    H ÄC  ˇˇˇˇI    Ä   1  Ä1  ÄˇˇˇˇJ   @    ﬁ  Ä Ä   K        Q  Äj  Ä   L        ﬁ  ÄÖ     M         ﬁ  Äu     N         ﬁ  ÄQ     O         ﬁ  Ä˚     P         L  Äf     Q         L  Ä|     R         L  Äì     S    @    †  ¥  ˇˇˇˇT    Ä    ’ Ä¬  ˇˇˇˇU    Ä   1  Ä1  ÄˇˇˇˇV    Ä    ﬁ  Ä Ä   W         Ã  j  ÄˇˇˇˇX    Ä    H Ä´ ÄˇˇˇˇY    Ä   1  Ä1  ÄˇˇˇˇZ   @    ﬁ  Ä Ä   [        Q  Äj  Ä   \        Ò Ä€     ]         °  ÄX     ^         °  ÄZ     _         °  Ä‚     `         °  ÄË     a         ﬁ  Ä>     b         ‹ ÄÔ     c         °  ÄX     d         °  ÄZ     e         Ó Ä˜     f         °  ÄX     g         °  ÄZ     h         °  Äk     i         °  Äm     j         ’ Ä   ˇˇˇˇk        1  Ä1  Äˇˇˇˇl         ﬁ  Ä Ä   m         ’ Äj  Äˇˇˇˇn        1  Ä1  Äˇˇˇˇo        	 ﬁ  Ä Ä   p        	 ‹ Äj  Ä   q        
+ °  ÄX     r        
+ °  ÄZ     s         °  Ä
+     t         ’ Ä   ˇˇˇˇu        1  Ä1  Äˇˇˇˇv         ﬁ  Ä Ä   w         ’ Äj  Äˇˇˇˇx        1  Ä1  Äˇˇˇˇy         ﬁ  Ä Ä   z         ‹ Äj  Ä   {         °  ÄX     |         °  ÄZ     }         H Ä  ˇˇˇˇ~    Ä   1  Ä1  Äˇˇˇˇ   @    ﬁ  Ä Ä   Ä        Q  Äj  Ä   Å        2  F  ˇˇˇˇÇ    ¿    O  i      É         ﬁ  ÄÉ     Ñ         ﬁ  Äî     Ö         ﬁ  Äß     Ü         ﬁ  Äµ     á         ﬁ  Äø     à         ﬁ  Ä‚     â         ﬁ  ÄË     ä         ﬁ  Ä      ã         ›  ˆ  
+   å    Ä    ﬁ  Ä‚     ç         ﬁ  ÄË     é         L  Ä     è         L  Ä'     ê    @    H Ä4  ˇˇˇˇë    Ä   1  Ä1  Äˇˇˇˇí   @    ﬁ  Ä Ä   ì        Q  Äj  Ä   î        H ÄL  ˇˇˇˇï    Ä   1  Ä1  Äˇˇˇˇñ   @    ﬁ  Ä Ä   ó        Q  Äj  Ä   ò        H ÄW  ˇˇˇˇô    Ä   1  Ä1  Äˇˇˇˇö   @    ﬁ  Ä Ä   õ        Q  Äj  Ä   ú        H Äi  ˇˇˇˇù    Ä   1  Ä1  Äˇˇˇˇû   @    ﬁ  Ä Ä   ü        Q  Äj  Ä   †      TextureImporter PPtr<EditorExtension> m_FileID m_PathID m_FileIDToRecycleName m_MipMapMode m_EnableMipMap m_sRGBTexture m_LinearTexture m_FadeOut m_BorderMipMap m_MipMapFadeDistanceStart m_MipMapFadeDistanceEnd m_ConvertToNormalMap m_ExternalNormalMap m_HeightScale m_NormalMapFilter m_IsReadable m_GrayScaleToAlpha m_GenerateCubemap m_CubemapConvolution m_SeamlessCubemap m_TextureFormat m_MaxTextureSize GLTextureSettings m_TextureSettings m_FilterMode m_Aniso m_MipBias m_WrapMode m_NPOTScale m_Lightmap m_CompressionQuality m_SpriteMode m_SpriteExtrude m_SpriteMeshType m_Alignment m_SpritePivot x y m_SpriteBorder z w m_SpritePixelsToUnits m_AlphaUsage m_AlphaIsTransparency m_SpriteTessellationDetail m_TextureType m_TextureShape m_MaxTextureSizeSet m_CompressionQualitySet m_TextureFormatSet m_PlatformSettings PlatformSettings m_BuildTarget m_TextureCompression m_CrunchedCompression m_AllowsAlphaSplitting m_Overridden SpriteSheetMetaData m_SpriteSheet m_Sprites SpriteMetaData m_Rect width height m_Pivot m_Border m_Outline m_TessellationDetail m_SpritePackingTag TextureImportOutput m_Output TextureImportInstructions textureImportInstructions compressedFormat uncompressedFormat desiredFormat usageMode colorSpace compressionQuality SourceTextureInformation sourceTextureInformation doesTextureContainAlpha sourceWasHDR importInspectorWarnings m_UserData m_AssetBundleName m_AssetBundleVariant     ˇˇ†–‹U¢q˚JI∫'˛vπË$7   ˚     j Ä7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä               ’ Ä           ﬁ  Ä              . Ä              Ü Äƒ Ä           ﬁ  Ä              . Ä              H Ä´ Äˇˇˇˇ   Ä   1  Ä1  Äˇˇˇˇ	   @    ﬁ  Ä Ä   
+        Q  Äj  Ä           (   0           Ä   † ÄD           Ä   † ÄM           Ä   † ÄV           Ä   † Ä_           Ä   † Äh           Ä   † Äq           Ä   † Äz           Ä   † ÄÉ           Ä   † Äå           Ä   † Äï           Ä   † Äû           Ä   † Ä®           Ä   † Ä≤           Ä   † Äº           Ä   † Ä∆           Ä   † Ä–           Ä   ﬁ  Ä⁄              ﬁ  Ä‚              ﬁ  ÄÎ              ﬁ  Äˇ               ﬁ  Ä     !        L  Ä     "         L  Ä'     #   @Ä   ﬁ  Ä=     $        ﬁ  ÄJ     %        ]  o     &         ﬁ  ÄÅ     '         ﬁ  Äé     (         °  Äñ     )         ﬁ  Ä†     *         ﬁ  Ä´     +         ﬁ  Äº     ,        ~ Ä…  ˇˇˇˇ-   @    ﬁ  Ä Ä   .        † Äj  Ä   /        ‘  ‚  ˇˇˇˇ0    Ä    ¶ ÄÔ     1         ¶ Ä Ä   2         H Äˆ  ˇˇˇˇ3    Ä   1  Ä1  Äˇˇˇˇ4   @    ﬁ  Ä Ä   5        Q  Äj  Ä   6      PPtr<EditorExtension> m_FileID m_PathID Hash128 m_ImageContentsHash bytes[0] bytes[1] bytes[2] bytes[3] bytes[4] bytes[5] bytes[6] bytes[7] bytes[8] bytes[9] bytes[10] bytes[11] bytes[12] bytes[13] bytes[14] bytes[15] m_Width m_Height m_CompleteImageSize m_TextureFormat m_MipCount m_IsReadable m_AlphaIsTransparency m_ImageCount m_TextureDimension GLTextureSettings m_TextureSettings m_FilterMode m_Aniso m_MipBias m_WrapMode m_LightmapFormat m_ColorSpace image data StreamingInfo m_StreamData offset path ’    ˇˇE/ j3—•y˘Íá>‰WZc            7  Äˇˇˇˇ     Ä    ¶ Ä≤ Ä              ’ Ä           ﬁ  Ä              . Ä&              Ü Äƒ Ä           ﬁ  Ä              . Ä&              H Ä´ Äˇˇˇˇ   Ä   1  Ä1  Äˇˇˇˇ	   @    ﬁ  Ä Ä   
+        Q  Äj  Ä           Ò Ä/               °  Ä6               °  Ä8               °  Ä:               °  Ä@               ‹ ÄG               °  Ä6               °  Ä8               Ó ÄP               °  Ä6               °  Ä8               °  ÄY               °  Ä[               °  Ä]               ‹ Äm               °  Ä6               °  Ä8               ¶ Äu               L  Ä          @    H Äã   ˇˇˇˇ   ÄÄ  1  Ä1  Äˇˇˇˇ    @Ä   ﬁ  Ä Ä   !    Ä   Q  Äj  Ä   "    Ä   H Äó   ˇˇˇˇ#   ÄÄ  1  Ä1  Äˇˇˇˇ$   @Ä   ﬁ  Ä Ä   %    Ä   Q  Äj  Ä   &    Ä   §   µ   ˇˇˇˇ'    ¿    æ Ä∫      (         ﬁ  Ä      )        . Ä&      *        æ Ä¬      +         ﬁ  Ä      ,        . Ä&      -        ’ Äœ   ˇˇˇˇ.       1  Ä1  Äˇˇˇˇ/        ﬁ  Ä Ä   0        €   j  Ä,   1        ¶ Ä„      2        ¶ ÄÌ      3        ﬁ  Ä¯      4        ¶ Ä     5        ¶ Ä     6           Ä     7        Â Ä#     8        °  Ä6      9        °  Ä8      :        °  ÄY      ;        Â Ä,     <        °  Ä6      =        °  Ä8      >        °  ÄY      ?        ’ Ä5  ˇˇˇˇ@   Ä   1  Ä1  ÄˇˇˇˇA   @    ﬁ  Ä Ä   B        † Äj  Ä   C        C  N  ˇˇˇˇD   ¿    ﬁ  Ä[     E        ¶ Äm     F        ’ Ä{  ˇˇˇˇG       1  Ä1  ÄˇˇˇˇH        ﬁ  Ä Ä   I        Ü  j  Ä   J        † Äí     K        † Äô     L        † Ä†     M        † Äß     N       ~ Ä±  ˇˇˇˇO   @    ﬁ  Ä Ä   P        † Äj  Ä   Q        Ò Äº     R         °  Ä6      S         °  Ä8      T         °  Ä:      U         °  Ä@      V         ‹ Ä»     W         °  Ä6      X         °  Ä8      Y         ‹ Ä⁄     Z         °  Ä6      [         °  Ä8      \         ¶ ÄÍ     ]         Ó Äˆ     ^         °  Ä6      _         °  Ä8      `         °  ÄY      a         °  Ä[      b       Sprite PPtr<EditorExtension> m_FileID m_PathID m_Rect x y width height m_Offset m_Border z w m_PixelsToUnits m_Pivot m_Extrude m_IsPolygon m_AtlasName m_PackingTag SpriteRenderData m_RD texture alphaTexture m_SubMeshes SubMesh firstByte indexCount topology firstVertex vertexCount localAABB m_Center m_Extent m_IndexBuffer VertexData m_VertexData m_CurrentChannels m_VertexCount m_Channels ChannelInfo stream offset format dimension m_DataSize textureRect textureRectOffset atlasRectOffset settingsRaw uvTransform               |              Ä         Äπ*     Ä  ÃU     E    PX Ã                             lƒ_uáY≈C´GöUzÆ"   Assets/Anims 5/8/8-2/8-2_00020.png  ∑,]                                                                                                                                         Ä>                             ˇˇˇˇ     Äøˇˇˇˇ        2                   ?   ?                  »B         Äø                        DefaultTexturePlatform     ˇˇˇˇ   2       
+   Standalone     ˇˇˇˇ   2          Android    ˇˇˇˇ   2          Windows Store Apps     ˇˇˇˇ   2                                  @  @  2   @  @     ;   Only POT texture can be compressed if mip-maps are enabled
+                                        	   8-2_00020   ƒƒyÿÁIC/√JóÇìµ@  @  HU    	                                 HU                                                                                                                                                                                                                                                                  

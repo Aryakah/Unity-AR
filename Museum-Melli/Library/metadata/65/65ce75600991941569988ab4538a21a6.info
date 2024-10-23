@@ -1,0 +1,25 @@
+tion-header">
+          <a href="../../training/displaying-bitmaps/index.html"
+             description=
+             "How to load and process bitmaps while keeping your user interface
+             responsive and avoid exceeding memory limits."
+            >Displaying Bitmaps Efficiently</a>
+        </div>
+        <ul>
+          <li><a href="../../training/displaying-bitmaps/load-bitmap.html">
+            Loading Large Bitmaps Efficiently
+          </a>
+          </li>
+          <li><a href="../../training/displaying-bitmaps/process-bitmap.html">
+            Processing Bitmaps Off the UI Thread
+          </a>
+          </li>
+          <li><a href="../../training/displaying-bitmaps/cache-bitmap.html">
+            Caching Bitmaps
+          </a>
+          </li>
+          <li><a href="../../training/displaying-bitmaps/manage-memory.html">
+            Managing Bitmap Memory
+          </a>
+          </li>
+          <li><a href="../../training/displaying-bitmaps/display

@@ -1,0 +1,16 @@
+   </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header"><a href="../../training/basics/data-storage/index.html"
+             ja-lang="データの保存"
+             ko-lang="데이터 저장하기"
+             pt-br-lang="Salvando dados"
+             ru-lang="Сохранение данных"
+             zh-cn-lang="保存数据"
+             zh-tw-lang="儲存資料"
+             description=
+             "How to save data on the device, whether it's temporary files, downloaded
+             app assets, user media, structure

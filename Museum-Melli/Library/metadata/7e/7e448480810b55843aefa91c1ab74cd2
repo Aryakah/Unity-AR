@@ -1,0 +1,281 @@
+"
+          >Using the Speaker</a>
+      </li>
+
+    </ul>
+  </li>
+  <!-- End Building for wearables -->
+
+
+  <!-- Start: Building for TV -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/tv/index.html">
+      <span class="small">Building Apps for</span><br/>
+              TV
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+
+          <a href="../../../training/tv/start/index.html"
+             ja-lang="TV アプリのビルド"
+             description="How to start building TV apps or extend your existing app to run on TV
+             devices.">
+             Building TV Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/start/start.html"
+               ja-lang="TV アプリのビルドを開始する">
+              Getting Started with TV Apps</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/hardware.html"
+               ja-lang="TV ハードウェアを処理する">
+              Handling TV Hardware</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/layouts.html"
+               ja-lang="TV 向けレイアウトをビルドする">
+              Building TV Layouts</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/start/navigation.html"
+               ja-lang="TV 用のナビゲーションを作成する">
+              Creating TV Navigation</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/playback/index.html"
+             ja-lang="TV 再生アプリのビルド"
+             description="How to build apps that provide media catalogs and play content.">
+             Building TV Playback Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/playback/browse.html"
+               ja-lang="カタログ ブラウザを作成する">
+              Creating a Catalog Browser</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/card.html">
+              Providing a Card View</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/details.html"
+               ja-lang="詳細ビューをビルドする">
+              Building a Details View</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/now-playing.html"
+               ja-lang="再生中カードを表示する">
+              Displaying a Now Playing Card</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/guided-step.html">
+              Adding a Guided Step</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/playback/options.html">
+              Enabling Background Playback</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/discovery/index.html"
+             description="How to help users discover content from your app.">
+             Helping Users Find Content on TV</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/discovery/recommendations.html">
+              Recommending TV Content</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/discovery/searchable.html">
+              Making TV Apps Searchable</a>
+          <li>
+            <a href="../../../training/tv/discovery/in-app-search.html">
+              Searching within TV Apps</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../../training/tv/games/index.html"
+           description="How to build games for TV.">
+           Building TV Games</a>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/tv/tif/index.html"
+           description="How to build channels for TV.">
+           Building TV Channels</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../../../training/tv/tif/tvinput.html">
+              Developing a TV Input Service</a>
+          <li>
+            <a href="../../../training/tv/tif/channel.html">
+              Working with Channel Data</a>
+          </li>
+          <li>
+            <a href="../../../training/tv/tif/ui.html">
+              Managing User Interaction</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="../../../training/tv/publishing/checklist.html"
+           description="An itemized list of requirements for TV apps.">
+           TV Apps Checklist</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for TV -->
+
+
+  <!-- Start: Building for Auto -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/auto/index.html">
+      <span class="small">Building Apps for</span><br/>
+              Auto
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="../../../training/auto/start/index.html"
+             description="How to start building or extending apps that work
+             with Auto devices.">
+             Getting Started with Auto</a>
+      </li>
+      <li>
+        <a href="../../../training/auto/audio/index.html"
+             description="How to extend audio apps to play content on Auto devices.">
+             Playing Audio for Auto</a>
+      </li>
+      <li>
+        <a href="../../../training/auto/messaging/index.html"
+             description="How to extend text messaging apps to work with Auto devices.">
+             Messaging for Auto</a>
+      </li>
+      <li>
+       <a href="../../../training/auto/testing/index.html" description=
+       "How to run and test Auto apps.">
+             Testing Auto Apps</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for Auto -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/best-ux.html">
+      <span class="small">Best Practices for</span><br/>
+              Interaction &amp; Engagement
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/design-navigation/index.html"
+             description=
+             "How to plan your app's screen hierarchy and forms of navigation so users can
+             effectively and intuitively traverse your app content using various navigation
+             patterns."
+            >Designing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/design-navigation/screen-planning.html">
+            Planning Screens and Their Relationships
+          </a>
+          </li>
+          <li><a href="../../../training/design-navigation/multiple-sizes.html">
+            Planning for Multiple Touchscreen Sizes
+          </a>
+          </li>
+          <li><a href="../../../training/design-navigation/descendant-lateral.html">
+            Providing Descendant and Lateral Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/design-navigation/ancestral-temporal.html">
+            Providing Ancestral and Temporal Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/design-navigation/wireframing.html">
+            Putting it All Together: Wireframing the Example App
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/implementing-navigation/index.html"
+             description=
+             "How to implement various navigation patterns such as swipe views,
+             a navigation drawer, and up navigation."
+            >Implementing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/implementing-navigation/lateral.html">
+            Creating Swipe Views with Tabs
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/nav-drawer.html">
+            Creating a Navigation Drawer
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/ancestral.html">
+            Providing Up Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/temporal.html">
+            Providing Proper Back Navigation
+          </a>
+          </li>
+          <li><a href="../../../training/implementing-navigation/descendant.html">
+            Implementing Descendant Navigation
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+          <div class="nav-section-header">
+              <a href="../../../training/notify-user/index.html"
+                 description=
+                 "How to display messages called notifications outside of
+                 your application's UI."
+               >Notifying the User</a>
+          </div>
+          <ul>
+              <li>
+                  <a href="../../../training/notify-user/build-notification.html">
+                  Building a Notification
+                  </a>
+              </li>
+              <li>
+                  <a href="../../../training/notify-user/navigation.html">
+                  Preserving Navigation when Starting an Activity
+                  </a>
+              </li>
+              <li>
+                  <a href="../../../training/notify-user/managing.html">
+                  Updating Notifications
+                  </a>
+              </li>
+              <l

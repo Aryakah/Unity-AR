@@ -1,0 +1,387 @@
+aining/secure-file-sharing/share-file.html">
+                        Sharing a File
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../../training/secure-file-sharing/request-file.html">
+                        Requesting a Shared File
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../../training/secure-file-sharing/retrieve-info.html">
+                        Retrieving File Information
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-section">
+                <div class="nav-section-header">
+                    <a href="../../../training/beam-files/index.html"
+                    description=
+                    "How to transfer files between devices using the NFC Android Beam feature."
+                    >Sharing Files with NFC</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../../../training/beam-files/send-files.html"
+                        >Sending Files to Another Device</a>
+                    </li>
+                    <li><a href="../../../training/beam-files/receive-files.html"
+                    >Receiving Files from Another Device</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/building-multimedia.html">
+      <span class="small">Building Apps with</span><br/>Multimedia
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/managing-audio/index.html"
+             description=
+             "How to respond to hardware audio key presses, request audio focus
+             when playing audio, and respond appropriately to changes in audio focus."
+            >Managing Audio Playback</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/managing-audio/volume-playback.html">
+            Controlling Your App's Volume and Playback
+          </a>
+          </li>
+          <li><a href="../../../training/managing-audio/audio-focus.html">
+            Managing Audio Focus
+          </a>
+          </li>
+          <li><a href="../../../training/managing-audio/audio-output.html">
+            Dealing with Audio Output Hardware
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/camera/index.html"
+             description=
+             "How to leverage existing camera apps on the user's device to capture
+             photos or control the camera hardware directly and build your own camera app."
+            >Capturing Photos</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/camera/photobasics.html">
+            Taking Photos Simply
+          </a>
+          </li>
+          <li><a href="../../../training/camera/videobasics.html">
+            Recording Videos Simply
+          </a>
+          </li>
+          <li><a href="../../../training/camera/cameradirect.html">
+            Controlling the Camera
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/printing/index.html"
+             description=
+             "How to print photos, HTML documents, and custom documents from your app."
+            >Printing Content</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/printing/photos.html">
+            Photos
+          </a>
+          </li>
+          <li><a href="../../../training/printing/html-docs.html">
+            HTML Documents
+          </a>
+          </li>
+          <li><a href="../../../training/printing/custom-docs.html">
+            Custom Documents
+          </a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+  </li>
+  <!-- End multimedia -->
+
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/building-graphics.html">
+      <span class="small">Building Apps with</span><br/>Graphics &amp; Animation
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/displaying-bitmaps/index.html"
+             description=
+             "How to load and process bitmaps while keeping your user interface
+             responsive and avoid exceeding memory limits."
+            >Displaying Bitmaps Efficiently</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/displaying-bitmaps/load-bitmap.html">
+            Loading Large Bitmaps Efficiently
+          </a>
+          </li>
+          <li><a href="../../../training/displaying-bitmaps/process-bitmap.html">
+            Processing Bitmaps Off the UI Thread
+          </a>
+          </li>
+          <li><a href="../../../training/displaying-bitmaps/cache-bitmap.html">
+            Caching Bitmaps
+          </a>
+          </li>
+          <li><a href="../../../training/displaying-bitmaps/manage-memory.html">
+            Managing Bitmap Memory
+          </a>
+          </li>
+          <li><a href="../../../training/displaying-bitmaps/display-bitmap.html">
+            Displaying Bitmaps in Your UI
+          </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/graphics/opengl/index.html"
+             description=
+             "How to create OpenGL graphics within the Android app framework
+             and respond to touch input."
+            >Displaying Graphics with OpenGL ES</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/graphics/opengl/environment.html">
+            Building an OpenGL ES Environment
+          </a>
+          </li>
+          <li><a href="../../../training/graphics/opengl/shapes.html">
+            Defining Shapes
+          </a>
+          </li>
+          <li><a href="../../../training/graphics/opengl/draw.html">
+            Drawing Shapes
+          </a>
+          </li>
+          <li><a href="../../../training/graphics/opengl/projection.html">
+            Applying Projection and Camera Views
+          </a>
+          </li>
+          <li><a href="../../../training/graphics/opengl/motion.html">
+            Adding Motion
+          </a>
+          </li>
+          <li><a href="../../../training/graphics/opengl/touch.html">
+            Responding to Touch Events
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/transitions/index.html"
+             description=
+             "How to animate state changes in a view hierarchy using transitions."
+            >Animating Views Using Scenes and Transitions</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/transitions/overview.html">
+            The Transitions Framework
+          </a>
+          </li>
+          <li><a href="../../../training/transitions/scenes.html">
+            Creating a Scene
+          </a>
+          </li>
+          <li><a href="../../../training/transitions/transitions.html">
+            Applying a Transition
+          </a>
+          </li>
+          <li><a href="../../../training/transitions/custom-transitions.html">
+            Creating Custom Transitions
+          </a>
+          </li>
+
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header"><a href="../../../training/animation/index.html"
+             description=
+             "How to add transitional animations to your user interface.">
+            Adding Animations
+          </a></div>
+        <ul>
+          <li><a href="../../../training/animation/crossfade.html">
+            Crossfading Two Views
+          </a>
+          </li>
+          <li><a href="../../../training/animation/screen-slide.html">
+            Using ViewPager for Screen Slide
+          </a>
+          </li>
+          <li><a href="../../../training/animation/cardflip.html">
+            Displaying Card Flip Animations
+          </a>
+          </li>
+          <li><a href="../../../training/animation/zoom.html">
+            Zooming a View
+          </a>
+          </li>
+          <li><a href="../../../training/animation/layout.html">
+            Animating Layout Changes
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End graphics and animation -->
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/building-connectivity.html">
+      <span class="small">Building Apps with</span><br/>
+              Connectivity &amp; the Cloud
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/connect-devices-wirelessly/index.html"
+             description=
+             "How to find and connect to local devices using Network Service
+             Discovery and how to create peer-to-peer connections with Wi-Fi."
+             >Connecting Devices Wirelessly</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/connect-devices-wirelessly/nsd.html">
+            Using Network Service Discovery
+          </a>
+          </li>
+          <li><a href="../../../training/connect-devices-wirelessly/wifi-direct.html">
+            Creating P2P Connections with Wi-Fi
+          </a>
+          </li>
+          <li><a href="../../../training/connect-devices-wirelessly/nsd-wifi-direct.html">
+            Using Wi-Fi P2P for Service Discovery
+          </a>
+          </li>
+        </ul>
+      </li>
+       <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/basics/network-ops/index.html"
+             description=
+             "How to create a network connection, monitor the connection for changes
+             in connectivity, and perform transactions with XML data."
+            >Performing Network Operations</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/basics/network-ops/connecting.html">
+            Connecting to the Network
+          </a>
+          </li>
+          <li><a href="../../../training/basics/network-ops/managing.html">
+            Managing Network Usage
+          </a>
+          </li>
+          <li><a href="../../../training/basics/network-ops/xml.html">
+            Parsing XML Data
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/efficient-downloads/index.html"
+             description=
+             "How to minimize your app's impact on the battery when performing downloads
+             and other network transactions."
+            >Transferring Data Without Draining the Battery</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/efficient-downloads/efficient-network-access.html">
+            Optimizing Downloads for Efficient Network Access
+          </a>
+          </li>
+          <li><a href="../../../training/efficient-downloads/regular_updates.html">
+            Minimizing the Effect of Regular Updates
+          </a>
+          </li>
+          <li><a href="../../../training/efficient-downloads/redundant_redundant.html">
+            Redundant Downloads are Redundant
+          </a>
+          </li>
+          <li><a href="../../../training/efficient-downloads/connectivity_patterns.html">
+            Modifying Patterns Based on the Connectivity Type
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/backup/index.html"
+             description=
+             "How to sync and back up app and user data to remote web services in the
+              cloud and how to restore the data back to multiple devices."
+            >Backing up App Data to the Cloud</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/backup/autosyncapi.html">
+            Configuring Auto Backup
+          </a>
+          </li>
+          <li><a href="../../../training/backup/backupapi.html">
+            Using the Backup API
+          </a>
+          </li>
+        </ul>
+        <li><a href="../../../training/cloudsave/conflict-res.html"
+           description=
+           "How to design a robust conflict resolution strategy for apps that save data to the cloud."
+           >Resolving Cloud Save Conflicts
+          </a>
+        </li>
+      </li>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/sync-adapters/index.html"
+             description="How to transfer data between the cloud and the device using the Android
+             sync adapter framework"
+             >Transferring Data Using Sync Adapters</a>
+        </div>
+        <ul>
+            <li>
+                <a href="../../../training/sync-adapters/creating-authenticator.html">
+                Creating a Stub Authenticator
+                </a>
+            </li>
+            <li>
+                <a href="../../../training/sync-adapters/creating-stub-provider.html">
+                Creating a Stub Content Provider
+                </a>
+            </li>
+            <li>
+                <a href="../

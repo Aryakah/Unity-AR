@@ -1,0 +1,110 @@
+the <code>android:extractNativeLibs</code> flag to false in the <a href=
+  "../../guide/topics/manifest/application-element.html"><code>&lt;application&gt;</code></a> element of your app manifest. This will prevent
+  <code><a href="../../reference/android/content/pm/PackageManager.html">PackageManager</a></code> from copying out <code>.so</code> files
+  from the APK to the filesystem during installation and will have the added
+  benefit of making delta updates of your app smaller.
+</p>
+
+<h2 id="multiple-apks">
+  Maintain Multiple Lean APKs
+</h2>
+
+<p>
+  Your APK can contain content that users download but never use, like regional
+  or language information. To create a minimal download for your users, you can
+  segment your app into several APKs, differentiated by factors such as screen
+  size or GPU texture support.
+</p>
+
+<p>
+  When a user downloads your app, their device receives the correct APK based
+  on the device's features and settings. This way, devices don't receive assets
+  for features that the devices don't have. For example, if a user has a
+  <code>hdpi</code> device, they don’t need <code>xxxhdpi</code> resources that
+  you might include for devices with higher density displays.
+</p>
+
+<p>
+  For more information, see <a href=
+  "../../studio/build/configure-apk-splits.html">Configure APK Splits</a>
+  and <a class="external-link" href=
+  "../../training/multiple-apks/index.html">Maintaining Multiple APKs</a>.
+</p>
+
+    </div>
+
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div clas

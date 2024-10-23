@@ -1,0 +1,148 @@
+arch-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  <div class="content-header ">
+      
+        <ul class="dac-header-crumbs">
+          
+        </ul>
+
+        <!-- Breadcrumb Setup -->
+        <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
+
+        <h1 itemprop="name">Saving Data
+      </h1>
+      
+    
+      <div class="training-nav-top" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <a href="#" class="prev-page-link hide"
+            zh-tw-lang="上一堂課"
+            zh-cn-lang="上一课"
+            ru-lang="Предыдущий"
+            ko-lang="이전"
+            ja-lang="前へ"
+            es-lang="Anterior"
+            >Previous</a>
+        <a href="#" class="next-page-link hide"
+            zh-tw-lang="下一堂課"
+            zh-cn-lang="下一课"
+            ru-lang="Следующий"
+            ko-lang="다음"
+            ja-lang="次へ"
+            es-lang="Siguiente"
+            >Next</a>
+        <a href="#" class="start-class-link hide"
+            zh-tw-lang="開始上課"
+            zh-cn-lang="开始"
+            ru-lang="Начало работы"
+            ko-lang="시작하기"
+            ja-lang="開始する"
+            es-lang="Empezar"
+            >Get started</a>
+      </div>
+    
+  </div>
+  
+
+
+
+  
+
+  
+  <div id="jd-content">
+    <div class="jd-descr" itemprop="articleBody">
+    
+
+    <div id="tb-wrapper">
+<div id="tb">
+
+<h2>Dependencies and prerequisites</h2>
+<ul>
+  <li>Android 1.6 (API Level 4) or higher</li>
+  <li>Familiarity with Map key-value collections</li>
+  <li>Familiarity with the Java file I/O API</li>
+  <li>Familiarity with SQL databases</li>
+</ul>
+
+<h2>You should also read</h2>
+<ul>
+  <li><a href="../../../guide/topics/data/data-storage.html">Storage Options</a></li>
+</ul>
+
+</div>
+</div>
+
+<p>Most Android apps need to save data, even if only to save information about the app state
+during <code><a href="../../../reference/android/app/Activity.html#onPause()">onPause()</a></code> so the user's progress is not lost. Most
+non-trivial apps also need to save user settings, and some apps must manage large
+amounts of information in files and databases. This class introduces you to the
+principal data storage options in Android, including:</p>
+
+<ul>
+    <li>Saving key-value pairs of simple data types in a shared preferences
+file</li>
+    <li>Saving arbitrary files in Android's file system</li>
+    <li>Using databases managed by SQLite</li>
+</ul>
+
+
+<h2>Lessons</h2>
+
+<dl>
+  <dt><b><a href="shared-preferences.html">Saving Key-Value Sets</a></b></dt>
+    <dd>Learn to use a shared preferences file for storing small amounts of information in
+key-value pairs.</dd>
+
+  <dt><b><a href="files.html">Saving Files</a></b></dt>
+    <dd>Learn to save a basic file, such as to store long sequences of data that
+        are generally read in order.</dd>
+
+ <dt><b><a href="databases.html">Saving Data in SQL Databases</a></b></dt>
+   <dd>Learn to use a SQLite database to read and write structured data.</dd>
+
+</dl>
+
+    </div>
+
+    
+      <div class="content-footer "
+                    itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="paging-links">
+            <a href="#" class="prev-page-link hide"
+              zh-tw-lang="上一堂課"
+              zh-cn-lang="上一课"
+              ru-lang="Предыдущий"
+              ko-lang="이전"
+              ja-lang="前へ"
+              es-lang="Anterior"
+              ><span class="page-link-caption">Previous</span>
+            </a>
+            <a href="#" class="next-page-link hide"
+                zh-tw-lang="下一堂課"
+                zh-cn-lang="下一课"
+                ru-lang="Следующий"
+                ko-lang="다음"
+                ja-lang="次へ"
+                es-lang="Siguiente"
+     

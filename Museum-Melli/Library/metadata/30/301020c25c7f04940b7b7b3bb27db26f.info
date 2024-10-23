@@ -1,0 +1,18 @@
+�灵活的界面">
+            Building a Flexible UI
+          </a>
+          </li>
+          <li><a href="../../../training/basics/fragments/communicating.html">
+            Communicating with Other Fragments
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header"><a href="../../../training/basics/data-storage/index.html"
+             ja-lang="データの保存"
+             ko-lang="데이터 저장하기"
+             pt-br-lang="Salvando dados"
+             ru-lang="Сохранение данных"
+             zh-cn

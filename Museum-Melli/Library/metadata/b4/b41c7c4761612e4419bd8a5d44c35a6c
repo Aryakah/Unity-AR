@@ -1,0 +1,303 @@
+the application
+allows access to the secured content.</p>
+
+<pre>
+if (!mDPM.isAdminActive(..)) {
+    // Activates device administrator.
+    ...
+} else if (!mDPM.isActivePasswordSufficient()) {
+    // Launches password set-up screen in Settings.
+    ...
+} else {
+    // Grants access to secure content.
+    ...
+    startActivity(new Intent(context, SecureActivity.class));
+}
+</pre>
+
+    </div>
+
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Espa√±ol</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">Êó•Êú¨Ë™û</option>
+          <option value="ko">ÌïúÍµ≠Ïñ¥</option>
+          <option value="pt-br">Portugu√™s Brasileiro</option>
+          <option value="ru">–†—É—Å—Å–∫–∏–π</option>
+          <option value="vi">ti·∫øng Vi·ªát</option>
+          <option value="zh-cn">‰∏≠ÊñáÔºàÁÆÄ‰Ωì)</option>
+          <option value="zh-tw">‰∏≠ÊñáÔºàÁπÅÈ´î)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="dac-modal-header-subtitle" data-t="newsletter.requiredHint"></p>
+          </section>
+          <section class="dac-swap-section dac-up">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.successTitle">Hooray!</h2>
+          </section>
+        </div>
+      </header>
+      <div class="dac-swap" data-swap-container>
+        <section class="dac-swap-section dac-active dac-left">
+          <form action="https://docs.google.com/forms/d/1QgnkzbEJIDu9lMEea0mxqWrXUJu0oBCLD7ar23V0Yys/formResponse" class="dac-form" method="post" target="dac-newsletter-iframe">
+            <input type="hidden" name="entry.935454734" data-newsletter-language>
+            <section class="dac-modal-content">
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-full-name" class="dac-form-floatlabel" data-t="newsletter.name">Full name</label>
+                      <input type="text" class="dac-form-input" name="entry.1357890476" id="newsletter-full-name" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-email" class="dac-form-floatlabel" data-t="newsletter.email">Email address</label>
+                      <input type="email" class="dac-form-input" name="entry.472100832" id="newsletter-email" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol">
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-company" class="dac-form-floatlabel" data-t="newsletter.company">Company / developer name</label>
+                      <input type="text" class="dac-form-input" name="entry.1664780309" id="newsletter-company">
+                    </div>
+                    <div class="dac-form-input-group">
+                      <label for="newsletter-play-store" class="dac-form-floatlabel" data-t="newsletter.appUrl">One of your Play Store app URLs</label>
+                      <input type="url" class="dac-form-input" name="entry.47013838" id="newsletter-play-store" required>
+                      <span class="dac-form-required">*</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset class="dac-form-fieldset">
+                <div class="cols">
+                  <div class="col-1of2 newsletter-leftCol">
+                    <legend class="dac-form-legend"><span data-t="newsletter.business.label">Which best describes your business:</span><span class="dac-form-required">*</span>
+                    </legend>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-app" required>
+                      <label for="newsletter-business-type-app" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-app" class="dac-form-label" data-t="newsletter.business.apps">Apps</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-games" required>
+                      <label for="newsletter-business-type-games" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-games" class="dac-form-label" data-t="newsletter.business.games">Games</label>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <input type="radio" value="Apps and Games" class="dac-form-radio" name="entry.1796324055" id="newsletter-business-type-appsgames" required>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-radio-button"></label>
+                      <label for="newsletter-business-type-appsgames" class="dac-form-label" data-t="newsletter.business.both">Apps &amp; Games</label>
+                    </div>
+                  </div>
+                  <div class="col-1of2 newsletter-rightCol newsletter-checkboxes">
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.732309842" id="newsletter-add" required value="Add me to the mailing list for the monthly newsletter and occasional emails about development and Google Play opportunities.">
+                          <label for="newsletter-add" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-add" class="dac-form-label dac-form-aside"><span data-t="newsletter.confirmMailingList"></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dac-form-radio-group">
+                      <div class="dac-media">
+                        <div class="dac-media-figure">
+                          <input type="checkbox" class="dac-form-checkbox" name="entry.2045036090" id="newsletter-terms" required value="I acknowledge that the information provided in this form will be subject to Google's privacy policy (https://www.google.com/policies/privacy/).">
+                          <label for="newsletter-terms" class="dac-form-checkbox-button"></label>
+                        </div>
+                        <div class="dac-media-body">
+                          <label for="newsletter-terms" class="dac-form-label dac-form-aside"><span data-t="newsletter.privacyPolicy" data-t-html></span><span class="dac-form-required">*</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </section>
+            <footer class="dac-modal-footer">
+              <div class="cols">
+                <div class="col-2of5">
+                </div>
+              </div>
+              <button type="submit" value="Submit" class="dac-fab dac-primary dac-large dac-modal-action"><i class="dac-sprite dac-arrow-right"></i></button>
+            </footer>
+          </form>
+        </section>
+        <section class="dac-swap-section dac-right">
+          <div class="dac-modal-content">
+            <p class="newsletter-success-message" data-t="newsletter.successDetails"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end newsletter modal -->
+
+<!-- start reset language header modal -->
+<div data-modal="langform" class="dac-modal" id="langform">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <section class="dac-swap-section dac-active dac-down">
+          <h2 class="norule dac-modal-header-title"></h2>
+        </section>
+      </header>
+      <section class="dac-swap-section dac-active dac-left">
+          <section class="dac-modal-content">
+            <fieldset class="dac-form-fieldset">
+              <div class="cols">
+                <div class="col-2of2 langform-leftCol">
+                  <p id="resetLangText"></p>
+                  <p id="resetLangCta"></p>
+                </div>
+              </div>
+            </fieldset>
+          </section>
+          <footer class="dac-modal-footer" id="langfooter">
+            <div class="cols">
+              <div class="col-2of5">
+              </div>
+            </div>
+              <button class="button dac-primary dac-modal-action lang yes" data-t="newsletter.resetLangButtonYes" data-modal-toggle></button>
+              <button class="button dac-primary dac-modal-action lang no" data-t="newsletter.resetLangButtonNo" data-modal-toggle></button>
+            </a>
+          </footer>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- end langreset modal -->
+
+
+</div> <!-- end body-content --> 
+
+
+
+
+<script src="https://developer.android.com/ytblogger_lists_unified.js" defer></script>
+<script src="/jd_lists_unified_en.js?v=17" defer></script>
+<script src="/reference/lists.js?v=17" defer></script>
+<script src="/reference/gcm_lists.js?v=17" defer></script>
+<script src="/reference/gms_lists.js?v=17" defer></script>
+<script>
+  // Load localized metadata.
+  (function(lang) {
+    if (lang === 'en') { return; }
+
+    // Write it to the document so it gets evaluated before DOMContentReady.
+    document.write('<script src="/jd_lists_unified_' + lang + '.js?v=14" defer></' + 'script>');
+  })(getLangPref())
+</script>
+
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       âPNG
+
+   IHDR   Ä   Ä   L\ˆú  DIDATxÌ›Gè$E∑‡À0xÔÔΩ<NbÉê@B	≥Fà%b≈Ü¿VlX åX·º˜ﬁ√‡Ω˜qÅ˚TøÛEÁTUg˘™ûÈŒENd‰â'ﬁ„¬dı¨ˆ?≥ıZmµ’.\∏÷Zkπ/X∞@Å§ˇ˛˚ØªWl∞¡ÊõoÆﬁ„k¨Ò’W_}˚Ì∑y≤ø˛˙ÎÔøˇ˛œ‘•†rv^´Õ± ∫˙Í´ªª`∫ﬁzÎ}Õ5◊ÑÏ¶õn
+zïõm∂0ƒ!Æ
+ÔUy´ÎØø¬˝á~P¯ø©Î∑ﬂ~ıÆj€	ñ'©  f‰–ﬂdìM6ﬁxc†ØΩˆ⁄ÎØø>ËÉ˚P†Å?á†â?˛¯√˝«‰1ÖsQ[©ga2
+à•√ù•ˇÔ‘≈“=≤tóÒ∑x+(E^uAÆ˛˘á>xMº˜ﬁ{\Ån‘¥ÚOÕXXAÃÃ¯ˆ€o_"Lp/cFYÙ·œpWÈûîV°á¨dnÄé’+ß–!+MRO|¡wﬂ}áﬁ’DV‰]a¨
+ ﬂ∫ÎÆ+ö/Z¥à¿j`†l2⁄rÀ-%É7‹Pì≠∑ﬁZ÷•≠6⁄h#MMÚ»ñÖó§_9˘ÎØøÜÔœ?ˇ¸À/ø|˛˘Á≠Í MR√dã/æ¯Ç&™ô¶m/√≠l¸pπáºm∂€n;&/÷≥‚™	Á-}xµ√;ÄXÅû¿Mﬁ∆ˆqK´Vù•#hÊÚ:¸˛˚Ôﬂ|ÛÕ˜ﬂO=Àñ-Ûò∞É¶0‘ê(@z†π±©aÑ
+(c7Ü,[ñ]ñ∑ì {ÔΩ˜ÆªÓ
+teö–$dCº˝œ?ˇ‰ ~˝ı◊i¬cÜ`4MaQ√ã/æË≠«!
+–ñ’ ƒu÷Y«îf∑›vs/˙ á2îY˙6€l≥Ôæ˚ÓºÛŒà£ØB–V‹A*ˇÎçŸæ∏Ù·á>ˇ¸Û‹ÇOËù√ôå1î›wﬂ˝™´Æz˚Ì∑•AzÏ¶ÌH`0Ç8|≈z¡$»íFÅïyµ’V[Òâ=˜‹sã-∂ò ”ç∏C§°)WÄíﬁˇ} $U Ÿˇ˝˜€o?Ønæ˘Ê˚ÓªÔÂó_Nb◊UVCV@Ï¶¨ﬁJïãV‡Ê€nª≠·Ì≤À.¢‹´¢L™Ã!Ñ
+ö∏Ûg:îx*oªÌ∂kÆπFV†0îCrò
+`‡"â®‚2Üb◊
+†á¯—GÕ'D˘úËfËCÍÉaÇài"–ªÒ¯⁄kØ]}ı’O>˘§®’Û˙&√Q q°/ÜÓ∏„éb(∏3 ï¿ØY˝·á^M¬ıbÕí∑F¡z¡§Ë“K/•	>!9ÀÁ√íp8A –|ßùvÇ>Î.Ê√ÿA“I'	¨¬ë¡KÓ±Òâ[‘9Áú≥◊^{ôß Ãe˙4∏C@ÑΩ[4Ì±«ˆv‹„«w‹°áJ7≈'óx"®ÅX∫p¿ü|ÚâUõGïÉ3ê‚°_ eÏ¸Ä@–óÑ˜ŸgüìO>Ÿ¸2ìú¡ù8á‰	∆ƒ°ÕVüyÊ3•¡u0êGA ÏΩ}"2¸„è?^ËèCLªa	ê˘íp$üôeºÒ∆÷2ÔG%5ŸZ`˚‘†∆≈ÿÈÉÅX÷R	áP9†|≥∞95à?∆»‘æ¸ÚK:d¡‹@Ïö˛≥s¿`hQ^éb˚ÚA*g!v√…xçë¡Ω˙Í´ó\râ˝T·®?Ê˝(Äu√⁄íäÆÃ5;Ï∞≈ãØzag&X3pÎwﬂ}˜Ç.¯Ù”O˚”Ao!HØé»#‘–ª§_Sù%Kñ(¨bA&ÙKΩC<ÊòczË!;}ƒ¢ﬁ _KY¡'q˙L‡»#è<ˆÿcÙãds§ê|êY¯sœ=gï–Î¿{P –MxL:˙L˙ÃøÃA{Ì~’†g¯ˆ≠4Ö#;w=ÕMªRÄ»√ˆ-Cl¢}5L^‹óuÁ8˙±!9Ÿæ∫]˜ßûzä>∫◊A˚≥Ω&√Ñæ}c
+(Ë+òüp¬	s3Ú4·#Ií˘Áüo3’ÈiAÕcgÄ>7Ì1√ÙÒ‚k∫ñZÄ∑5‹Á⁄+:8ÒƒﬂzÎ≠œ>˚åV\Ë _¶=ˆy,:Ç5»√V[•¶csÑ ‹"èCo≥D«8ˆã∫ôuV vá~2ÅcñSO=’‹+5s‹Óá…	ú˜Ÿ~¸Ò«ù?wlXóªhSE_Ãq®"»9Ù—ë˚$† ~p‘QG9pÕIx=u }¡áO%Ù[yt–AêT\œw.øã@(ﬂ^|Ù—Gıô†Ω$⁄Ä>_ Á—
+¿ºs>Útc[V≈Vg^x°ë]≤ö&Ì=Ä…ã6Vºf>Aﬂ∏iè–Ê’|©4ØX}íÅ/_\vOgj2£¿ö§áãÑ˛yÙg¬±µûdJôl∑ım©i£ AÜ„òÁ$Ù„b∆iøAJò∑˝\«Bú‡‡É∂Qf!’∂M⁄( ‚6;ìi!ÆÄÀ\ÿÂo–Äï¿ißùÊ;ù¿e‰ﬁªª8ªÛ∂ﬂá&ÃG}ÈeJJÃ∫-á<  4};< Bê∞cÊ3|⁄b◊M•LÄÏ +Ø4©i;ZAóxE¸Dl—^€ñ›t?ONŒ-dÇV@VPÄpoÚ√ﬁCgjÚ√ZõÕ◊tèÄ@‰õF÷uPÄò#NY=']pâ7ª›w6OŸäÄÈ'êJœ:Î,7e”iéäÑ™˝ÕÖ|˝êp‘ wæ¶{@*ÿ2¡iäÁÀÄÇ·U—–}◊_ªÔiûr&(‡¿¥újØ Õ(¿v[⁄S@‘5ª˘˙û»¢Ã«ôÓå
+∞ÌÏpQÜ3Øô¶Æ=ı=O§b®:Bo:∞lÑ† ^¬=:È∑LFWvY_ıö‡pË@*n⁄m(@¿1˘)´-ÛŒC9Ñ(fÇ‚´kkQóCswãm|Ï∞˘¿Ω@çIcáH®1˝/gº¶ˇ>2§®Ÿ9ˇ"ãŒ¯€öHÏ=Ê7›t”K/Ω‰ÒëGqº*œµm˙ëﬁıÎÔ˝˜ﬂÔ«∞≈r0˚dÚÈﬁ¡KéF*MÛ÷à°Ó.s	á›~‘Ë≥dFù1‰mZA‹Øàl¡˚@JY•?·ß~e˜Œ;Ô¯eKö‘Ù>∫W∫vP„sûléRÜæ;D‚{œ≥G–ÏçNîzŒÄf h"®GjH«kØΩˆ„è?6°>ÔºÛrBgTåÇz|≥À-∑8Ù”®sœ=óÀ_~˘ÂTÖÜ[c8A∑¶ 6g”!±<ˆÿ∞zàgøîO6ü=}‘É5ä∑ƒ∫ÎÆª|˘m*L$
+X∂lŸ7‹êœ=‘˚≈[VÔ+(Ä>˚Ï≥Çå(Í”Ãoº—+}¬≠3ó√pÈ“•˛Zö÷µË(Ü–ñßè$|»n,ÏÄ=qe¢6<¿Ï3ªˇ„w^åkÇËì≤¬àø∂¡Æ·>ˆÎÁ‘¢ä_C0¶Ù^x¡ê»Y1áA˘,Ph‚ˆ)¿◊Q|C|Xú2Œm°O%yÓæ˚Óü~˙…@Ã9π¨ÚBË£0±à·åG†ö^x´¿}›u◊˘$RY–gÚß‹◊_=ï0%—Ü;Û	üÁ–…Ø°èdÈO–ÁÍÈÜ∂N?˝tÂöNG˝JÂ–Ò]Pë´ÒÁÏ∏•oµÏãfF-J=v Í	Ÿ‚ö"∏ÄNZ˛πíc¡ \\V˘ÙaÑ¬Ωüœ·œè)È—G5f*§Hq)‹Í{›[¬5¸I≈ ﬁÿúãüz°∂,«F'G=g`â3._? FYúÇeó]vôÄsÁùwrÖ≥œ>€ÏYH5mì †_ò„£ltπ< <ö1»@~cIø¨!jh¸÷©T˘¨nRRäÚoæ˘¶p_!ÂîSN!Æ…;ÀıW‘HπÊî¢π`*õô©…LâÃæ–ØÅ´Ü`Ø ^ùÜÒQø˘Êç4êÓ)áñää∆ SµÈé;ÓÄ/ª∞g≤h—"Ú…Z˝ç Œb!≈Áf,›[gLøHã¨ mñâ*E9È£ëÄ´Ç¢0ŒIY
+|/æ¯b‡2õQ¸í0W\qKÒ;≤™?ÛÃ3}¨å∏jM’QÃ⁄2xÕ§·	iBÕB√+àòP«<«	ÑÿM íÂnYÆ!Ωb¯UÇ1K8xwW¯0/:X»÷‘™2NœÓÆ¡{ÍÉCƒ®6$IqÿHX}ª“ïõÜì-0*ﬁ1)ÙW:4˚∂≠)vA–«é
+}ùo“% ¬7-óÍÏù`®K^Ûd}  ‰\’∂”‡ùY]ı›|y¿π v˘™LU´r™tÛÂa!0£Ü’¡J¡GÊ≥›Tˆ`&(Û
+±íê'(–‡]€À≥ˇl]mNaÆùG5f &µ6#Ì≈€G≤]öüﬂ6ô‰‡‘shyZµ}Xﬂx•xk vìú¯¥¿ÅåG'hˆélÌºùT˚¶ˆùîÛÒ«dµ¸SE“pI^ìïfXΩà≠QÄ„'
+Ni(∆v∑ã{|ˆ∑á’c7|»„"Oïx°™<àÑÆæ[yJ∞∆ÑagØ?;BÜe%\‰ç0B`‘–,Kh4ú8¡«Vù≥ü¢`kÃÿ∫;ÌP∞è‰Agc^xœ^S‚ôA^ãè’qéGz†Å.dÉR∏7jùó≤–|@ ¡– ‹Ìí˙It`oÀo7Ì Ey∆∆â~¯aÕ	oVç	cœ@¨Äú	ÉﬁIôøŸ≠aŸ€H≥Ilµtw÷ëÚxJ/Úó8Ì3≥\FÍ˛v§Øø$RáF=–ÖuD[N dQ∏€¶÷ñÿ!ÀbﬁG›~`K7à˝ımî%—ü?¶·ÔÌiËüF«9^}U—˜ËZPb•1	m∆3û;!úIí,∏é\k{ŒÇO’8†…9à«M—¯ 5™H√"0à{◊~ñÖÄ…„Ã∏^_68ñÙKÂ„œyë!¿
+è üAQ âY÷x†/Ω÷ØºÚ
+¯ mÇ»ﬁ•Å‹Q¬∑p≤»ElP3m&l•A£øqVÃ∆Õ;˝B—∂ò„¿“'Cò”´aãE4ÁÚ±f¬Wa2∫#»∏“Eî±–?ÑŒ
+6Ë^RﬂË§)ú°¶JáÈansX≥≥îÇ2≤˘ÓAç‹Àx}ÅBCé"-6%∏ã-F‰√,ü·ê”ÜˇƒO‡â•QK9c>’/w,”®AΩê¨œX<{g‰Â#âÇ—à
+rÇ bÇ/†OÏ‘…∞£ È:4j$∞"pâE.¶4≈zú˙¢ø@ØπAE‘‡(Õ[*åWQ‚E¡#cï-®ôà·§í2»” §äLôÀcµÒpÀÑ Ö ä'ljJ¨"p±\≤±tî§bø~?KI`bh@ÙâßCMHMq˛TÖ&Ò
+A5ƒwÄmπ,€ä`R∞>AS`Õ‰ ZbbmY±Rø>¯†Æu'>ò:∞Æt}°1%ı°ßÇW–GY`m∆ê(Ã<á ^%‹oj2ÊG#çà ÷°O‡∆á.jâY°†(Ó9j·ËÿtP÷–eBQ¢’Õ”}x".M˝´P∆J≤ïËË©I£N7¸9®ºtƒ0W†â∆,»Éd¥™˛^?‘n:´ßñÓtäW}[Û"%YL·÷1b †E⁄Ú)QtÄ≥ÜK>Ûö´i¯ÄÜ0`A≠Ï2ÁfË»
+‡‚,á¿Ñé&å'h‚5¨G†ªÍπuCS8 H≠o-í-Ü=íﬂ•Ú¢ã.2fÂB<ÊÇﬁ!\]ry;1
+ ∫»#*#Â¢ï€%Ó 6dáôX"Ç±‡√ˆ'éHdÇ˚xƒk(@â∏jYçGã{ﬁ!õÖz(w]åAù∫Äµ ÏdxÑWôqu9ê4Æ¥xä˛¬Ndàx¿=6y Óû◊ﬁâ°e ©Ï˚é-wKÏÎõIOa'~“DÆ^c)(H€SèâÅ‡≥Wi %`uaΩ5≠ •,ë∫ÿ‰˚ºÓ»∫û@«|-{ ıî≠o	yZ_ıZÉI∫·Ü∆æÖCõ.Èªë+∂Ô(z’îÜPtì§ààéÄP∏È€,ûK%¡î^;¥	πmDÍH_C`ÜÜG¨!+ØÃ Yå&Ñ/ïÉ‡i”…R&…„˜#Ö·Ù<DÓÂ≠^†£BÆ ôáÎŸ€ê	{ä™p7ô±ß6†47~€◊è=ˆòŸ]vMA
+!0ÏRa5¨Ú
+Ù˛o÷ƒù7TÅùVÄ≠âíöÈ¿W‡,∑#˜#ßj3[Md‰ D.eóÀcà5W£ÂXP´Í£ +ññQxEÎ2ÅïÑÛa»Ü[SG•w¸CoØ‘@™Ã˚.€É2++¬€j$ßN√pπ<´µÖõ®Ÿ∑-t}tofEˆÂõAòÎÀ&ÑhÎ8¨`Õ“» Ó"kÈö&¿[âÀ€Rè,îëM=„‚7vL´s
+nmßœB⁄⁄=ıàäbB,Q+
+n¸ΩB` îy"ïæ˙æ&ö©Ñ îqŒcñcÖacö 3BÇ"%çËa≥7õ_ˇ•Í·_dêv5öfÅdÇë}cäqteèS§∫˝ˆ€°Ü“/˘Ì UuFã∑:VÈ≠≤f§‡j˛Q*%π»os…ŒD‚ûàJµ∂=p+uÜ•âÌ9€v+–	j, ú$g+…D6ªïöÙ<´ ]`ÁîlàH.©EπJ3Çº6“GWÙ°%Y™∫/ÉCéolò√ã!( öjππÒ;¸Ú÷+î¢Ñ=n°azA¨w–ÿŒ$^ SZd∂hªS6(±e4XUrØl¸IÈ8´∑ød_œ#tºR£¢ëAç·ÎéÚ<*w?ﬁVJXOôJêïU i®5⁄8K(ò 8˙ŒE∆¶K#1ÜNtÖ?’S˚çëz‰gÖxE>0¡◊‡›]ﬁÇû•´—ƒùúÍ˘´{¡»>Æ`B£¿≈∂™ ÙxÍ=ríà§¿À1°</ë–x$0'”™0 Ωﬁ!‡òØ HBa≠âÁt¬]óŸö6`V VÊ´Ë∑◊Óeø0Q–ñ:√√ ©<ª7º@i—ë<ÄâÀnΩıV5ö∞}èˆ⁄x±U∫Q©gÔöD0L '≤iãõæödˆƒt„\”¥XÛßü~ö$QŒ¯”28‡©Pò˜:vÙ$å˘„f‘Ó–ßÂ*∑<Är4C«Ë“∆H¯5ÀjjVe1S9˚˚8§-Êak@w§Óÿ$Sj8‚à#Ë	à!"LŸ’ÅØÊÃñ ⁄Ç√+ÒäåDsò‡≠,^ºdÖ6Ón˙5x ¿_@˜lœ·£^/Ë´15¡Å(cÂïN5wÕ4∫˙zê‘Ö3\ˆQÅzÂj€< /ƒ,Ü≥EÕNMÆ›´9òK∞/p íT<≤PF2pÀÅ^¡≈÷44Ÿ/ï,Y≤*…√ L·5ÙùÑπ9}ÿ†∆s∞bU§B/˙K≠Í)vFÎ¬¡$=bïî 9ÑVÏÄ¬4¡çÇ…É&ù‚@N2Ñ*^›îÅFØé0Ùjd2ï≠Õ€(ÄÚÕú «U≠9iìS∑≤´÷†®”ÏBC≥·E=‘Ù"™D”&!Lí∏à!"D1∏Aí≠OQ2IS`π‹êYçB-{à¯£ΩV|ZzÁëbBå@◊‹N€åÙEr`QÜ.dbÇé@õÊ“±n.vì	wk

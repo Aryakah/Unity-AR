@@ -1,0 +1,133 @@
+       <ul>
+          <li>
+                <a href="../training/contacts-provider/retrieve-names.html">
+                Retrieving a List of Contacts
+                </a>
+          </li>
+          <li>
+                <a href="../training/contacts-provider/retrieve-details.html">
+                Retrieving Details for a Contact
+                </a>
+          </li>
+          <li>
+                <a href="../training/contacts-provider/modify-data.html">
+                Modifying Contacts Using Intents
+                </a>
+          </li>
+          <li>
+                <a href="../training/contacts-provider/display-contact-badge.html">
+                Displaying the Quick Contact Badge
+                </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+        <a href="../training/sign-in/index.html"
+           description="How to add user sign-in functionality to your app.">
+           Adding Sign-In
+        </a>
+      </li>
+    </ul>
+  </li>
+  <!-- End user info and sign-in -->
+
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../training/building-wearables.html">
+      <span class="small">Building Apps for</span><br/>
+              Wearables
+      </a>
+    </div>
+    <ul>
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../training/wearables/notifications/index.html"
+             description="How to build handheld notifications that are synced to
+             and look great on wearables."
+            >Adding Wearable Features to Notifications</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../training/wearables/notifications/creating.html">Creating a Notification</a>
+          </li>
+          <li>
+            <a href="../training/wearables/notifications/voice-input.html">Receiving Voice Input in a Notification</a>
+          </li>
+          <li>
+            <a href="../training/wearables/notifications/pages.html">Adding Pages to a Notification</a>
+          </li>
+          <li>
+            <a href="../training/wearables/notifications/stacks.html">Stacking Notifications</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../training/wearables/apps/index.html"
+             description="How to build apps that run directly on wearables."
+            >Creating Wearable Apps</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../training/wearables/apps/creating.html">Creating and Running a Wearable App</a>
+          </li>
+          <li>
+            <a href="../training/wearables/apps/layouts.html">Creating Custom Layouts</a>
+          </li>
+          <li>
+            <a href="../training/wearables/apps/always-on.html">Keeping Your App Visible</a>
+          </li>
+          <li>
+            <a href="../training/wearables/apps/voice.html">Adding Voice Capabilities</a>
+          </li>
+          <li>
+            <a href="../training/wearables/apps/packaging.html">Packaging Wearable Apps</a>
+          </li>
+          <li>
+            <a href="../training/wearables/apps/bt-debugging.html">Debugging over Bluetooth</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../training/wearables/ui/index.html"
+             description="How to create custom user interfaces for wearable apps."
+            >Creating Custom UIs</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../training/wearables/ui/layouts.html">Defining Layouts</a>
+          </li>
+          <li>
+            <a href="../training/wearables/ui/cards.html">Creating Cards</a>
+          </li>
+          <li>
+            <a href="../training/wearables/ui/lists.html">Creating Lists</a>
+          </li>
+          <li>
+            <a href="../training/wearables/ui/2d-picker.html">Creating a 2D Picker</a>
+          </li>
+          <li>
+            <a href="../training/wearables/ui/confirm.html">Showing Confirmations</a>
+          </li>
+          <li>
+            <a href="../training/wearables/ui/exit.html">Exiting Full-Screen Activities</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../training/wearables/data-layer/index.html"
+             description="How to sync data between handhelds and wearables."
+            >Sending and Syncing Data</a>
+        </div>
+        <ul>
+          <li>
+            <a href="../training/wearables/data-layer/accessing.html">Accessing the Wearable Data Layer</a>
+          </li>
+          <li>
+            <a href="../training/we

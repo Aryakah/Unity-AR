@@ -1,0 +1,158 @@
+ef="../../training/tv/publishing/checklist.html"
+           description="An itemized list of requirements for TV apps.">
+           TV Apps Checklist</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for TV -->
+
+
+  <!-- Start: Building for Auto -->
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/auto/index.html">
+      <span class="small">Building Apps for</span><br/>
+              Auto
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="../../training/auto/start/index.html"
+             description="How to start building or extending apps that work
+             with Auto devices.">
+             Getting Started with Auto</a>
+      </li>
+      <li>
+        <a href="../../training/auto/audio/index.html"
+             description="How to extend audio apps to play content on Auto devices.">
+             Playing Audio for Auto</a>
+      </li>
+      <li>
+        <a href="../../training/auto/messaging/index.html"
+             description="How to extend text messaging apps to work with Auto devices.">
+             Messaging for Auto</a>
+      </li>
+      <li>
+       <a href="../../training/auto/testing/index.html" description=
+       "How to run and test Auto apps.">
+             Testing Auto Apps</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End: Building for Auto -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../training/best-ux.html">
+      <span class="small">Best Practices for</span><br/>
+              Interaction &amp; Engagement
+      </a>
+    </div>
+    <ul>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/design-navigation/index.html"
+             description=
+             "How to plan your app's screen hierarchy and forms of navigation so users can
+             effectively and intuitively traverse your app content using various navigation
+             patterns."
+            >Designing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../training/design-navigation/screen-planning.html">
+            Planning Screens and Their Relationships
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/multiple-sizes.html">
+            Planning for Multiple Touchscreen Sizes
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/descendant-lateral.html">
+            Providing Descendant and Lateral Navigation
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/ancestral-temporal.html">
+            Providing Ancestral and Temporal Navigation
+          </a>
+          </li>
+          <li><a href="../../training/design-navigation/wireframing.html">
+            Putting it All Together: Wireframing the Example App
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../training/implementing-navigation/index.html"
+             description=
+             "How to implement various navigation patterns such as swipe views,
+             a navigation drawer, and up navigation."
+            >Implementing Effective Navigation</a>
+        </div>
+        <ul>
+          <li><a href="../../training/implementing-navigation/lateral.html">
+            Creating Swipe Views with Tabs
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/nav-drawer.html">
+            Creating a Navigation Drawer
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/ancestral.html">
+            Providing Up Navigation
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/temporal.html">
+            Providing Proper Back Navigation
+          </a>
+          </li>
+          <li><a href="../../training/implementing-navigation/descendant.html">
+            Implementing Descendant Navigation
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+          <div class="nav-section-header">
+              <a href="../../training/notify-user/index.html"
+                 description=
+                 "How to display messages called notifications outside of
+                 your application's UI."
+               >Notifying the User</a>
+          </div>
+          <ul>
+              <li>
+                  <a href="../../training/notify-user/build-notification.html">
+                  Building a Notification
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/navigation.html">
+                  Preserving Navigation when Starting an Activity
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/managing.html">
+                  Updating Notifications
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/expanded.html">
+                  Using Big View Styles
+                  </a>
+              </li>
+              <li>
+                  <a href="../../training/notify-user/display-progress.html">
+                  Displaying Progress in a Notification
+                  </a>
+              </li>
+          </ul>
+      </li>
+
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+            <a href="../

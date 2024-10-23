@@ -1,0 +1,236 @@
+w they affect your users."
+          >Permissions and User Data</a>
+      </li>
+      <li>
+        <a href="../../../training/articles/user-data-permissions.html"
+           description=
+           "How to manage permissions the right way for users."
+          >Best Practices for App Permissions</a>
+      </li>
+      <li>
+        <a href="../../../training/articles/user-data-ids.html"
+           description=
+           "Unique identifiers available and how to choose the right one for your use case."
+          >Best Practices for Unique Identifiers</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End Permissions and identifiers -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/testing/index.html">
+      <span class="small">Best Practices for</span><br/>
+              Testing
+      </a>
+    </div>
+    <ul>
+      <li>
+      <a href="../../../training/testing/start/index.html"
+         description="How to get started with testing your Android applications.">
+            Getting Started with Testing
+          </a>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/unit-testing/index.html"
+         description="How to build effective unit tests for Android apps.">
+            Building Effective Unit Tests
+          </a></div>
+        <ul>
+          <li><a href="../../../training/testing/unit-testing/local-unit-tests.html">
+            <span class="en">Building Local Unit Tests</span>
+            </a>
+          </li>
+          <li><a href="../../../training/testing/unit-testing/instrumented-unit-tests.html">
+            <span class="en">Building Instrumented Unit Tests</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/ui-testing/index.html"
+         description="How to automate your user interface tests for Android apps.">
+            Automating UI Tests
+          </a></div>
+        <ul>
+          <li><a href="../../../training/testing/ui-testing/espresso-testing.html">
+            <span class="en">Testing UI for a Single App</span>
+          </a>
+          </li>
+          <li><a href="../../../training/testing/ui-testing/uiautomator-testing.html">
+            <span class="en">Testing UI for Multiple Apps</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/integration-testing/index.html"
+         description="How to build effective integration tests for Android apps.">
+            Testing App Component Integrations
+          </a></div>
+        <ul>
+         <li><a href="../../../training/testing/integration-testing/service-testing.html">
+           <span class="en">Testing Your Service</span></a></li>
+         <li><a href="../../../training/testing/integration-testing/content-provider-testing.html">
+           <span class="en">Testing Your Content Provider</span></a></li>
+        </ul>
+      </li>
+      <li><a href="../../../training/testing/performance.html"
+          description="How to automate UI performance testing.">Testing Display Performance</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Testing -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/distribute.html">
+      <span class="small">Using Google Play to</span><br/>
+              Distribute &amp; Monetize
+      </a>
+    </div>
+    <ul>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/in-app-billing/index.html"
+         description="How to sell in-app products from your application using In-app Billing.">
+            Selling In-app Products
+          </a></div>
+        <ul>
+          <li><a href="../../../training/in-app-billing/preparing-iab-app.html">
+            <span class="en">Preparing Your App</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/list-iab-products.html">
+            <span class="en">Establishing Products for Sale</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/purchase-iab-products.html">
+            <span class="en">Purchasing Products</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/test-iab-app.html">
+            <span class="en">Testing Your App</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/multiple-apks/index.html"
+             description=
+             "How to publish your app on Google Play with separate APKs that target
+             different devices, while using a single app listing."
+            >Maintaining Multiple APKs</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/multiple-apks/api.html">
+            Creating Multiple APKs for Different API Levels
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/screensize.html">
+            Creating Multiple APKs for Different Screen Sizes
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/texture.html">
+            Creating Multiple APKs for Different GL Textures
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/multiple.html">
+            Creating Multiple APKs with 2+ Dimensions
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Publishing -->
+
+</ul><!-- nav -->
+<script type="text/javascript">
+<!--
+    buildToggleLists();
+    changeNavLang(getLangPref());
+//-->
+</script>
+
+      
+    </div>
+  
+
+        <ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim">
+        <li class="dac-nav-item home">
+          <a class="dac-nav-link" href="../../../index.html">Home</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary about">
+            <li class="dac-nav-item versions">
+              <a class="dac-nav-link" href="../../../about/versions/marshmallow/index.html">Android</a>
+            </li>
+            <li class="dac-nav-item wear">
+              <a class="dac-nav-link" href="../../../wear/index.html">Wear</a>
+            </li>
+            <li class="dac-nav-item tv">
+              <a class="dac-nav-link" href="../../../tv/index.html">TV</a>
+            </li>
+            <li class="dac-nav-item auto">
+              <a class="dac-nav-link" href="../../../auto/index.html">Auto</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item design">
+          <a class="dac-nav-link" href="../../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+        </li>
+        <li class="dac-nav-item develop">
+          <a class="dac-nav-link" href="../../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary develop">
+            <li class="dac-nav-item training">
+              <a class="dac-nav-link" href="../../../training/index.html"
+                 zh-tw-lang="訓練課程"
+                 zh-cn-lang="培训"
+                 ru-lang="Курсы"
+                 ko-lang="교육"
+                 ja-lang="トレーニング"
+                 es-lang="Capacitación">Training</a>
+            </li>
+            <li class="dac-nav-item guide">
+              <a class="dac-nav-link" href="../../../guide/index.html"
+                 zh-tw-lang="API 指南"
+                 zh-cn-lang="API 指南"
+                 ru-lang="Руководства по API"
+                 ko-lang="API 가이드"
+                 ja-lang="API ガイド"
+                 es-lang="Guías de la API">API Guides</a>
+            </li>
+            <li class="dac-nav-item reference">
+              <a class="dac-nav-link" href="../../../reference/packages.html"
+                 zh-tw-lang="參考資源"
+                 zh-cn-lang="参考"
+                 ru-lang="Справочник"
+                 ko-lang="참조문서"
+                 ja-lang="リファレンス"
+                 es-lang="Referencia">Reference</a>
+            </li>
+            <li class="dac-nav-item tools">
+              <a class="dac-nav-link" href="../../../sdk/index.html"
+                 zh-tw-lang="相關工具"
+                 zh-cn-lang="工具"
+                 ru-lang="Инструменты"
+                 ko-lang="도구"
+                 ja-lang="ツール"
+                 es-lang="Herramientas">Tools</a></li>
+            <li class="dac-nav-item google">
+              <a class="dac-nav-link" href="../../../google/index.html">Google Services</a>
+ 

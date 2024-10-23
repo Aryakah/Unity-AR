@@ -1,0 +1,802 @@
+g/articles/user-data-permissions.html"
+           description=
+           "How to manage permissions the right way for users."
+          >Best Practices for App Permissions</a>
+      </li>
+      <li>
+        <a href="../../../training/articles/user-data-ids.html"
+           description=
+           "Unique identifiers available and how to choose the right one for your use case."
+          >Best Practices for Unique Identifiers</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End Permissions and identifiers -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/testing/index.html">
+      <span class="small">Best Practices for</span><br/>
+              Testing
+      </a>
+    </div>
+    <ul>
+      <li>
+      <a href="../../../training/testing/start/index.html"
+         description="How to get started with testing your Android applications.">
+            Getting Started with Testing
+          </a>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/unit-testing/index.html"
+         description="How to build effective unit tests for Android apps.">
+            Building Effective Unit Tests
+          </a></div>
+        <ul>
+          <li><a href="../../../training/testing/unit-testing/local-unit-tests.html">
+            <span class="en">Building Local Unit Tests</span>
+            </a>
+          </li>
+          <li><a href="../../../training/testing/unit-testing/instrumented-unit-tests.html">
+            <span class="en">Building Instrumented Unit Tests</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/ui-testing/index.html"
+         description="How to automate your user interface tests for Android apps.">
+            Automating UI Tests
+          </a></div>
+        <ul>
+          <li><a href="../../../training/testing/ui-testing/espresso-testing.html">
+            <span class="en">Testing UI for a Single App</span>
+          </a>
+          </li>
+          <li><a href="../../../training/testing/ui-testing/uiautomator-testing.html">
+            <span class="en">Testing UI for Multiple Apps</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/testing/integration-testing/index.html"
+         description="How to build effective integration tests for Android apps.">
+            Testing App Component Integrations
+          </a></div>
+        <ul>
+         <li><a href="../../../training/testing/integration-testing/service-testing.html">
+           <span class="en">Testing Your Service</span></a></li>
+         <li><a href="../../../training/testing/integration-testing/content-provider-testing.html">
+           <span class="en">Testing Your Content Provider</span></a></li>
+        </ul>
+      </li>
+      <li><a href="../../../training/testing/performance.html"
+          description="How to automate UI performance testing.">Testing Display Performance</a>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Testing -->
+
+  <li class="nav-section">
+    <div class="nav-section-header">
+      <a href="../../../training/distribute.html">
+      <span class="small">Using Google Play to</span><br/>
+              Distribute &amp; Monetize
+      </a>
+    </div>
+    <ul>
+      <li class="nav-section">
+      <div class="nav-section-header"><a href="../../../training/in-app-billing/index.html"
+         description="How to sell in-app products from your application using In-app Billing.">
+            Selling In-app Products
+          </a></div>
+        <ul>
+          <li><a href="../../../training/in-app-billing/preparing-iab-app.html">
+            <span class="en">Preparing Your App</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/list-iab-products.html">
+            <span class="en">Establishing Products for Sale</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/purchase-iab-products.html">
+            <span class="en">Purchasing Products</span>
+          </a>
+          </li>
+          <li><a href="../../../training/in-app-billing/test-iab-app.html">
+            <span class="en">Testing Your App</span>
+          </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-section">
+        <div class="nav-section-header">
+          <a href="../../../training/multiple-apks/index.html"
+             description=
+             "How to publish your app on Google Play with separate APKs that target
+             different devices, while using a single app listing."
+            >Maintaining Multiple APKs</a>
+        </div>
+        <ul>
+          <li><a href="../../../training/multiple-apks/api.html">
+            Creating Multiple APKs for Different API Levels
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/screensize.html">
+            Creating Multiple APKs for Different Screen Sizes
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/texture.html">
+            Creating Multiple APKs for Different GL Textures
+          </a>
+          </li>
+          <li><a href="../../../training/multiple-apks/multiple.html">
+            Creating Multiple APKs with 2+ Dimensions
+          </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <!-- End best Publishing -->
+
+</ul><!-- nav -->
+<script type="text/javascript">
+<!--
+    buildToggleLists();
+    changeNavLang(getLangPref());
+//-->
+</script>
+
+      
+    </div>
+  
+
+        <ul id="dac-main-navigation" class="dac-nav-list dac-swap-section dac-left dac-no-anim">
+        <li class="dac-nav-item home">
+          <a class="dac-nav-link" href="../../../index.html">Home</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary about">
+            <li class="dac-nav-item versions">
+              <a class="dac-nav-link" href="../../../about/versions/marshmallow/index.html">Android</a>
+            </li>
+            <li class="dac-nav-item wear">
+              <a class="dac-nav-link" href="../../../wear/index.html">Wear</a>
+            </li>
+            <li class="dac-nav-item tv">
+              <a class="dac-nav-link" href="../../../tv/index.html">TV</a>
+            </li>
+            <li class="dac-nav-item auto">
+              <a class="dac-nav-link" href="../../../auto/index.html">Auto</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item design">
+          <a class="dac-nav-link" href="../../../design/index.html"
+             zh-tw-lang="設計"
+             zh-cn-lang="设计"
+             ru-lang="Проектирование"
+             ko-lang="디자인"
+             ja-lang="設計"
+             es-lang="Diseñar">Design</a>
+        </li>
+        <li class="dac-nav-item develop">
+          <a class="dac-nav-link" href="../../../develop/index.html"
+             zh-tw-lang="開發"
+             zh-cn-lang="开发"
+             ru-lang="Разработка"
+             ko-lang="개발"
+             ja-lang="開発"
+             es-lang="Desarrollar">Develop</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary develop">
+            <li class="dac-nav-item training">
+              <a class="dac-nav-link" href="../../../training/index.html"
+                 zh-tw-lang="訓練課程"
+                 zh-cn-lang="培训"
+                 ru-lang="Курсы"
+                 ko-lang="교육"
+                 ja-lang="トレーニング"
+                 es-lang="Capacitación">Training</a>
+            </li>
+            <li class="dac-nav-item guide">
+              <a class="dac-nav-link" href="../../../guide/index.html"
+                 zh-tw-lang="API 指南"
+                 zh-cn-lang="API 指南"
+                 ru-lang="Руководства по API"
+                 ko-lang="API 가이드"
+                 ja-lang="API ガイド"
+                 es-lang="Guías de la API">API Guides</a>
+            </li>
+            <li class="dac-nav-item reference">
+              <a class="dac-nav-link" href="../../../reference/packages.html"
+                 zh-tw-lang="參考資源"
+                 zh-cn-lang="参考"
+                 ru-lang="Справочник"
+                 ko-lang="참조문서"
+                 ja-lang="リファレンス"
+                 es-lang="Referencia">Reference</a>
+            </li>
+            <li class="dac-nav-item tools">
+              <a class="dac-nav-link" href="../../../sdk/index.html"
+                 zh-tw-lang="相關工具"
+                 zh-cn-lang="工具"
+                 ru-lang="Инструменты"
+                 ko-lang="도구"
+                 ja-lang="ツール"
+                 es-lang="Herramientas">Tools</a></li>
+            <li class="dac-nav-item google">
+              <a class="dac-nav-link" href="../../../google/index.html">Google Services</a>
+            </li>
+            
+          </ul>
+        </li>
+        <li class="dac-nav-item distribute">
+          <a class="dac-nav-link" href="../../../distribute/googleplay/index.html"
+             zh-tw-lang="發佈"
+             zh-cn-lang="分发"
+             ru-lang="Распространение"
+             ko-lang="배포"
+             ja-lang="配布"
+             es-lang="Distribuir">Distribute</a>
+          <i class="dac-sprite dac-expand-more-black dac-nav-sub-slider"></i>
+          <ul class="dac-nav-secondary distribute">
+            <li class="dac-nav-item googleplay">
+              <a class="dac-nav-link" href="../../../distribute/googleplay/index.html">Google Play</a></li>
+            <li class="dac-nav-item essentials">
+              <a class="dac-nav-link" href="../../../distribute/essentials/index.html">Essentials</a></li>
+            <li class="dac-nav-item users">
+              <a class="dac-nav-link" href="../../../distribute/users/index.html">Get Users</a></li>
+            <li class="dac-nav-item engage">
+              <a class="dac-nav-link" href="../../../distribute/engage/index.html">Engage &amp; Retain</a></li>
+            <li class="dac-nav-item monetize">
+              <a class="dac-nav-link" href="../../../distribute/monetize/index.html">Earn</a>
+            </li>
+            <li class="dac-nav-item analyze">
+              <a class="dac-nav-link" href="../../../distribute/analyze/index.html">Analyze</a>
+            </li>
+            <li class="dac-nav-item stories">
+              <a class="dac-nav-link" href="../../../distribute/stories/index.html">Stories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dac-nav-item preview">
+          <a class="dac-nav-link" href="../../../preview/index.html">Preview</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation-->
+  
+
+<!-- Nav Setup -->
+<script>$('[data-dac-nav]').dacNav();</script>
+
+
+
+  
+    
+  <div class="wrap clearfix" id="body-content">
+
+  
+
+  
+  <div id="search-results" class="dac-search-results">
+    <div id="dac-search-results-history" class="dac-search-results-history">
+      <div class="wrap dac-search-results-history-wrap">
+        <div class="cols">
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Most visited</h2>
+            <div class="resource-flow-layout" data-history-query="history:most/visited" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+
+          <div class="col-1of2 col-tablet-1of2 col-mobile-1of1">
+            <h2>Recently visited</h2>
+            <div class="resource-flow-layout cols" data-history-query="history:recent" data-allow-duplicates="true" data-maxresults="3" data-cardsizes="18x2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dac-search-results-content" class="dac-search-results-content">
+      <div class="dac-search-results-metadata wrap">
+        <div class="dac-search-results-for">
+          <h2>Results for <span id="search-results-for"></span></h2>
+        </div>
+
+        <div id="dac-search-results-hero"></div>
+
+        <div class="dac-search-results-hero cols">
+          <div id="dac-search-results-reference" class="col-3of6 col-tablet-1of2 col-mobile-1of1">
+            <div class="suggest-card reference no-display">
+              <ul class="dac-search-results-reference">
+              </ul>
+            </div>
+          </div>
+          <div id="dac-custom-search-results"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  
+  <div class="content-header ">
+      
+        <ul class="dac-header-crumbs">
+          
+        </ul>
+
+        <!-- Breadcrumb Setup -->
+        <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
+
+        <h1 itemprop="name">Creating Lists
+      </h1>
+      
+    
+      <div class="training-nav-top" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <a href="#" class="prev-page-link hide"
+            zh-tw-lang="上一堂課"
+            zh-cn-lang="上一课"
+            ru-lang="Предыдущий"
+            ko-lang="이전"
+            ja-lang="前へ"
+            es-lang="Anterior"
+            >Previous</a>
+        <a href="#" class="next-page-link hide"
+            zh-tw-lang="下一堂課"
+            zh-cn-lang="下一课"
+            ru-lang="Следующий"
+            ko-lang="다음"
+            ja-lang="次へ"
+            es-lang="Siguiente"
+            >Next</a>
+        <a href="#" class="start-class-link hide"
+            zh-tw-lang="開始上課"
+            zh-cn-lang="开始"
+            ru-lang="Начало работы"
+            ko-lang="시작하기"
+            ja-lang="開始する"
+            es-lang="Empezar"
+            >Get started</a>
+      </div>
+    
+  </div>
+  
+
+
+
+  
+
+  
+  <div id="jd-content">
+    <div class="jd-descr" itemprop="articleBody">
+    
+
+    <div id="tb-wrapper">
+<div id="tb">
+<h2>This lesson teaches you to</h2>
+<ol>
+  <li><a href="#add-list">Add a List View</a></li>
+  <li><a href="#layout-impl">Create a Layout Implementation for List Items</a></li>
+  <li><a href="#layout-def">Create a Layout Definition for Items</a></li>
+  <li><a href="#adapter">Create an Adapter to Populate the List</a></li>
+  <li><a href="#adapter-listener">Associate the Adapter and Set a Click Listener</a></li>
+</ol>
+<h2>Related Samples</h2>
+<ul>
+  <li><a href="../../../samples/Notifications/index.html">
+    Notifications</a></li>
+</ul>
+<h2>You should also read</h2>
+<ul>
+  <li><a href="../../../design/wear/index.html">Android Wear Design Principles</a></li>
+</ul>
+</div>
+</div>
+
+
+<p>Lists let users select an item from a set of choices easily on wearable devices. This lesson
+shows you how to create lists in your Android Wear apps.</p>
+
+<p>The Wearable UI Library includes the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView</code></a>
+class, which is a list implementation optimized for wearable devices.</p>
+
+<p>To create a list in your Android Wear apps:</p>
+
+<ol>
+<li>Add a
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView</code></a>
+element to your activity's layout definition.</li>
+<li>Create a custom layout implementation for your list items.</li>
+<li>Use this implementation to create a layout definition file for your list items.</li>
+<li>Create an adapter to populate the list.</li>
+<li>Assign the adapter to the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView</code></a>
+element.</li>
+</ol>
+
+<img src="../../../wear/images/06_uilib.png" width="200" height="200" alt=""/>
+<p class="img-caption"><strong>Figure 1.</strong>
+A list view on Android Wear.</p>
+
+<p>These steps are described in detail in the following sections.</p>
+
+
+<h2 id="add-list">Add a List View</h2>
+
+<p>The following layout adds a list view to an activity using a
+<a href="../../../reference/android/support/wearable/view/BoxInsetLayout.html"><code>&lt;BoxInsetLayout&gt;</code></a>
+element, so the list is displayed properly on both round and square devices:</p>
+
+<pre>
+&lt;android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/robot_background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    &lt;FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_box="left|bottom|right">
+
+        &lt;<strong>android.support.wearable.view.WearableListView</strong>
+            android:id="@+id/wearable_list"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        &lt;/android.support.wearable.view.WearableListView>
+    &lt;/FrameLayout>
+&lt;/android.support.wearable.view.BoxInsetLayout>
+</pre>
+
+
+<h2 id="layout-impl">Create a Layout Implementation for List Items</h2>
+
+<p>In many cases, each list item consists of an icon and a description. The
+<a href="../../../samples/Notifications/index.html">Notifications</a> sample implements a custom
+layout that extends
+<code><a href="../../../reference/android/widget/LinearLayout.html">LinearLayout</a></code> to incorporate these two elements inside each list item.
+This layout also implements the methods in the
+<a href="../../../reference/android/support/wearable/view/WearableListView.OnCenterProximityListener.html"<code>WearableListView.OnCenterProximityListener</code></a>
+interface to change the color of the item's icon and fade the text in response to events from the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView</code></a>
+element as the user scrolls through the list.</p>
+
+<pre>
+public class WearableListItemLayout extends LinearLayout
+             implements WearableListView.OnCenterProximityListener {
+
+    private ImageView mCircle;
+    private TextView mName;
+
+    private final float mFadedTextAlpha;
+    private final int mFadedCircleColor;
+    private final int mChosenCircleColor;
+
+    public WearableListItemLayout(Context context) {
+        this(context, null);
+    }
+
+    public WearableListItemLayout(Context context, AttributeSet attrs) {
+        this(context, attrs, 0);
+    }
+
+    public WearableListItemLayout(Context context, AttributeSet attrs,
+                                  int defStyle) {
+        super(context, attrs, defStyle);
+
+        mFadedTextAlpha = getResources()
+                         .getInteger(R.integer.action_text_faded_alpha) / 100f;
+        mFadedCircleColor = getResources().getColor(R.color.grey);
+        mChosenCircleColor = getResources().getColor(R.color.blue);
+    }
+
+    // Get references to the icon and text in the item layout definition
+    &#64;Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+        // These are defined in the layout file for list items
+        // (see next section)
+        mCircle = (ImageView) findViewById(R.id.circle);
+        mName = (TextView) findViewById(R.id.name);
+    }
+
+    &#64;Override
+    public void onCenterPosition(boolean animate) {
+        mName.setAlpha(1f);
+        ((GradientDrawable) mCircle.getDrawable()).setColor(mChosenCircleColor);
+    }
+
+    &#64;Override
+    public void onNonCenterPosition(boolean animate) {
+        ((GradientDrawable) mCircle.getDrawable()).setColor(mFadedCircleColor);
+        mName.setAlpha(mFadedTextAlpha);
+    }
+}
+</pre>
+
+<p>You can also create animator objects to enlarge the icon of the center item in the list. You can
+use the
+<a href="../../../reference/android/support/wearable/view/WearableListView.OnCenterProximityListener.html#onCenterPosition(boolean)"><code>onCenterPosition()</code></a>
+and
+<a href="../../../reference/android/support/wearable/view/WearableListView.OnCenterProximityListener.html#onNonCenterPosition(boolean)"><code>onNonCenterPosition()</code></a>
+callback methods in the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView.OnCenterProximityListener</code></a>
+interface to manage your animators. For more information about animators, see
+<a href="../../../guide/topics/graphics/prop-animation.html#object-animator">Animating with
+ObjectAnimator</a>.</p>
+
+
+<h2 id="layout-def">Create a Layout Definition for Items</h2>
+
+<p>After you implement a custom layout for list items, you provide a layout definition file that
+specifies the layout parameters of each of the components inside a list item. The following layout
+definition uses the custom layout implementation from the previous section and defines an icon
+and a text view whose IDs match those in the layout implementation class:</p>
+
+<p class="code-caption">res/layout/list_item.xml</p>
+
+<pre>
+&lt;com.example.android.support.wearable.notifications.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    &lt;ImageView
+        android:id="@+id/circle"
+        android:layout_height="20dp"
+        android:layout_margin="16dp"
+        android:layout_width="20dp"
+        android:src="@drawable/wl_circle"/>
+    &lt;TextView
+        android:id="@+id/name"
+        android:gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-light"
+        android:lineSpacingExtra="-4sp"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"/>
+&lt;/com.example.android.support.wearable.notifications.WearableListItemLayout>
+</pre>
+
+
+<h2 id="adapter">Create an Adapter to Populate the List</h2>
+
+<p>The adapter populates the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView.OnCenterProximityListener</code></a>
+element with content. The following simple
+adapter populates the list with elements based on an array of strings:</p>
+
+<pre>
+private static final class Adapter extends WearableListView.Adapter {
+    private String[] mDataset;
+    private final Context mContext;
+    private final LayoutInflater mInflater;
+
+    // Provide a suitable constructor (depends on the kind of dataset)
+    public Adapter(Context context, String[] dataset) {
+        mContext = context;
+        mInflater = LayoutInflater.from(context);
+        mDataset = dataset;
+    }
+
+    // Provide a reference to the type of views you're using
+    public static class ItemViewHolder extends WearableListView.ViewHolder {
+        private TextView textView;
+        public ItemViewHolder(View itemView) {
+            super(itemView);
+            // find the text view within the custom item's layout
+            textView = (TextView) itemView.findViewById(R.id.name);
+        }
+    }
+
+    // Create new views for list items
+    // (invoked by the WearableListView's layout manager)
+    &#64;Override
+    public WearableListView.ViewHolder onCreateViewHolder(ViewGroup parent,
+                                                          int viewType) {
+        // Inflate our custom layout for list items
+        return new ItemViewHolder(mInflater.inflate(R.layout.list_item, null));
+    }
+
+    // Replace the contents of a list item
+    // Instead of creating new views, the list tries to recycle existing ones
+    // (invoked by the WearableListView's layout manager)
+    &#64;Override
+    public void onBindViewHolder(WearableListView.ViewHolder holder,
+                                 int position) {
+        // retrieve the text view
+        ItemViewHolder itemHolder = (ItemViewHolder) holder;
+        TextView view = itemHolder.textView;
+        // replace text contents
+        view.setText(mDataset[position]);
+        // replace list item's metadata
+        holder.itemView.setTag(position);
+    }
+
+    // Return the size of your dataset
+    // (invoked by the WearableListView's layout manager)
+    &#64;Override
+    public int getItemCount() {
+        return mDataset.length;
+    }
+}
+</pre>
+
+
+<h2 id="adapter-listener">Associate the Adapter and Set a Click Listener</h2>
+
+<p>In your activity, obtain a reference to the
+<a href="../../../reference/android/support/wearable/view/WearableListView.html"><code>WearableListView.OnCenterProximityListener</code></a>
+element from your layout, assign an instance of the adapter to populate the list, and set a click
+listener to complete an action when the user selects a particular list item.</p>
+
+<pre>
+public class WearActivity extends Activity
+                          implements WearableListView.ClickListener {
+
+    // Sample dataset for the list
+    String[] elements = { "List Item 1", "List Item 2", ... };
+
+    &#64;Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.my_list_activity);
+
+        // Get the list component from the layout of the activity
+        WearableListView listView =
+            (WearableListView) findViewById(R.id.wearable_list);
+
+        // Assign an adapter to the list
+        listView.setAdapter(new Adapter(this, elements));
+
+        // Set a click listener
+        listView.setClickListener(this);
+    }
+
+    // WearableListView click listener
+    &#64;Override
+    public void onClick(WearableListView.ViewHolder v) {
+        Integer tag = (Integer) v.itemView.getTag();
+        // use this data to complete some action ...
+    }
+
+    &#64;Override
+    public void onTopEmptyRegionClick() {
+    }
+}
+</pre>
+
+    </div>
+
+    
+      <div class="content-footer "
+                    itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="paging-links">
+            <a href="#" class="prev-page-link hide"
+              zh-tw-lang="上一堂課"
+              zh-cn-lang="上一课"
+              ru-lang="Предыдущий"
+              ko-lang="이전"
+              ja-lang="前へ"
+              es-lang="Anterior"
+              ><span class="page-link-caption">Previous</span>
+            </a>
+            <a href="#" class="next-page-link hide"
+                zh-tw-lang="下一堂課"
+                zh-cn-lang="下一课"
+                ru-lang="Следующий"
+                ko-lang="다음"
+                ja-lang="次へ"
+                es-lang="Siguiente"
+                ><span class="page-link-caption">Next</span>
+            </a>
+            <a href="#" class="start-class-link hide"
+                zh-tw-lang="開始上課"
+                zh-cn-lang="开始"
+                ru-lang="Начало работы"
+                ko-lang="시작하기"
+                ja-lang="開始する"
+                es-lang="Empezar"
+                >Get started</a>
+            <a href="#" class="next-class-link hide">
+              <span class="page-link-caption">Next class</span>
+            </a>
+          </div>
+      </div>
+    
+
+  </div> <!-- end jd-content -->
+
+
+
+<div class="wrap">
+  <div class="dac-footer">
+    <div class="cols dac-footer-main">
+      <div class="col-1of2">
+        <a class="dac-footer-getnews" id="newsletter" data-modal-toggle="newsletter" href="javascript:;">Get news &amp; tips <span
+          class="dac-fab dac-primary"><i class="dac-sprite dac-mail"></i></span></a>
+      </div>
+      <div class="col-1of2 dac-footer-reachout">
+        <div class="dac-footer-contact">
+          <a class="dac-footer-contact-link" href="http://android-developers.blogspot.com/">Blog</a>
+          <a class="dac-footer-contact-link" href="/support.html">Support</a>
+        </div>
+        <div class="dac-footer-social">
+          <a class="dac-button-social dac-youtube dac-footer-social-link" href="https://www.youtube.com/user/androiddevelopers"><i class="dac-sprite dac-youtube"></i></a>
+          <a class="dac-button-social dac-gplus dac-footer-social-link" href="https://plus.google.com/+AndroidDevelopers"><i class="dac-sprite dac-gplus"></i></a>
+          <a class="dac-button-social dac-twitter dac-footer-social-link" href="https://twitter.com/AndroidDev"><i class="dac-sprite dac-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dac-footer-separator"/>
+
+    
+      <p class="dac-footer-copyright">
+        
+  Except as noted, this content is
+  licensed under <a href="http://creativecommons.org/licenses/by/2.5/">
+  Creative Commons Attribution 2.5</a>. For details and
+  restrictions, see the <a href="../../../license.html">Content
+  License</a>.
+
+      </p>
+    
+
+    <p class="dac-footer-links">
+      <a href="/about/android.html">About Android</a>
+      <a href="/auto/index.html">Auto</a>
+      <a href="/tv/index.html">TV</a>
+      <a href="/wear/index.html">Wear</a>
+      <a href="/legal.html">Legal</a>
+
+      <span id="language" class="locales">
+        <select name="language" onchange="changeLangPref(this.value, true)">
+          <option value="en" selected="selected">English</option>
+          <option value="es">Español</option>
+          <option value="in">Bahasa Indonesia</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="pt-br">Português Brasileiro</option>
+          <option value="ru">Русский</option>
+          <option value="vi">tiếng Việt</option>
+          <option value="zh-cn">中文（简体)</option>
+          <option value="zh-tw">中文（繁體)</option>
+        </select>
+      </span>
+    </p>
+  </div>
+</div>
+<!-- end footer -->
+
+
+
+  
+
+
+
+<div data-modal="newsletter" data-newsletter data-swap class="dac-modal newsletter">
+  <div class="dac-modal-container">
+    <div class="dac-modal-window">
+      <header class="dac-modal-header">
+        <div class="dac-modal-header-actions">
+          <button class="dac-modal-header-close" data-modal-toggle></button>
+        </div>
+        <div class="dac-swap" data-swap-container>
+          <section class="dac-swap-section dac-active dac-down">
+            <h2 class="norule dac-modal-header-title" data-t="newsletter.title"></h2>
+            <p class="
